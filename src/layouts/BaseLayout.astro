@@ -1,0 +1,34 @@
+---
+// src/layouts/BaseLayout.astro
+export interface Props {
+    title: string;
+    metaDescription?: string | null;
+    metaKeywords?: string | null;
+    backgroundColor?: string;
+}
+
+const {
+    title,
+    metaDescription,
+    metaKeywords,
+    backgroundColor = "#ffffff",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{title}</title>
+        {
+            metaDescription && (
+                <meta name="description" content={metaDescription} />
+            )
+        }
+        {metaKeywords && <meta name="keywords" content={metaKeywords} />}
+    </head>
+    <body style={`background-color: ${backgroundColor}`}>
+        <slot />
+    </body>
+</html>

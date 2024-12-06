@@ -1,0 +1,46 @@
+---
+// src/pages/projects/[slug].astro
+import { getCollection, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+    const projects = await getCollection("projects");
+    const sortedProjects = projects.sort(
+        (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) =>
+            a.data.order - b.data.order,
+    );
+
+    return sortedProjects.map(
+        (project: CollectionEntry<"projects">, index: number) => {
+            const nextProject =
+                sortedProjects[(index + 1) % sortedProjects.length];
+            return {
+                params: { slug: project.slug },
+                props: { project, nextProject },
+            };
+        },
+    );
+}
+
+interface Props {
+    project: CollectionEntry<"projects">;
+    nextProject: CollectionEntry<"projects">;
+}
+
+const { project, nextProject } = Astro.props;
+const { Content } = await project.render();
+---
+
+<BaseLayout
+    title={project.data.title}
+    metaDescription={project.data.metaDescription}
+    metaKeywords={project.data.metaKeywords}
+    backgroundColor={project.data.backgroundColor}
+>
+    <article>
+        <Content />
+        <a href={`/projects/${nextProject.slug}`}>
+            Next Project: {nextProject.data.title}
+        </a>
+    </article>
+</BaseLayout>
