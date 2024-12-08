@@ -1,0 +1,176 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - example-module module
+// styles for the example-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+
+
+// .example-module-l-descriptive-name {
+//   layout-styles
+// }
+
+.detailslist {
+  width: 80%;
+  max-width: $pagewidth * 0.8;
+  margin: ($toppadding - 30) auto 0;
+  padding-bottom: 40vh;
+  z-index: 1;
+}
+
+#scrollpage-cloneholder {
+
+}
+
+#scrollpage-cloneholder {
+  position: fixed;
+  bottom: 100vh;
+  width: 100%;
+}
+
+#scrollpage-cloneholder .detailslist-item {
+  position: relative;
+  top: 138px;
+  width: 80%;
+  z-index: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0) !important;
+  -moz-transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  -o-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+}
+
+.detailslist-item {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 68px;
+  @include breakpoint(mobileonly) {
+    margin-bottom: 49px;
+  }
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .t-counter {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  a.step {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+
+    &.back {
+      top: 0;
+      cursor: default;
+    }
+
+    &.forward {
+      bottom: 0;
+      cursor: default;
+    }
+  }
+
+  //  scroll settings
+
+    &.active-previous {
+      visibility: hidden;
+  }
+
+  &.active-moving {
+    z-index: 10;
+    position: relative;
+  }
+
+  &.active-following {
+    position: fixed;
+    top: 95vh;
+    width: 80%;
+    z-index: 1;
+  }
+
+  &.active-rest {
+    visibility: hidden;
+  }
+}
+
+// -------------------------------------
+//  - - skin
+
+
+// .example-module-s-descriptive-name {
+//   skin-styles
+//
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+.detailslist p {
+  text-transform: none;
+}
+
+
+// .example-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//
+
+
+// - - example-module-descriptive-name
+// %example-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %example-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %example-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .example-module-c-descriptive-name {
+//   @extend %example-module-l-descriptive-name;
+//   @extend %example-module-s-descriptive-name;
+//   @extend %example-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+//     sssssssssssssss
+//   ss:::::::::::::::s
+//  s:::::ssssss::::::s
+//  s:::::s     sssssss
+//  s:::::s
+//  s:::::s
+//   s::::ssss
+//    ss::::::sssss
+//      sss::::::::ss
+//         ssssss::::s
+//              s:::::s
+//              s:::::s
+//  sssssss     s:::::s
+//  s::::::ssssss:::::s
+//  s:::::::::::::::ss
+//   sssssssssssssss
+
+// .example-module-is-collapsed {
+//   max-height: 0;
+// }

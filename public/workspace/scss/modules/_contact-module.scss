@@ -1,0 +1,144 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - contact-module module
+// styles for the contact-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+//
+
+.contact-module {
+  //height: 100.5vh;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.contact-module-top, .contact-module-bottom {
+  display: table-row;
+}
+
+.contact-module-data {
+  display: table-cell;
+}
+
+.contact-module-pagewidth {
+  @extend %fullwidth;
+  overflow: hidden;
+  padding-left: 8.333%;
+  margin-top: $toppadding;
+  position: relative;
+  left: -6px;
+
+  &.m--halfheight {
+    height: 50%;
+  }
+
+  @include breakpoint(mobileonly) {
+    margin-top: 90px;
+  }
+
+  p, a {
+    text-transform: none;
+    font-size: $typo-size-medium;
+  }
+
+  a:hover, a:focus {
+    color: $color-bg-white;
+    //text-decoration: none;
+  }
+
+  .separate {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .l-limitwidth {
+    max-width: 40em;
+
+  }
+}
+
+.contact-module-bottom {
+  height: 50%;
+
+  @include breakpoint(mobileonly) {
+    height: 200px;
+  }
+
+}
+
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+// .contact-module-l-descriptive-name {
+//   layout-styles
+// }
+
+
+// -------------------------------------
+//  - - skin
+//
+
+.contact-module .contact-module-pagewidth a {
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.page-about .contact-module-pagewidth p:first-child {
+  text-transform: uppercase;
+  max-width: 40em;
+}
+
+
+
+// .contact-module-s-descriptive-name {
+//   skin-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+
+
+// .contact-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//
+
+// - - contact-module-descriptive-name
+// %contact-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %contact-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %contact-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .contact-module-c-descriptive-name {
+//   @extend %contact-module-l-descriptive-name;
+//   @extend %contact-module-s-descriptive-name;
+//   @extend %contact-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+
+
+// .contact-module-is-collapsed {
+//   max-height: 0;
+// }

@@ -1,0 +1,38 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+// global typography styles
+
+body, p, a {
+  color: $color-font-base;
+  font-size: $typo-size-base;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.4em;
+  font-family: NanamiPro-Light;
+
+  @include breakpoint(mobileonly) {
+    line-height: 1.2em;
+    font-size: $typo-size-base-mobile;
+  }
+
+}
+
+strong {
+  font-family: NanamiPro-Normal;
+}
+
+.t-underln {
+  text-decoration: underline;
+}
+
+.t-nounderln {
+  text-decoration: none !important;
+}
+
+.t-lighter {
+  font-family: NanamiPro-Light;
+  letter-spacing: 0.1em;
+}
+
+
+

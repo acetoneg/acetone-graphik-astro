@@ -1,6 +1,7 @@
 ---
 // src/pages/projects/[slug].astro
 import { getCollection, type CollectionEntry } from "astro:content";
+import type { ProjectSchema } from "../../content/config";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
@@ -28,19 +29,51 @@ interface Props {
 }
 
 const { project, nextProject } = Astro.props;
-const { Content } = await project.render();
 ---
 
 <BaseLayout
+    backgroundColor={project.data.backgroundColor}
     title={project.data.title}
     metaDescription={project.data.metaDescription}
     metaKeywords={project.data.metaKeywords}
-    backgroundColor={project.data.backgroundColor}
 >
-    <article>
-        <Content />
-        <a href={`/projects/${nextProject.slug}`}>
-            Next Project: {nextProject.data.title}
-        </a>
-    </article>
+    <div class="projectnavig-cont">
+        <div class="projectnavig">
+            <a
+                class="projectnavig-following"
+                href={`/projects/${nextProject.slug}/`}
+            >
+                {nextProject.data.title.toUpperCase()}
+            </a>
+        </div>
+    </div>
+
+    <div class="detailslist" id="scrollpager">
+        <div class="detailslist-desc">
+            <p><strong>{project.data.title}</strong></p>
+        </div>
+
+        {
+            project.data.images.map(
+                (image: ProjectSchema["images"][0], index: number) => (
+                    <div class="detailslist-item">
+                        <p class="t-counter">
+                            {index + 1}/{project.data.images.length}
+                        </p>
+                        <img
+                            srcset={`
+                        ${image.default} 1920w,
+                        http://www.acetone-graphik.com/image/2/1000/666/5/fff${image.default} 1000w,
+                        http://www.acetone-graphik.com/image/2/825/545/5/fff${image.default} 825w
+                    `}
+                            sizes="98vw"
+                            src={`http://www.acetone-graphik.com/image/2/825/545/5/fff${image.default}`}
+                            alt={image.title}
+                        />
+                        <p class="t-desc">{image.description || ""}</p>
+                    </div>
+                ),
+            )
+        }
+    </div>
 </BaseLayout>

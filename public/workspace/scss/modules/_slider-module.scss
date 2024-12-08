@@ -1,0 +1,146 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - slider-module module
+// styles for the slider-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+//   _ 
+//  | |
+//  | |
+//  | |
+//  | |____
+//  |______|
+
+.m-fullscreen {
+
+  &, .m-slider, .m-slider-item {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  overflow: hidden;
+
+
+}
+
+.m-slider {
+  position: relative;
+  z-index: 1;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding-bottom: 30px;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.m-slider-nav {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  bottom: 5%;
+  right: 5%;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: block;
+      text-indent: -5000px;
+      padding: 0.3em;
+      border: 4px solid black;
+      background-color: black;
+      width: 18px;
+      height: 18px;
+      text-align: center;
+      margin-right: 5px;
+      -webkit-transition: background-color 0.4s;
+      -moz-transition: background-color 0.4s;
+      -ms-transition: background-color 0.4s;
+      -o-transition: background-color 0.4s;
+      transition: background-color 0.4s;
+    }
+
+    &.s--active a {
+      background-color: #fff;
+    }
+    
+  }
+}
+
+.m-slider-item {
+  position: absolute;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    visibility: hidden;
+  }
+
+}
+
+@for $i from 1 through 30 {
+  .item-#{$i} {
+    left: 100% * ($i - 1);
+  }
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - skin
+//    _____
+//   / ____|
+//  | (___  
+//   \___ \ 
+//   ____) |
+//  |_____/ 
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+//   _______ 
+//  |__   __|
+//     | |
+//     | |
+//     | |
+//     |_|
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//    _____
+//   / ____|
+//  | |
+//  | |
+//  | |____
+//   \_____|
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - states
+//    _____
+//   / ____|
+//  | (___  
+//   \___ \ 
+//   ____) |
+//  |_____/
+
+

@@ -5,7 +5,7 @@ import { z, defineCollection } from "astro:content";
 export type ProjectSchema = {
   backgroundColor: string;
   creationDate: Date;
-  description: string;
+  description: string | null;
   images: {
     default: string;
     description: string | null;
@@ -17,7 +17,11 @@ export type ProjectSchema = {
   metaTitle: string | null;
   order: number;
   title: string;
-  videos: string[];
+  videos: {
+    description: string | null;
+    title: string;
+    vimeoId: string;
+  }[];
 };
 
 // Define the collection
@@ -26,7 +30,7 @@ const projectsCollection = defineCollection({
   schema: z.object({
     backgroundColor: z.string(),
     creationDate: z.string().transform((str: string) => new Date(str)),
-    description: z.string(),
+    description: z.string().nullable(),
     images: z.array(
       z.object({
         default: z.string(),
@@ -40,7 +44,13 @@ const projectsCollection = defineCollection({
     metaTitle: z.string().nullable(),
     order: z.number(),
     title: z.string(),
-    videos: z.array(z.string()),
+    videos: z.array(
+      z.object({
+        description: z.string().nullable(),
+        title: z.string(),
+        vimeoId: z.string(),
+      }),
+    ),
   }),
 });
 

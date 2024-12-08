@@ -1,0 +1,195 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - example-module module
+// styles for the example-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+//
+
+// .example-module-l-descriptive-name {
+//   layout-styles
+// }
+
+@mixin setmargin($margin) {
+  width: percentage((100-$margin*2)/200);
+  margin-right: percentage($margin/200);
+  margin-left: percentage($margin/200);
+
+}
+
+.projectlist {
+  @extend %fullwidth;
+  overflow: hidden;
+  margin-top: $toppadding;
+}
+
+.projectlist-item {
+  float: left;
+  @include setmargin(2);
+  margin-bottom: 3%;
+
+  &:nth-child(2n+1) {
+    clear: left;
+  }
+
+  @include breakpoint(tabletmax) {
+    float: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+
+  img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.projectlist-item-imgwrp {
+  display: block;
+  line-height: 0;
+  img {
+    opacity: 1;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+  }
+  &:hover img {
+  opacity: 0;
+}
+
+}
+
+
+.projectlist-item-desc {
+  text-align: center;
+  font-weight: bold;
+
+  .t-secondary {
+    font-weight: normal;
+    font-family: NanamiPro-Thin;
+    letter-spacing: 0.1em;
+  }
+
+}
+
+
+
+// -------------------------------------
+//  - - skin
+//
+//     sssssssssssssss
+//   ss:::::::::::::::s
+//  s:::::ssssss::::::s
+//  s:::::s     sssssss
+//  s:::::s
+//  s:::::s
+//   s::::ssss
+//    ss::::::sssss
+//      sss::::::::ss
+//         ssssss::::s
+//              s:::::s
+//              s:::::s
+//  sssssss     s:::::s
+//  s::::::ssssss:::::s
+//  s:::::::::::::::ss
+//   sssssssssssssss
+
+// .example-module-s-descriptive-name {
+//   skin-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+//  ttttttttttttttttttttttt
+//  t:::::::::::::::::::::t
+//  t:::::::::::::::::::::t
+//  t:::::tt:::::::tt:::::t
+//  tttttt  t:::::t  tttttt
+//          t:::::t
+//          t:::::t
+//          t:::::t
+//          t:::::t
+//          t:::::t
+//          t:::::t
+//          t:::::t
+//        tt:::::::tt
+//        t:::::::::t
+//        t:::::::::t
+//        ttttttttttt
+
+// .example-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//
+//          ccccccccccccc
+//       ccc::::::::::::c
+//     cc:::::::::::::::c
+//    c:::::cccccccc::::c
+//   c:::::c       cccccc
+//  c:::::c
+//  c:::::c
+//  c:::::c
+//  c:::::c
+//  c:::::c
+//  c:::::c
+//   c:::::c       cccccc
+//    c:::::cccccccc::::c
+//     cc:::::::::::::::c
+//       ccc::::::::::::c
+//          ccccccccccccc
+
+// - - example-module-descriptive-name
+// %example-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %example-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %example-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .example-module-c-descriptive-name {
+//   @extend %example-module-l-descriptive-name;
+//   @extend %example-module-s-descriptive-name;
+//   @extend %example-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+//     sssssssssssssss
+//   ss:::::::::::::::s
+//  s:::::ssssss::::::s
+//  s:::::s     sssssss
+//  s:::::s
+//  s:::::s
+//   s::::ssss
+//    ss::::::sssss
+//      sss::::::::ss
+//         ssssss::::s
+//              s:::::s
+//              s:::::s
+//  sssssss     s:::::s
+//  s::::::ssssss:::::s
+//  s:::::::::::::::ss
+//   sssssssssssssss
+
+// .example-module-is-collapsed {
+//   max-height: 0;
+// }

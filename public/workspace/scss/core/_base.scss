@@ -1,0 +1,97 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - base
+// project defaults for base elements - h1-h6, p, a, etc.
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+//  correct default checkbox for Android <4.1.2
+  -webkit-animation: bugfix infinite 1s;
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,   *:before,   *:after {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+@-webkit-keyframes bugfix {
+  from {padding:0;}
+  to {padding:0;}
+}
+
+.clicktrigger {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.clicktrigger-label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 50vh;
+  background: red no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@include breakpoint(tabletmax) {
+  .hideon-tablet {
+    display: none !important;
+  }
+}
+
+@include breakpoint(tablet) {
+  .hideon-desktop {
+    display: none !important;
+  }
+}
+
+
+// video resizing
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+

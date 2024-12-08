@@ -1,0 +1,64 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - example-module module
+// styles for the example-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+//
+
+// .example-module-l-descriptive-name {
+//   layout-styles
+// }
+
+
+// -------------------------------------
+//  - - skin
+//
+
+// .example-module-s-descriptive-name {
+//   skin-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+
+
+// .example-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//
+
+// - - example-module-descriptive-name
+// %example-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %example-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %example-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .example-module-c-descriptive-name {
+//   @extend %example-module-l-descriptive-name;
+//   @extend %example-module-s-descriptive-name;
+//   @extend %example-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+
+
+// .example-module-is-collapsed {
+//   max-height: 0;
+// }

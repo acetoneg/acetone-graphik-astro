@@ -1,0 +1,165 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - example-module module
+// styles for the example-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+
+
+// .example-module-l-descriptive-name {
+//   layout-styles
+// }
+
+.inline-menu, .inline-menu-item {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.header-cont--menu .inline-menu-item {
+  padding-top: 0.7em;
+  margin-right: 0.5em;
+  background:  url(../img/menu-line.png) 0 -40px no-repeat;
+  @include breakpoint(tablet) {
+    &:hover,
+    &:focus,
+    .page-index &.news,
+    .page-about &.about,
+    .page-contact &.contact,
+    .page-projects &.works {
+      background-position: center top;
+      //border-top: 5px solid $color-font-base;
+    }
+  }
+}
+
+.header-cont--menu, .header-cont--social {
+  .clicktrigger-label {
+    display: none
+  }
+}
+
+@include breakpoint(tabletmax) {
+
+  .header-cont--menu {
+    position: relative;
+    text-align: right;
+
+    .clicktrigger + .inline-menu {
+      display: none;
+    }
+    #triggermainnavig:checked + .inline-menu,
+    #triggersocial:checked + .inline-menu {
+      display: block;
+      position: fixed;
+      width: 100vw;
+      left: 0;
+      margin-top: 1em;
+      padding-left: (1 - $size-fullwidth ) * 100 / 2 + vw;
+      padding-top: 0.5em;
+      background-color: $color-bg-white;
+    }
+    .clicktrigger-label {
+      display: inline-block;
+      width: 43px;
+      height: 39px;
+      //overflow: hidden;
+      //text-indent: -999px;
+      //text-align: left;
+      //noinspection CssUnknownTarget
+      //background: url(../img/menu-responsive.png) -65px -9px;
+    }
+
+    .inline-menu-item {
+      display: block;
+      text-align: left;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+    .inline-menu {
+      display: block;
+      //background-color: $color-bg-white !important;
+    }
+
+    .role--social {
+      text-align: left;
+      display: block;
+      .inline-menu-item {
+        display: inline-block;
+      }
+    }
+
+  }
+}
+
+
+// -------------------------------------
+//  - - skin
+
+
+// .example-module-s-descriptive-name {
+//   skin-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+.header-cont--menu a {
+  font-family: NanamiPro-Normal;
+}
+
+
+// .example-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+
+
+// - - example-module-descriptive-name
+// %example-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %example-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %example-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .example-module-c-descriptive-name {
+//   @extend %example-module-l-descriptive-name;
+//   @extend %example-module-s-descriptive-name;
+//   @extend %example-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+//     sssssssssssssss
+//   ss:::::::::::::::s
+//  s:::::ssssss::::::s
+//  s:::::s     sssssss
+//  s:::::s
+//  s:::::s
+//   s::::ssss
+//    ss::::::sssss
+//      sss::::::::ss
+//         ssssss::::s
+//              s:::::s
+//              s:::::s
+//  sssssss     s:::::s
+//  s::::::ssssss:::::s
+//  s:::::::::::::::ss
+//   sssssssssssssss
+
+// .example-module-is-collapsed {
+//   max-height: 0;
+// }

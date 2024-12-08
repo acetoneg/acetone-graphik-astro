@@ -1,0 +1,85 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - settings
+// @font-face declarations, variables
+
+// - - - - - - - - - - - - - - - - - - -
+// - - breakpoints
+
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (min-width: 70em) { @content ; }
+  }
+  @else if $point == laptop {
+    @media (min-width: 64em) { @content ; }
+  }
+  @else if $point == tablet {
+    @media (min-width: 50em) { @content ; }
+  }
+  @else if $point == tabletmax {
+    @media (max-width: 50em) { @content ; }
+  }
+  @else if $point == phablet {
+    @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+    @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - @font-face
+// add fonts to project as needed by updating the $fonts map below in the following format -
+// 'font-family-name': 'font-weight'
+
+$fonts: (
+   'NanamiPro-Normal': ('Normal'),
+   'NanamiPro-Light': ('Light'),
+   'NanamiPro-Thin': ('Thin')
+);
+
+@each $font-family, $font-weights in $fonts {
+   @each $font-weight in $font-weights {
+     @font-face {
+       font-family: #{$font-family};
+       src:
+         url('fonts/#{$font-family}.eot?#iefix') format('embedded-opentype'),
+         url('fonts/#{$font-family}.woff') format('woff'),
+         url('fonts/#{$font-family}-clean.ttf') format('truetype'),
+         url('fonts/#{$font-family}.svg##{$font-weight}') format('svg');
+     }
+   }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - variables
+$pagewidth : 1720px;
+$toppadding: 135px;
+
+// - - colors
+$color-font-base: #000000;
+$color-bg-white : #FFF;
+$color-bg-darker: #F5F5F5;
+$color-bg-gray  : #959595;
+$color-silver   : #b3b3b3;
+
+// - - typography
+$typo-size-base       : 14px;
+$typo-size-medium     : 16px;
+$typo-size-larger     : 17px;
+$typo-size-base-mobile: 13px;
+
+// - - layout
+
+// - - - full width with margin
+$size-fullwidth: 0.96;
+
+%fullwidth {
+  width: percentage($size-fullwidth);
+  max-width: $pagewidth * $size-fullwidth;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+// - - grid

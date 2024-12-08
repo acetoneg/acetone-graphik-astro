@@ -1,0 +1,156 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - example-module module
+// styles for the example-module module
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+//
+
+
+// .example-module-l-descriptive-name {
+//   layout-styles
+// }
+
+body > .sticktotop {
+  position: relative;
+  top: -2 - $toppadding;
+  margin-top: 0 !important;
+  overflow: hidden;
+}
+
+.header-cont {
+  position: fixed;
+  top: 1px;
+  //left: auto;
+  width: 100%;
+  padding-top: 1em;
+  z-index: 100;
+  //border: 1px solid red;
+}
+
+.header-table {
+  display: table;
+  width: 96%;
+  @extend %fullwidth;
+}
+
+.header {
+  margin: 25px auto 90px;
+  position: relative;
+  display: table-row;
+}
+
+.header-cont--menu, .header-cont--logo, .header-cont--social {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.header-cont--logo {
+  width: 8.33334%;
+
+}
+
+.header-cont--menu {
+  width: 80%;
+  font-size: $typo-size-larger;
+
+  .role--main > li > a {
+    font-size: $typo-size-larger;
+  }
+}
+
+.header-cont--social {
+  width: 11.6666%;
+  min-width: 130px;
+  text-align: right;
+}
+
+.header-homebutton {
+  display: none;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  top: -4px;
+  left: -12px;
+
+
+  @include breakpoint(tabletmax) {
+    display: inline-block;
+  }
+
+}
+
+
+// -------------------------------------
+//  - - skin
+
+//  social icons
+.role--social a {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 0.3em;
+
+  svg  {
+    opacity: 0.1;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+  }
+  &:hover, &:focus {
+    svg  {
+      opacity: 1 !important;
+    }
+  }
+}
+
+
+
+// .example-module-s-descriptive-name {
+//   skin-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+
+
+
+// .example-module-t-descriptive-name {
+//   typography-styles
+// }
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+//
+
+// - - example-module-descriptive-name
+// %example-module-l-descriptive-name {
+//   layout-placeholder-styles
+// }
+
+// %example-module-s-descriptive-name {
+//   skin-placeholder-styles
+// }
+
+// %example-module-t-descriptive-name {
+//   typography-placeholder-styles
+// }
+
+// .example-module-c-descriptive-name {
+//   @extend %example-module-l-descriptive-name;
+//   @extend %example-module-s-descriptive-name;
+//   @extend %example-module-t-descriptive-name;
+// }
+
+
+// -------------------------------------
+//  - - states
+//
+
+
+// .example-module-is-collapsed {
+//   max-height: 0;
+// }
