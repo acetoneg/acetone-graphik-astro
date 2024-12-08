@@ -31,10 +31,13 @@ function getCloudinaryId(path: string): string {
                         >
                             <CldImage
                                 src={cloudinaryId}
-                                width={574}
-                                height={371}
+                                width={755}
+                                height={488}
                                 alt={project.data.title}
                                 loading="lazy"
+                                sizes="(min-width: 800px) 50vw, 100vw"
+                                format="auto"
+                                quality="auto"
                             />
                         </a>
                         <p class="projectlist-item-desc">
