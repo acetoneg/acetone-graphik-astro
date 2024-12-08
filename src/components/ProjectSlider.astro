@@ -1,16 +1,29 @@
 ---
 // src/components/ProjectSlider.astro
 import type { CollectionEntry } from "astro:content";
+import { CldImage } from "astro-cloudinary";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
 }
 
 const { projects } = Astro.props;
-const sliderProjects = projects.slice(0, 7); // Get first 7 projects
 
-function cleanImagePath(path: string): string {
-    return path.startsWith("/") ? path.slice(1) : path;
+// Get first 7 projects that have images
+const sliderProjects = projects
+    .filter((project) => project.data.images?.length > 0)
+    .slice(0, 7);
+
+function getCloudinaryId(path: string): string {
+    return `acetone/${path.replace(/^\/images\//, "")}`;
+}
+
+function getBackgroundImageUrl(
+    cloudinaryId: string,
+    width: number,
+    height: number,
+): string {
+    return `https://res.cloudinary.com/doz1x7l3z/image/upload/c_fill,w_${width},h_${height}/${cloudinaryId}`;
 }
 ---
 
@@ -34,12 +47,12 @@ function cleanImagePath(path: string): string {
     <ul class="m-slider">
         {
             sliderProjects.map((project, index) => {
-                const imagePath = cleanImagePath(
+                const cloudinaryId = getCloudinaryId(
                     project.data.images[0].default,
                 );
                 const styles = {
-                    mobile: `.m-slider-item.item-${index + 1} { background-image: url('/${imagePath}'); }`,
-                    desktop: `.m-slider-item.item-${index + 1} { background-image: url('/${imagePath}'); }`,
+                    mobile: `.m-slider-item.item-${index + 1} { background-image: url('${getBackgroundImageUrl(cloudinaryId, 600, 800)}'); }`,
+                    desktop: `.m-slider-item.item-${index + 1} { background-image: url('${getBackgroundImageUrl(cloudinaryId, 1200, 800)}'); }`,
                 };
                 return (
                     <li
@@ -59,11 +72,13 @@ function cleanImagePath(path: string): string {
                             set:html={styles.desktop}
                         />
                         <a href={`/projects/${project.slug}`}>
-                            <img
-                                src={`/${imagePath}`}
-                                width="600"
-                                height="800"
+                            <CldImage
+                                src={cloudinaryId}
+                                width={600}
+                                height={800}
                                 alt={project.data.title}
+                                format="auto"
+                                quality="auto"
                             />
                         </a>
                     </li>
