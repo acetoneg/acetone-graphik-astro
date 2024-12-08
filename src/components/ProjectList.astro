@@ -1,0 +1,58 @@
+---
+// src/components/ProjectList.astro
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+interface Props {
+    projects: CollectionEntry<"projects">[];
+}
+
+const { projects } = Astro.props;
+
+function cleanImagePath(path: string): string {
+    return path.startsWith("/") ? path.slice(1) : path;
+}
+---
+
+<div class="projectlist">
+    {
+        projects.map((project) => {
+            if (!project.data.images?.length) {
+                console.warn(`Project ${project.data.title} has no images`);
+                return null;
+            }
+
+            const imagePath = cleanImagePath(project.data.images[0].default);
+
+            return (
+                <div class="projectlist-item">
+                    <a
+                        class="projectlist-item-imgwrp"
+                        href={`/projects/${project.slug}`}
+                        style={`background-color:${project.data.backgroundColor};`}
+                    >
+                        <Image
+                            src={import(`../../public/${imagePath}`)}
+                            width={574}
+                            height={371}
+                            alt={project.data.title}
+                            quality={80}
+                        />
+                    </a>
+                    <p class="projectlist-item-desc">
+                        <a href={`/projects/${project.slug}`} class="t-lighter">
+                            {project.data.title}
+                        </a>
+                        <br />
+                        <a
+                            href={`/projects/${project.slug}`}
+                            class="t-secondary"
+                        >
+                            (CATEGORY)
+                        </a>
+                    </p>
+                </div>
+            );
+        })
+    }
+</div>

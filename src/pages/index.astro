@@ -1,27 +1,18 @@
 ---
+// src/pages/index.astro
 import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectSlider from "../components/ProjectSlider.astro";
+import ProjectList from "../components/ProjectList.astro";
 
-const projects: CollectionEntry<"projects">[] = await getCollection("projects");
-const sortedProjects = projects.sort((a, b) => a.data.order - b.data.order);
+const projects = await getCollection("projects");
+const sortedProjects = projects.sort(
+    (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) =>
+        a.data.order - b.data.order,
+);
 ---
 
-<BaseLayout title="Portfolio">
-    <main>
-        {
-            sortedProjects.map((project) => (
-                <a href={`/projects/${project.slug}`}>
-                    <article>
-                        <h2>{project.data.title}</h2>
-                        {project.data.images.length > 0 && (
-                            <img
-                                src={project.data.images[0].default}
-                                alt={project.data.images[0].title}
-                            />
-                        )}
-                    </article>
-                </a>
-            ))
-        }
-    </main>
+<BaseLayout title="News - ACETONE GRAPHIK studio design indépendant">
+    <ProjectSlider projects={sortedProjects} />
+    <ProjectList projects={sortedProjects} />
 </BaseLayout>

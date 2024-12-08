@@ -5,13 +5,15 @@ export interface Props {
     metaDescription?: string | null;
     metaKeywords?: string | null;
     backgroundColor?: string;
+    pageType?: "news" | "projects" | "about" | "contact";
 }
 
 const {
-    title = "Projets - ACETONE GRAPHIK studio design indépendant",
+    title = "News - ACETONE GRAPHIK studio design indépendant",
     metaDescription = "édition, digital, conception rédaction, événementiel, motion design le studio de graphisme développe des projets sur des supports actuels",
     metaKeywords = "design, graphism",
     backgroundColor = "#ffffff",
+    pageType = "news",
 } = Astro.props;
 
 import Header from "../components/Header.astro";
@@ -20,7 +22,6 @@ import Header from "../components/Header.astro";
 <!doctype html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,8 +33,8 @@ import Header from "../components/Header.astro";
         <script is:inline src="/workspace/js/lib/iscroll.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
-    <body class="page-projects">
-        <script is:inline type="application/javascript">
+    <body class={`page-${pageType}`}>
+        <script is:inline>
             function addLoadEvent(func) {
                 var oldonload = window.onload;
                 if (typeof window.onload != "function") {
@@ -49,22 +50,14 @@ import Header from "../components/Header.astro";
             }
         </script>
 
-        <!-- Header Navigation -->
         <Header />
-
-        <style type="text/css" define:vars={{ backgroundColor }}>
-            body,
-            .active-moving {
-                background-color: var(--backgroundColor);
-            }
-        </style>
 
         <slot />
 
         <div id="sizeshandler"></div>
         <div id="scrollhandler"></div>
         <script is:inline src="/workspace/js/dist/app.js"></script>
-        <script is:inline type="application/javascript">
+        <script is:inline>
             addLoadEvent(function () {
                 app.core.startall();
             });

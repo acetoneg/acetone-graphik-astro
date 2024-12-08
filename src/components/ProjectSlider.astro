@@ -1,0 +1,74 @@
+---
+// src/components/ProjectSlider.astro
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+    projects: CollectionEntry<"projects">[];
+}
+
+const { projects } = Astro.props;
+const sliderProjects = projects.slice(0, 7); // Get first 7 projects
+
+function cleanImagePath(path: string): string {
+    return path.startsWith("/") ? path.slice(1) : path;
+}
+---
+
+<ul class="m-slider-nav" id="sliderbuttons">
+    {
+        sliderProjects.map((_, index) => (
+            <li class={index === 0 ? "s--active" : ""}>
+                <a
+                    href="#noid"
+                    id={`slide-${index + 1}`}
+                    class="m-slider-nav-button"
+                >
+                    {index + 1}
+                </a>
+            </li>
+        ))
+    }
+</ul>
+
+<div class="m-fullscreen" id="slidermodule">
+    <ul class="m-slider">
+        {
+            sliderProjects.map((project, index) => {
+                const imagePath = cleanImagePath(
+                    project.data.images[0].default,
+                );
+                const styles = {
+                    mobile: `.m-slider-item.item-${index + 1} { background-image: url('/${imagePath}'); }`,
+                    desktop: `.m-slider-item.item-${index + 1} { background-image: url('/${imagePath}'); }`,
+                };
+                return (
+                    <li
+                        class={`m-slider-item item-${index + 1}`}
+                        id={`slideli-${index + 1}`}
+                    >
+                        <style
+                            type="text/css"
+                            scoped="scoped"
+                            media="(max-width: 800px)"
+                            set:html={styles.mobile}
+                        />
+                        <style
+                            type="text/css"
+                            scoped="scoped"
+                            media="(min-width: 800px)"
+                            set:html={styles.desktop}
+                        />
+                        <a href={`/projects/${project.slug}`}>
+                            <img
+                                src={`/${imagePath}`}
+                                width="600"
+                                height="800"
+                                alt={project.data.title}
+                            />
+                        </a>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</div>
