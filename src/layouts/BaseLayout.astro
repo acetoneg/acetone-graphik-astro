@@ -13,6 +13,8 @@ const {
     metaKeywords = "design, graphism",
     backgroundColor = "#ffffff",
 } = Astro.props;
+
+import Header from "../components/Header.astro";
 ---
 
 <!doctype html>
@@ -48,14 +50,7 @@ const {
         </script>
 
         <!-- Header Navigation -->
-        <div class="header-cont">
-            <div class="header-table">
-                <div class="header">
-                    <!-- Include your SVG logo and navigation here -->
-                    <!-- This part can be extracted to a Header.astro component -->
-                </div>
-            </div>
-        </div>
+        <Header />
 
         <style type="text/css" define:vars={{ backgroundColor }}>
             body,
