@@ -4,6 +4,11 @@ dist/
 # generated types
 .astro/
 
+
+# project photos
+public/images/*
+!public/images/.gitkeep
+
 # dependencies
 node_modules/
 
@@ -22,3 +27,4 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+

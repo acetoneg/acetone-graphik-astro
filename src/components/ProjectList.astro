@@ -2,6 +2,7 @@
 // src/components/ProjectList.astro
 import type { CollectionEntry } from "astro:content";
 import { CldImage } from "astro-cloudinary";
+import { getProjectLink } from "../utils/links";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
@@ -22,11 +23,12 @@ function getCloudinaryId(path: string): string {
                 const cloudinaryId = getCloudinaryId(
                     project.data.images[0].default,
                 );
+                const projectLink = getProjectLink(project.slug);
                 return (
                     <div class="projectlist-item">
                         <a
                             class="projectlist-item-imgwrp"
-                            href={`/projects/${project.slug}`}
+                            href={projectLink}
                             style={`background-color:${project.data.backgroundColor}`}
                         >
                             <CldImage
@@ -41,17 +43,11 @@ function getCloudinaryId(path: string): string {
                             />
                         </a>
                         <p class="projectlist-item-desc">
-                            <a
-                                href={`/projects/${project.slug}`}
-                                class="t-lighter"
-                            >
+                            <a href={projectLink} class="t-lighter">
                                 {project.data.title}
                             </a>
                             <br />
-                            <a
-                                href={`/projects/${project.slug}`}
-                                class="t-secondary"
-                            >
+                            <a href={projectLink} class="t-secondary">
                                 (CATEGORY)
                             </a>
                         </p>

@@ -2,6 +2,7 @@
 // src/components/ProjectSlider.astro
 import type { CollectionEntry } from "astro:content";
 import { CldImage } from "astro-cloudinary";
+import { getProjectLink } from "../utils/links";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
@@ -71,7 +72,7 @@ function getBackgroundImageUrl(
                             media="(min-width: 800px)"
                             set:html={styles.desktop}
                         />
-                        <a href={`/projects/${project.slug}`}>
+                        <a href={getProjectLink(project.slug)}>
                             <CldImage
                                 src={cloudinaryId}
                                 width={600}
