@@ -3,6 +3,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { ProjectSchema } from "../../content/config";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { CldImage } from "astro-cloudinary";
 
 export async function getStaticPaths() {
     const projects = await getCollection("projects");
@@ -29,6 +30,10 @@ interface Props {
 }
 
 const { project, nextProject } = Astro.props;
+
+function getCloudinaryId(path: string): string {
+    return path.replace(/^\/images\//, "acetone/").replace(/\.[^/.]+$/, "");
+}
 ---
 
 <BaseLayout
@@ -61,15 +66,15 @@ const { project, nextProject } = Astro.props;
                         <p class="t-counter">
                             {index + 1}/{project.data.images.length}
                         </p>
-                        <img
-                            srcset={`
-                        ${image.default} 1920w,
-                        http://www.acetone-graphik.com/image/2/1000/666/5/fff${image.default} 1000w,
-                        http://www.acetone-graphik.com/image/2/825/545/5/fff${image.default} 825w
-                    `}
-                            sizes="98vw"
-                            src={`http://www.acetone-graphik.com/image/2/825/545/5/fff${image.default}`}
+                        <CldImage
+                            src={getCloudinaryId(image.default)}
+                            width={1300}
+                            height={860}
                             alt={image.title}
+                            sizes="(min-width: 1300px) 1300px, 98vw"
+                            format="auto"
+                            quality="auto"
+                            loading={index === 0 ? "eager" : "lazy"}
                         />
                         <p class="t-desc">{image.description || ""}</p>
                     </div>
