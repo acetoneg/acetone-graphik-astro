@@ -1,36 +1,35 @@
 ---
 // src/pages/projects/[slug].astro
+
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { ProjectSchema } from "../../content/config";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import { getProjectLink } from "../../utils/links";
 
-export async function getStaticPaths() {
-    const projects = await getCollection("projects");
-    const sortedProjects = projects.sort(
-        (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) =>
-            a.data.order - b.data.order,
-    );
+// Fetch all projects
+const projects = await getCollection("projects");
 
-    return sortedProjects.map(
-        (project: CollectionEntry<"projects">, index: number) => {
-            const nextProject =
-                sortedProjects[(index + 1) % sortedProjects.length];
-            return {
-                params: { slug: project.slug },
-                props: { project, nextProject },
-            };
-        },
-    );
+// Sort projects by order
+const sortedProjects = projects.sort(
+    (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) =>
+        a.data.order - b.data.order,
+);
+
+// Get the current slug from params
+const { slug } = Astro.params;
+
+// Find the index of the current project
+const projectIndex = sortedProjects.findIndex((p) => p.slug === slug);
+
+// Handle case where project is not found
+if (projectIndex === -1) {
+    throw new Error(`Project with slug "${slug}" not found`);
 }
 
-interface Props {
-    project: CollectionEntry<"projects">;
-    nextProject: CollectionEntry<"projects">;
-}
-
-const { project, nextProject } = Astro.props;
+// Get the current project and the next project
+const project = sortedProjects[projectIndex];
+const nextProject = sortedProjects[(projectIndex + 1) % sortedProjects.length];
 ---
 
 <BaseLayout

@@ -33,7 +33,10 @@ import Header from "../components/Header.astro";
         <script is:inline src="/workspace/js/lib/iscroll.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
-    <body class={`page-${pageType}`}>
+    <body
+        class={`page-${pageType}`}
+        style={`background-color: ${backgroundColor}`}
+    >
         <script is:inline>
             function addLoadEvent(func) {
                 var oldonload = window.onload;
