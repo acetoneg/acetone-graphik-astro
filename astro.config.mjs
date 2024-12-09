@@ -2,8 +2,12 @@ import { defineConfig } from "astro/config";
 import netlify from "@astrojs/netlify";
 
 export default defineConfig({
-  adapter: netlify(),
+  output: "server", // Required for Netlify Edge Functions
+  adapter: netlify({
+    imageCDN: true,
+  }),
   image: {
-    service: "netlify",
+    domains: [], // Add any external domains you want to allow
+    remotePatterns: [], // Add any remote patterns you want to allow
   },
 });

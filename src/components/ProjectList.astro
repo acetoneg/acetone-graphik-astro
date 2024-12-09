@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getProjectLink } from "../utils/links";
-import { getImage } from "astro:assets";
+import { Image } from "astro:assets";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
@@ -14,15 +14,9 @@ const { projects } = Astro.props;
     {
         projects
             .filter((project) => project.data.images?.length > 0)
-            .map(async (project) => {
+            .map((project) => {
                 const imagePath = project.data.images[0].default;
                 const projectLink = getProjectLink(project.slug);
-                const imageUrl = await getImage({
-                    src: imagePath,
-                    width: 755,
-                    height: 488,
-                    format: "webp",
-                });
                 return (
                     <div class="projectlist-item">
                         <a
@@ -30,8 +24,8 @@ const { projects } = Astro.props;
                             href={projectLink}
                             style={`background-color:${project.data.backgroundColor}`}
                         >
-                            <img
-                                src={imageUrl.src}
+                            <Image
+                                src={imagePath}
                                 width={755}
                                 height={488}
                                 alt={project.data.title}
