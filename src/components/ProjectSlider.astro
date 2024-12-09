@@ -32,40 +32,31 @@ const sliderProjects = projects
 
 <div class="m-fullscreen" id="slidermodule">
     <ul class="m-slider">
-        {
-            sliderProjects.map((project, index) => {
-                const imagePath = project.data.images[0].default;
-                return (
-                    <li
-                        class={`m-slider-item item-${index + 1}`}
-                        id={`slideli-${index + 1}`}
-                    >
-                        <style
-                            type="text/css"
-                            scoped="scoped"
-                            media="(max-width: 800px)"
-                        >
-                            {`.m-slider-item.item-${index + 1} { background-image: url(${imagePath}); }`}
-                        </style>
-                        <style
-                            type="text/css"
-                            scoped="scoped"
-                            media="(min-width: 800px)"
-                        >
-                            {`.m-slider-item.item-${index + 1} { background-image: url(${imagePath}); }`}
-                        </style>
-                        <a href={getProjectLink(project.slug)}>
-                            <Image
-                                src={imagePath}
-                                width={600}
-                                height={800}
-                                alt={project.data.title}
-                                format="webp"
-                            />
-                        </a>
-                    </li>
-                );
-            })
-        }
+        {sliderProjects.map((project, index) => {
+            const imagePath = project.data.images[0].default;
+            const itemNumber = index + 1;
+            return (
+                <li
+                    class={`m-slider-item item-${itemNumber}`}
+                    id={`slideli-${itemNumber}`}
+                    style={`--slider-image: url(${imagePath})`}
+                >
+                    <style>
+                        .m-slider-item {
+                            background-image: var(--slider-image);
+                        }
+                    </style>
+                    <a href={getProjectLink(project.slug)}>
+                        <Image
+                            src={imagePath}
+                            width={600}
+                            height={800}
+                            alt={project.data.title}
+                            format="webp"
+                        />
+                    </a>
+                </li>
+            );
+        })}
     </ul>
 </div>
