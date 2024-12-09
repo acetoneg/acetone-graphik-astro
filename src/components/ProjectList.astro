@@ -1,29 +1,28 @@
 ---
-// src/components/ProjectList.astro
 import type { CollectionEntry } from "astro:content";
-import { CldImage } from "astro-cloudinary";
 import { getProjectLink } from "../utils/links";
+import { getImage } from "astro:assets";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
 }
 
 const { projects } = Astro.props;
-
-function getCloudinaryId(path: string): string {
-    return path.replace(/^\/images\//, "acetone/").replace(/\.[^/.]+$/, "");
-}
 ---
 
 <div class="projectlist">
     {
         projects
             .filter((project) => project.data.images?.length > 0)
-            .map((project) => {
-                const cloudinaryId = getCloudinaryId(
-                    project.data.images[0].default,
-                );
+            .map(async (project) => {
+                const imagePath = project.data.images[0].default;
                 const projectLink = getProjectLink(project.slug);
+                const imageUrl = await getImage({
+                    src: imagePath,
+                    width: 755,
+                    height: 488,
+                    format: "webp",
+                });
                 return (
                     <div class="projectlist-item">
                         <a
@@ -31,15 +30,13 @@ function getCloudinaryId(path: string): string {
                             href={projectLink}
                             style={`background-color:${project.data.backgroundColor}`}
                         >
-                            <CldImage
-                                src={cloudinaryId}
+                            <img
+                                src={imageUrl.src}
                                 width={755}
                                 height={488}
                                 alt={project.data.title}
                                 loading="lazy"
                                 sizes="(min-width: 800px) 50vw, 100vw"
-                                format="auto"
-                                quality="auto"
                             />
                         </a>
                         <p class="projectlist-item-desc">

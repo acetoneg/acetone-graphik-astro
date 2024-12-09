@@ -3,7 +3,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { ProjectSchema } from "../../content/config";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { CldImage } from "astro-cloudinary";
+import { getImage } from "astro:assets";
 import { getProjectLink } from "../../utils/links";
 
 export async function getStaticPaths() {
@@ -31,10 +31,6 @@ interface Props {
 }
 
 const { project, nextProject } = Astro.props;
-
-function getCloudinaryId(path: string): string {
-    return path.replace(/^\/images\//, "acetone/").replace(/\.[^/.]+$/, "");
-}
 ---
 
 <BaseLayout
@@ -62,24 +58,31 @@ function getCloudinaryId(path: string): string {
 
         {
             project.data.images.map(
-                (image: ProjectSchema["images"][0], index: number) => (
-                    <div class="detailslist-item">
-                        <p class="t-counter">
-                            {index + 1}/{project.data.images.length}
-                        </p>
-                        <CldImage
-                            src={getCloudinaryId(image.default)}
-                            width={1300}
-                            height={860}
-                            alt={image.title}
-                            sizes="(min-width: 1300px) 1300px, 98vw"
-                            format="auto"
-                            quality="auto"
-                            loading={index === 0 ? "eager" : "lazy"}
-                        />
-                        <p class="t-desc">{image.description || ""}</p>
-                    </div>
-                ),
+                async (image: ProjectSchema["images"][0], index: number) => {
+                    const optimizedImage = await getImage({
+                        src: image.default,
+                        width: 1300,
+                        height: 860,
+                        format: "webp",
+                    });
+
+                    return (
+                        <div class="detailslist-item">
+                            <p class="t-counter">
+                                {index + 1}/{project.data.images.length}
+                            </p>
+                            <img
+                                src={optimizedImage.src}
+                                width={1300}
+                                height={860}
+                                alt={image.title}
+                                sizes="(min-width: 1300px) 1300px, 98vw"
+                                loading={index === 0 ? "eager" : "lazy"}
+                            />
+                            <p class="t-desc">{image.description || ""}</p>
+                        </div>
+                    );
+                },
             )
         }
     </div>

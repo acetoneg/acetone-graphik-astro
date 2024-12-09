@@ -1,8 +1,7 @@
 ---
-// src/components/ProjectSlider.astro
 import type { CollectionEntry } from "astro:content";
-import { CldImage } from "astro-cloudinary";
 import { getProjectLink } from "../utils/links";
+import { getImage } from "astro:assets";
 
 interface Props {
     projects: CollectionEntry<"projects">[];
@@ -10,21 +9,22 @@ interface Props {
 
 const { projects } = Astro.props;
 
-// Get first 7 projects that have images
 const sliderProjects = projects
     .filter((project) => project.data.images?.length > 0)
     .slice(0, 7);
 
-function getCloudinaryId(path: string): string {
-    return `acetone/${path.replace(/^\/images\//, "")}`;
-}
-
-function getBackgroundImageUrl(
-    cloudinaryId: string,
+async function getOptimizedImageUrl(
+    imagePath: string,
     width: number,
     height: number,
-): string {
-    return `https://res.cloudinary.com/doz1x7l3z/image/upload/c_fill,w_${width},h_${height}/${cloudinaryId}`;
+) {
+    const image = await getImage({
+        src: imagePath,
+        width,
+        height,
+        format: "webp",
+    });
+    return image.src;
 }
 ---
 
@@ -47,13 +47,21 @@ function getBackgroundImageUrl(
 <div class="m-fullscreen" id="slidermodule">
     <ul class="m-slider">
         {
-            sliderProjects.map((project, index) => {
-                const cloudinaryId = getCloudinaryId(
-                    project.data.images[0].default,
+            sliderProjects.map(async (project, index) => {
+                const imagePath = project.data.images[0].default;
+                const mobileUrl = await getOptimizedImageUrl(
+                    imagePath,
+                    600,
+                    800,
+                );
+                const desktopUrl = await getOptimizedImageUrl(
+                    imagePath,
+                    1200,
+                    800,
                 );
                 const styles = {
-                    mobile: `.m-slider-item.item-${index + 1} { background-image: url('${getBackgroundImageUrl(cloudinaryId, 600, 800)}'); }`,
-                    desktop: `.m-slider-item.item-${index + 1} { background-image: url('${getBackgroundImageUrl(cloudinaryId, 1200, 800)}'); }`,
+                    mobile: `.m-slider-item.item-${index + 1} { background-image: url('${mobileUrl}'); }`,
+                    desktop: `.m-slider-item.item-${index + 1} { background-image: url('${desktopUrl}'); }`,
                 };
                 return (
                     <li
@@ -73,13 +81,11 @@ function getBackgroundImageUrl(
                             set:html={styles.desktop}
                         />
                         <a href={getProjectLink(project.slug)}>
-                            <CldImage
-                                src={cloudinaryId}
+                            <img
+                                src={mobileUrl}
                                 width={600}
                                 height={800}
                                 alt={project.data.title}
-                                format="auto"
-                                quality="auto"
                             />
                         </a>
                     </li>
