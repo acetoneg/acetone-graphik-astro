@@ -5,19 +5,19 @@ description: "__EPISODE 5__\r\n\r\nCarte blanche donnée par Martinn pour la 5è
   de la Pecha Kucha Night de Nantes.  \r\nBichromie et Jeu typographique impossible
   façon Maurits Cornelis Escher, pour saluer cette grand messe créative."
 images:
-- default: /images/a_g-still-life042.jpg
+- default: /src/assets/images/a_g-still-life042.jpg
   description: null
   mobile: null
   title: PECHA KUCHA
-- default: /images/a_g-still-life043_2.jpg
+- default: /src/assets/images/a_g-still-life043_2.jpg
   description: null
   mobile: null
   title: PECHA KUCHA
-- default: /images/a_g-still-life040.jpg
+- default: /src/assets/images/a_g-still-life040.jpg
   description: null
   mobile: null
   title: PECHA KUCHA
-- default: /images/a_g-still-life041.jpg
+- default: /src/assets/images/a_g-still-life041.jpg
   description: null
   mobile: null
   title: PECHA KUCHA
@@ -33,14 +33,14 @@ videos: []
 
 __EPISODE 5__
 
-Carte blanche donnée par Martinn pour la 5ème édition de la Pecha Kucha Night de Nantes.  
+Carte blanche donnée par Martinn pour la 5ème édition de la Pecha Kucha Night de Nantes.
 Bichromie et Jeu typographique impossible façon Maurits Cornelis Escher, pour saluer cette grand messe créative.
 
 ## Images
 
-![PECHA KUCHA](/images/a_g-still-life042.jpg)
-![PECHA KUCHA](/images/a_g-still-life043_2.jpg)
-![PECHA KUCHA](/images/a_g-still-life040.jpg)
-![PECHA KUCHA](/images/a_g-still-life041.jpg)
+![PECHA KUCHA](/src/assets/images/a_g-still-life042.jpg)
+![PECHA KUCHA](/src/assets/images/a_g-still-life043_2.jpg)
+![PECHA KUCHA](/src/assets/images/a_g-still-life040.jpg)
+![PECHA KUCHA](/src/assets/images/a_g-still-life041.jpg)
 
 ## Videos

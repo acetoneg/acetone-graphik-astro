@@ -10,19 +10,19 @@ description: "__Série limitée tasse émail Studio ACETONE__\r\n\r\nAmateur de 
   \ \r\n    \r\nGravure : LaserTeam  /  Typographie & Animation : studio ACETONE /
   Photographies : Germain Herriau"
 images:
-- default: /images/tasse_acetone-animation.gif
+- default: /src/assets/images/tasse_acetone-animation.gif
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /images/tasse-emaille-acetone-gravure-laser02.jpg
+- default: /src/assets/images/tasse-emaille-acetone-gravure-laser02.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /images/tasse-emaille-acetone-gravure-laser03.jpg
+- default: /src/assets/images/tasse-emaille-acetone-gravure-laser03.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /images/pmt2t-dessin-typographique.jpg
+- default: /src/assets/images/pmt2t-dessin-typographique.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
@@ -38,17 +38,17 @@ videos: []
 
 __Série limitée tasse émail Studio ACETONE__
 
-Amateur de café, de thé, aventurier ou hypster tous connaissent le réconfort d'une belle tasse qu'on pioche le matin au réveil sur son égoutoir inox.  
-Le studio a dessiné une phrase sorti tout droit du quotidien, de notre belle langue "Pas ma tasse de thé" pour affirmer, se différencier, contredire... la France en somme.  La tasse a été gravée pour laisser une empreinte qui mutera au fil du temps,  
-comme le français finalement.  
-    
+Amateur de café, de thé, aventurier ou hypster tous connaissent le réconfort d'une belle tasse qu'on pioche le matin au réveil sur son égoutoir inox.
+Le studio a dessiné une phrase sorti tout droit du quotidien, de notre belle langue "Pas ma tasse de thé" pour affirmer, se différencier, contredire... la France en somme.  La tasse a été gravée pour laisser une empreinte qui mutera au fil du temps,
+comme le français finalement.
+
 Gravure : LaserTeam  /  Typographie & Animation : studio ACETONE / Photographies : Germain Herriau
 
 ## Images
 
-![P.M.T.2.T](/images/tasse_acetone-animation.gif)
-![P.M.T.2.T](/images/tasse-emaille-acetone-gravure-laser02.jpg)
-![P.M.T.2.T](/images/tasse-emaille-acetone-gravure-laser03.jpg)
-![P.M.T.2.T](/images/pmt2t-dessin-typographique.jpg)
+![P.M.T.2.T](/src/assets/images/tasse_acetone-animation.gif)
+![P.M.T.2.T](/src/assets/images/tasse-emaille-acetone-gravure-laser02.jpg)
+![P.M.T.2.T](/src/assets/images/tasse-emaille-acetone-gravure-laser03.jpg)
+![P.M.T.2.T](/src/assets/images/pmt2t-dessin-typographique.jpg)
 
 ## Videos

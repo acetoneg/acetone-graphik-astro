@@ -9,11 +9,11 @@ description: "__Identité & Papeterie Menuiserie__\r\n\r\nHervé Cimmier, menuis
   de lettres qui s'assemblent.  \r\n  \r\nIdentité & Direction Artistique : studio
   ACETONE  "
 images:
-- default: /images/big-up-logo-bois-embossage.jpg
+- default: /src/assets/images/big-up-logo-bois-embossage.jpg
   description: null
   mobile: null
   title: BIG UP
-- default: /images/big-up-planche-identite.jpg
+- default: /src/assets/images/big-up-planche-identite.jpg
   description: null
   mobile: null
   title: BIG UP
@@ -29,15 +29,15 @@ videos: []
 
 __Identité & Papeterie Menuiserie__
 
-Hervé Cimmier, menuisier indépendant a fait appel au studio pour dessiner son identité autour d'un nom prometteur : "BIG UP"   
-Terme anglo-saxonne s'il en est, cet ancien basketteur professionnel souhaitait exprimer ses compétences avec panache et singularité.  
-Nous sommes partis des angles de coupes en biseaux, de là est né cette identité toute en découpe de lettres qui s'assemblent.  
-  
-Identité & Direction Artistique : studio ACETONE  
+Hervé Cimmier, menuisier indépendant a fait appel au studio pour dessiner son identité autour d'un nom prometteur : "BIG UP"
+Terme anglo-saxonne s'il en est, cet ancien basketteur professionnel souhaitait exprimer ses compétences avec panache et singularité.
+Nous sommes partis des angles de coupes en biseaux, de là est né cette identité toute en découpe de lettres qui s'assemblent.
+
+Identité & Direction Artistique : studio ACETONE
 
 ## Images
 
-![BIG UP](/images/big-up-logo-bois-embossage.jpg)
-![BIG UP](/images/big-up-planche-identite.jpg)
+![BIG UP](/src/assets/images/big-up-logo-bois-embossage.jpg)
+![BIG UP](/src/assets/images/big-up-planche-identite.jpg)
 
 ## Videos

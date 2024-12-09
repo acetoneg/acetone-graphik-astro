@@ -5,15 +5,15 @@ description: "__Abécédaire du studio__\r\n\r\nQuand on aime la typographie on 
   pas le temps passé à dessiner des lettres, glyphes...  \r\nVoici quelques lettres
   dessinées par le studio à ses quelques heures avancées mais jamais perdues.  "
 images:
-- default: /images/abecedaire-compo.jpg
+- default: /src/assets/images/abecedaire-compo.jpg
   description: null
   mobile: null
   title: ABECEDAIRE
-- default: /images/abecedaire-acetone-c-comme-cube.jpg
+- default: /src/assets/images/abecedaire-acetone-c-comme-cube.jpg
   description: null
   mobile: null
   title: ABECEDAIRE
-- default: /images/abecedaire-acetone-d-comme-diamond.jpg
+- default: /src/assets/images/abecedaire-acetone-d-comme-diamond.jpg
   description: null
   mobile: null
   title: ABECEDAIRE
@@ -29,13 +29,13 @@ videos: []
 
 __Abécédaire du studio__
 
-Quand on aime la typographie on ne compte pas le temps passé à dessiner des lettres, glyphes...  
-Voici quelques lettres dessinées par le studio à ses quelques heures avancées mais jamais perdues.  
+Quand on aime la typographie on ne compte pas le temps passé à dessiner des lettres, glyphes...
+Voici quelques lettres dessinées par le studio à ses quelques heures avancées mais jamais perdues.
 
 ## Images
 
-![ABECEDAIRE](/images/abecedaire-compo.jpg)
-![ABECEDAIRE](/images/abecedaire-acetone-c-comme-cube.jpg)
-![ABECEDAIRE](/images/abecedaire-acetone-d-comme-diamond.jpg)
+![ABECEDAIRE](/src/assets/images/abecedaire-compo.jpg)
+![ABECEDAIRE](/src/assets/images/abecedaire-acetone-c-comme-cube.jpg)
+![ABECEDAIRE](/src/assets/images/abecedaire-acetone-d-comme-diamond.jpg)
 
 ## Videos

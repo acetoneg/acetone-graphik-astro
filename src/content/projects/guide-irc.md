@@ -7,19 +7,19 @@ description: "__Brochure, CHU de Nantes__\r\n\r\nSupport reprographié, aux mari
   il aide à mieux comprendre l'insuffisance rénale.  \r\nCommande du Service Uro-Néphro
   du CHU de Nantes."
 images:
-- default: /images/a_g-still-life010.jpg
+- default: /src/assets/images/a_g-still-life010.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /images/a_g-still-life011.jpg
+- default: /src/assets/images/a_g-still-life011.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /images/a_g-still-life012.jpg
+- default: /src/assets/images/a_g-still-life012.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /images/a_g-still-life014.jpg
+- default: /src/assets/images/a_g-still-life014.jpg
   description: null
   mobile: null
   title: GUIDE IRC
@@ -35,15 +35,15 @@ videos: []
 
 __Brochure, CHU de Nantes__
 
-Support reprographié, aux mariages de couleurs infinis. Ce livret est destiné aux patient(e)s insuffisants réneaux/dialysables et à leurs familles.  
-Ludique par sa présentation et ses ilustrations (trames), il aide à mieux comprendre l'insuffisance rénale.  
+Support reprographié, aux mariages de couleurs infinis. Ce livret est destiné aux patient(e)s insuffisants réneaux/dialysables et à leurs familles.
+Ludique par sa présentation et ses ilustrations (trames), il aide à mieux comprendre l'insuffisance rénale.
 Commande du Service Uro-Néphro du CHU de Nantes.
 
 ## Images
 
-![GUIDE IRC](/images/a_g-still-life010.jpg)
-![GUIDE IRC](/images/a_g-still-life011.jpg)
-![GUIDE IRC](/images/a_g-still-life012.jpg)
-![GUIDE IRC](/images/a_g-still-life014.jpg)
+![GUIDE IRC](/src/assets/images/a_g-still-life010.jpg)
+![GUIDE IRC](/src/assets/images/a_g-still-life011.jpg)
+![GUIDE IRC](/src/assets/images/a_g-still-life012.jpg)
+![GUIDE IRC](/src/assets/images/a_g-still-life014.jpg)
 
 ## Videos

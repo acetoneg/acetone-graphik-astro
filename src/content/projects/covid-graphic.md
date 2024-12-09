@@ -11,31 +11,31 @@ description: "__Kit de survie d'un graphiste confiné__\r\n\r\nLe confinement au
   \ \r\nDirection artistique : Yohann Morvan, studio ACETONE  /  Impression : ICS
   l'Atelier  /  Sérigraphie : Le Grand Chic  "
 images:
-- default: /images/quand-le-monde-eternue_rouge_1.jpg
+- default: /src/assets/images/quand-le-monde-eternue_rouge_1.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/covid-graphic_transparent-pitch.jpg
+- default: /src/assets/images/covid-graphic_transparent-pitch.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/covid-graphic_transparent-pitch-pincealinge.jpg
+- default: /src/assets/images/covid-graphic_transparent-pitch-pincealinge.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/covid-graphic_teeshirt-emergency-support_dos.jpg
+- default: /src/assets/images/covid-graphic_teeshirt-emergency-support_dos.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/covid-graphic_teeshirt-emergency-dos.jpg
+- default: /src/assets/images/covid-graphic_teeshirt-emergency-dos.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/covid-graphic_teeshirt-emergency-face.jpg
+- default: /src/assets/images/covid-graphic_teeshirt-emergency-face.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: /images/quand-le-monde-eternue_pangolin-peur.jpg
+- default: /src/assets/images/quand-le-monde-eternue_pangolin-peur.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
@@ -51,21 +51,21 @@ videos: []
 
 __Kit de survie d'un graphiste confiné__
 
-Le confinement aura révélé des failles et des limites, mais aussi fait remonter à la surface un essentiel : la vie.   
-Le design a-t'il sa place tant il semble léger face à une période morose et inquiétante ? Un PITCH sur transparent prêt à être projeté comme une ombre qui laisse planer l'inconnu.    
-Accompagné d'un morceau de coton à porter pour garder la distance sociale imposée...   
-Besoin d'un graphiste pour alléger votre quotdien ? Le kit de survie est là.  
-Contactez le [STUDIO ACETONE](http://www.acetone-graphik.com/contact)  
-Direction artistique : Yohann Morvan, studio ACETONE  /  Impression : ICS l'Atelier  /  Sérigraphie : Le Grand Chic  
+Le confinement aura révélé des failles et des limites, mais aussi fait remonter à la surface un essentiel : la vie.
+Le design a-t'il sa place tant il semble léger face à une période morose et inquiétante ? Un PITCH sur transparent prêt à être projeté comme une ombre qui laisse planer l'inconnu.
+Accompagné d'un morceau de coton à porter pour garder la distance sociale imposée...
+Besoin d'un graphiste pour alléger votre quotdien ? Le kit de survie est là.
+Contactez le [STUDIO ACETONE](http://www.acetone-graphik.com/contact)
+Direction artistique : Yohann Morvan, studio ACETONE  /  Impression : ICS l'Atelier  /  Sérigraphie : Le Grand Chic
 
 ## Images
 
-![COVID GRAPHIC](/images/quand-le-monde-eternue_rouge_1.jpg)
-![COVID GRAPHIC](/images/covid-graphic_transparent-pitch.jpg)
-![COVID GRAPHIC](/images/covid-graphic_transparent-pitch-pincealinge.jpg)
-![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-support_dos.jpg)
-![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-dos.jpg)
-![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-face.jpg)
-![COVID GRAPHIC](/images/quand-le-monde-eternue_pangolin-peur.jpg)
+![COVID GRAPHIC](/src/assets/images/quand-le-monde-eternue_rouge_1.jpg)
+![COVID GRAPHIC](/src/assets/images/covid-graphic_transparent-pitch.jpg)
+![COVID GRAPHIC](/src/assets/images/covid-graphic_transparent-pitch-pincealinge.jpg)
+![COVID GRAPHIC](/src/assets/images/covid-graphic_teeshirt-emergency-support_dos.jpg)
+![COVID GRAPHIC](/src/assets/images/covid-graphic_teeshirt-emergency-dos.jpg)
+![COVID GRAPHIC](/src/assets/images/covid-graphic_teeshirt-emergency-face.jpg)
+![COVID GRAPHIC](/src/assets/images/quand-le-monde-eternue_pangolin-peur.jpg)
 
 ## Videos

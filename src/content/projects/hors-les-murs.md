@@ -9,35 +9,35 @@ description: "__SOCA FRANCE__\r\n\r\nSortir de sa zone de confort, voilà un dé
   \ \r\nDirection artistique : Yohann Morvan & Germain Herriau   Photographies : [Germain
   Herriau](http://www.germainherriau.com)"
 images:
-- default: /images/soca_horslesmurs_banc-couple.jpg
+- default: /src/assets/images/soca_horslesmurs_banc-couple.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_cal.jpg
+- default: /src/assets/images/soca_horslesmurs_cal.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_dalek.jpg
+- default: /src/assets/images/soca_horslesmurs_dalek.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_fauteuil-frizz.jpg
+- default: /src/assets/images/soca_horslesmurs_fauteuil-frizz.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_banc-frizz.jpg
+- default: /src/assets/images/soca_horslesmurs_banc-frizz.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_orion_andromede.jpg
+- default: /src/assets/images/soca_horslesmurs_orion_andromede.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_rotonde_ufo.jpg
+- default: /src/assets/images/soca_horslesmurs_rotonde_ufo.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: /images/soca_horslesmurs_topofthepop.jpg
+- default: /src/assets/images/soca_horslesmurs_topofthepop.jpg
   description: null
   mobile: null
   title: Hors les murs
@@ -55,21 +55,21 @@ videos: []
 
 __SOCA FRANCE__
 
-Sortir de sa zone de confort, voilà un défi que nous aimons relever... et quand Soca nous propose de le faire encore plus.  
-Shooting photo & Direction artistique de modèles d'éditions de meubles Soca France à la galerie Le Rez de CHaussée (Nantes).  
-Le thème de l'accident nous a inspiré, pour raconter une histoire post-humaine où le seul vivant est le meuble.  
-Le site de [SOCA](http://www.soca.fr)  
+Sortir de sa zone de confort, voilà un défi que nous aimons relever... et quand Soca nous propose de le faire encore plus.
+Shooting photo & Direction artistique de modèles d'éditions de meubles Soca France à la galerie Le Rez de CHaussée (Nantes).
+Le thème de l'accident nous a inspiré, pour raconter une histoire post-humaine où le seul vivant est le meuble.
+Le site de [SOCA](http://www.soca.fr)
 Direction artistique : Yohann Morvan & Germain Herriau   Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![Hors les murs](/images/soca_horslesmurs_banc-couple.jpg)
-![Hors les murs](/images/soca_horslesmurs_cal.jpg)
-![Hors les murs](/images/soca_horslesmurs_dalek.jpg)
-![Hors les murs](/images/soca_horslesmurs_fauteuil-frizz.jpg)
-![Hors les murs](/images/soca_horslesmurs_banc-frizz.jpg)
-![Hors les murs](/images/soca_horslesmurs_orion_andromede.jpg)
-![Hors les murs](/images/soca_horslesmurs_rotonde_ufo.jpg)
-![Hors les murs](/images/soca_horslesmurs_topofthepop.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_banc-couple.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_cal.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_dalek.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_fauteuil-frizz.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_banc-frizz.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_orion_andromede.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_rotonde_ufo.jpg)
+![Hors les murs](/src/assets/images/soca_horslesmurs_topofthepop.jpg)
 
 ## Videos

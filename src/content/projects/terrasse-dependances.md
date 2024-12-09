@@ -11,27 +11,27 @@ description: "__Identité & supports de communication__\r\n\r\nLa boutique de mo
   \   \r\nPhotographies : [Germain Herriau](http://www.germainherriau.com)  - DA :
   studio ACETONE + SUPERBOLD\r\n"
 images:
-- default: /images/terrasse-et-dependances_1.jpg
+- default: /src/assets/images/terrasse-et-dependances_1.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: /images/terrasse-et-dependances_2.jpg
+- default: /src/assets/images/terrasse-et-dependances_2.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: /images/terrasse-et-dependances_3.jpg
+- default: /src/assets/images/terrasse-et-dependances_3.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: /images/terrasse-et-dependances_4.jpg
+- default: /src/assets/images/terrasse-et-dependances_4.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: /images/terrasse-et-dependances_5.jpg
+- default: /src/assets/images/terrasse-et-dependances_5.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: /images/terrasse-et-dependances_6.jpg
+- default: /src/assets/images/terrasse-et-dependances_6.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
@@ -47,21 +47,21 @@ videos: []
 
 __Identité & supports de communication__
 
-La boutique de mobilier design Terrasse & Dépendances souhaitait refléter son image haut de gamme dans sa propre identité.  
-Fondamentalement sobre et tournée vers l'extérieur, la simplicité est le parti-pris du logotype dessiné par le studio ACETONE associé à SUPERBOLD.  
-Au final, un soleil se lève et un horizon minimaliste lie le tout. La typographie vient souligner le tout.  
-Un vert minéral a été choisi pour se poser comme de la mousse sur le papier offset. Une empreinte douce et affirmée à la fois.   
-    
+La boutique de mobilier design Terrasse & Dépendances souhaitait refléter son image haut de gamme dans sa propre identité.
+Fondamentalement sobre et tournée vers l'extérieur, la simplicité est le parti-pris du logotype dessiné par le studio ACETONE associé à SUPERBOLD.
+Au final, un soleil se lève et un horizon minimaliste lie le tout. La typographie vient souligner le tout.
+Un vert minéral a été choisi pour se poser comme de la mousse sur le papier offset. Une empreinte douce et affirmée à la fois.
+
 Photographies : [Germain Herriau](http://www.germainherriau.com)  - DA : studio ACETONE + SUPERBOLD
 
 
 ## Images
 
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_1.jpg)
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_2.jpg)
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_3.jpg)
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_4.jpg)
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_5.jpg)
-![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_6.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_1.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_2.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_3.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_4.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_5.jpg)
+![TERRASSE & DEPENDANCES](/src/assets/images/terrasse-et-dependances_6.jpg)
 
 ## Videos

@@ -17,27 +17,27 @@ description: "__POLLUSOLS x OSUNA x Université de Nantes__\r\n\r\nLes activité
   résultats au travers d'une brochure et de décliner ce travail sur une affiche d'une
   soirée débat au LIEU UNIQUE.   \r\n\r\nDirection artistique : Yohann Morvan"
 images:
-- default: /images/pollusols_brochure_focus_ok.jpg
+- default: /src/assets/images/pollusols_brochure_focus_ok.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /images/pollusols_brochure_ok.jpg
+- default: /src/assets/images/pollusols_brochure_ok.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /images/pollusols_affiches_rue.jpg
+- default: /src/assets/images/pollusols_affiches_rue.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /images/pollusols_magazine_sites-uraniferes.jpg
+- default: /src/assets/images/pollusols_magazine_sites-uraniferes.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /images/pollusols_magazine_projet.jpg
+- default: /src/assets/images/pollusols_magazine_projet.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /images/pollusols_magazine_sites-estuariens.jpg
+- default: /src/assets/images/pollusols_magazine_sites-estuariens.jpg
   description: null
   mobile: null
   title: POLLUSOLS
@@ -54,21 +54,21 @@ videos: []
 
 __POLLUSOLS x OSUNA x Université de Nantes__
 
-Les activités humaines (transports, industrie, chauffage, agriculture,...) émettent de nombreux polluants, qui se propagent dans l'environnement par différents canaux, et viennent polluer sols et sédiments. Même très faiblement, de grandes étendues peuvent ainsi être durablement polluées, on parle alors de pollution diffuse.  
-En Pays de la Loire, plusieurs équipes de chercheurs de différents domaines  (biologie, géologie, sociologie, chimie, physique,...) se sont réunies autour de la problématique des pollutions diffuses dans le continuum terre-mer, depuis 2015.  
-Plusieurs types de polluants inorganiques sont étudiés : plomb, mercure, cuivre, zinc, platinoïdes, radionucléides.  
-L'objectif de POLLUSOLS est de structurer la recherche sur cette thématique, d'améliorer la compréhension de l'ensemble du cycle de pollution et de proposer des outils pertinents pour la gestion des sols et sédiments pollués.  
-L'équipe a demandé au studio d'imaginer les supports de communication pour présenter ses résultats au travers d'une brochure et de décliner ce travail sur une affiche d'une soirée débat au LIEU UNIQUE.   
+Les activités humaines (transports, industrie, chauffage, agriculture,...) émettent de nombreux polluants, qui se propagent dans l'environnement par différents canaux, et viennent polluer sols et sédiments. Même très faiblement, de grandes étendues peuvent ainsi être durablement polluées, on parle alors de pollution diffuse.
+En Pays de la Loire, plusieurs équipes de chercheurs de différents domaines  (biologie, géologie, sociologie, chimie, physique,...) se sont réunies autour de la problématique des pollutions diffuses dans le continuum terre-mer, depuis 2015.
+Plusieurs types de polluants inorganiques sont étudiés : plomb, mercure, cuivre, zinc, platinoïdes, radionucléides.
+L'objectif de POLLUSOLS est de structurer la recherche sur cette thématique, d'améliorer la compréhension de l'ensemble du cycle de pollution et de proposer des outils pertinents pour la gestion des sols et sédiments pollués.
+L'équipe a demandé au studio d'imaginer les supports de communication pour présenter ses résultats au travers d'une brochure et de décliner ce travail sur une affiche d'une soirée débat au LIEU UNIQUE.
 
 Direction artistique : Yohann Morvan
 
 ## Images
 
-![POLLUSOLS](/images/pollusols_brochure_focus_ok.jpg)
-![POLLUSOLS](/images/pollusols_brochure_ok.jpg)
-![POLLUSOLS](/images/pollusols_affiches_rue.jpg)
-![POLLUSOLS](/images/pollusols_magazine_sites-uraniferes.jpg)
-![POLLUSOLS](/images/pollusols_magazine_projet.jpg)
-![POLLUSOLS](/images/pollusols_magazine_sites-estuariens.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_brochure_focus_ok.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_brochure_ok.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_affiches_rue.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_magazine_sites-uraniferes.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_magazine_projet.jpg)
+![POLLUSOLS](/src/assets/images/pollusols_magazine_sites-estuariens.jpg)
 
 ## Videos

@@ -5,23 +5,23 @@ description: "__Magazine gratuit, format poster (60x80cm) imprimé en offset__\r
   spécial Créations bois avec des interviews et portraits de DAHA, In'Bô, Le Rockwood,
   Jorge Penades... Réalisation : AREANOW STUDIO + ACETONE GRAPHIK\r\n\r\n2014"
 images:
-- default: /images/mn_deux_3_1.jpg
+- default: /src/assets/images/mn_deux_3_1.jpg
   description: null
   mobile: null
   title: MN DEUX
-- default: /images/mn_deux_1_1.jpg
+- default: /src/assets/images/mn_deux_1_1.jpg
   description: null
   mobile: null
   title: MN DEUX
-- default: /images/mn_deux_2_1.jpg
+- default: /src/assets/images/mn_deux_2_1.jpg
   description: null
   mobile: null
   title: MN DEUX
-- default: /images/mn_deux_4.jpg
+- default: /src/assets/images/mn_deux_4.jpg
   description: null
   mobile: null
   title: MN DEUX
-- default: /images/mn_deux_5.jpg
+- default: /src/assets/images/mn_deux_5.jpg
   description: null
   mobile: null
   title: MN DEUX
@@ -43,10 +43,10 @@ Numéro spécial Créations bois avec des interviews et portraits de DAHA, In'B�
 
 ## Images
 
-![MN DEUX](/images/mn_deux_3_1.jpg)
-![MN DEUX](/images/mn_deux_1_1.jpg)
-![MN DEUX](/images/mn_deux_2_1.jpg)
-![MN DEUX](/images/mn_deux_4.jpg)
-![MN DEUX](/images/mn_deux_5.jpg)
+![MN DEUX](/src/assets/images/mn_deux_3_1.jpg)
+![MN DEUX](/src/assets/images/mn_deux_1_1.jpg)
+![MN DEUX](/src/assets/images/mn_deux_2_1.jpg)
+![MN DEUX](/src/assets/images/mn_deux_4.jpg)
+![MN DEUX](/src/assets/images/mn_deux_5.jpg)
 
 ## Videos

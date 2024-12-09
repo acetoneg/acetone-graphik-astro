@@ -8,23 +8,23 @@ description: "__Illustrations vectorielles abstraites__\r\n\r\n« La patience es
   que l'espoir. Avec une issue plus heureuse, celle de la Vie qui reprend et qui l'emporte.
   \ \r\n\r\nCréation & Direction Artistique : studio ACETONE  "
 images:
-- default: /images/japanflag-edition03.jpg
+- default: /src/assets/images/japanflag-edition03.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: /images/japanflag-edition02.jpg
+- default: /src/assets/images/japanflag-edition02.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: /images/japanflag-edition01.jpg
+- default: /src/assets/images/japanflag-edition01.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: /images/japanflag-scarf.jpg
+- default: /src/assets/images/japanflag-scarf.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: /images/japanflag-newspaper-happy-new-year.jpg
+- default: /src/assets/images/japanflag-newspaper-happy-new-year.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
@@ -40,18 +40,18 @@ videos: []
 
 __Illustrations vectorielles abstraites__
 
-« La patience est un trésor de la vie »   
-Ce proverbe japonais c'est un peu l'histoire de mon année 2022, pleine de contrastes, avec des bas et des hauts...  
-Ce travail illustratif exprime ma réflexion profonde de cette période, la souffrance y est autant présente que l'espoir. Avec une issue plus heureuse, celle de la Vie qui reprend et qui l'emporte.  
+« La patience est un trésor de la vie »
+Ce proverbe japonais c'est un peu l'histoire de mon année 2022, pleine de contrastes, avec des bas et des hauts...
+Ce travail illustratif exprime ma réflexion profonde de cette période, la souffrance y est autant présente que l'espoir. Avec une issue plus heureuse, celle de la Vie qui reprend et qui l'emporte.
 
-Création & Direction Artistique : studio ACETONE  
+Création & Direction Artistique : studio ACETONE
 
 ## Images
 
-![JAPAN FLAG](/images/japanflag-edition03.jpg)
-![JAPAN FLAG](/images/japanflag-edition02.jpg)
-![JAPAN FLAG](/images/japanflag-edition01.jpg)
-![JAPAN FLAG](/images/japanflag-scarf.jpg)
-![JAPAN FLAG](/images/japanflag-newspaper-happy-new-year.jpg)
+![JAPAN FLAG](/src/assets/images/japanflag-edition03.jpg)
+![JAPAN FLAG](/src/assets/images/japanflag-edition02.jpg)
+![JAPAN FLAG](/src/assets/images/japanflag-edition01.jpg)
+![JAPAN FLAG](/src/assets/images/japanflag-scarf.jpg)
+![JAPAN FLAG](/src/assets/images/japanflag-newspaper-happy-new-year.jpg)
 
 ## Videos

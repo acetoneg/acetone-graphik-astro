@@ -7,35 +7,35 @@ description: "__Identité graphique de l'association__\r\n\r\nPing questionne le
   \ \r\nPing on explore avec la tête et les deux mains, on appuie sur tous les boutons...
   le logo s'en inspire directement.  \r\nPhotographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /images/ping_papeterie_1.jpg
+- default: /src/assets/images/ping_papeterie_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping_programme_1.jpg
+- default: /src/assets/images/ping_programme_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping_carte-de-visite_1_1.jpg
+- default: /src/assets/images/ping_carte-de-visite_1_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping_carte-de-visite-pattern_1.jpg
+- default: /src/assets/images/ping_carte-de-visite-pattern_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping_pattern_1.jpg
+- default: /src/assets/images/ping_pattern_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping_signature-numerique_1.jpg
+- default: /src/assets/images/ping_signature-numerique_1.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/ping-logo.jpg
+- default: /src/assets/images/ping-logo.jpg
   description: null
   mobile: null
   title: PING
-- default: /images/pingtos.jpg
+- default: /src/assets/images/pingtos.jpg
   description: null
   mobile: null
   title: PING
@@ -52,20 +52,20 @@ videos: []
 
 __Identité graphique de l'association__
 
-Ping questionne le monde numérique dans lequel nous vivons. 
-L'association a confié au studio ACETONE son identité et la réalisation de ses outils de communication (programme, papeterie...).  
-Ping on explore avec la tête et les deux mains, on appuie sur tous les boutons... le logo s'en inspire directement.  
+Ping questionne le monde numérique dans lequel nous vivons.
+L'association a confié au studio ACETONE son identité et la réalisation de ses outils de communication (programme, papeterie...).
+Ping on explore avec la tête et les deux mains, on appuie sur tous les boutons... le logo s'en inspire directement.
 Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![PING](/images/ping_papeterie_1.jpg)
-![PING](/images/ping_programme_1.jpg)
-![PING](/images/ping_carte-de-visite_1_1.jpg)
-![PING](/images/ping_carte-de-visite-pattern_1.jpg)
-![PING](/images/ping_pattern_1.jpg)
-![PING](/images/ping_signature-numerique_1.jpg)
-![PING](/images/ping-logo.jpg)
-![PING](/images/pingtos.jpg)
+![PING](/src/assets/images/ping_papeterie_1.jpg)
+![PING](/src/assets/images/ping_programme_1.jpg)
+![PING](/src/assets/images/ping_carte-de-visite_1_1.jpg)
+![PING](/src/assets/images/ping_carte-de-visite-pattern_1.jpg)
+![PING](/src/assets/images/ping_pattern_1.jpg)
+![PING](/src/assets/images/ping_signature-numerique_1.jpg)
+![PING](/src/assets/images/ping-logo.jpg)
+![PING](/src/assets/images/pingtos.jpg)
 
 ## Videos

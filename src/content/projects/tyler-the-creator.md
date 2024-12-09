@@ -7,19 +7,19 @@ description: "__Tyler The Creator + GOLF WANG__\r\n\r\nTravail graphique autour 
   Tyler reste sur son île colorée et décalée depuis quelques années prolifiques.   \r\nPEACE,
   LOVE & PSYCHEDELISM"
 images:
-- default: /images/golf-wang_vinyle_1.jpg
+- default: /src/assets/images/golf-wang_vinyle_1.jpg
   description: null
   mobile: null
   title: TYLER THE CREATOR
-- default: /images/golf-wang_vinyle-vol1.jpg
+- default: /src/assets/images/golf-wang_vinyle-vol1.jpg
   description: null
   mobile: null
   title: TYLER THE CREATOR
-- default: /images/golf-wang_visuel.jpg
+- default: /src/assets/images/golf-wang_visuel.jpg
   description: null
   mobile: null
   title: TYLER THE CREATOR
-- default: /images/golf-wang_affiche.jpg
+- default: /src/assets/images/golf-wang_affiche.jpg
   description: null
   mobile: null
   title: TYLER THE CREATOR
@@ -36,15 +36,15 @@ videos: []
 
 __Tyler The Creator + GOLF WANG__
 
-Travail graphique autour de l'artiste américain de Hip-Hop Tyler The Creator et de sa marque streetwear GOLF WANG.  
-Californie et psychédélisme tant dans le flow que dans sa façon de s'habiller, Tyler reste sur son île colorée et décalée depuis quelques années prolifiques.   
+Travail graphique autour de l'artiste américain de Hip-Hop Tyler The Creator et de sa marque streetwear GOLF WANG.
+Californie et psychédélisme tant dans le flow que dans sa façon de s'habiller, Tyler reste sur son île colorée et décalée depuis quelques années prolifiques.
 PEACE, LOVE & PSYCHEDELISM
 
 ## Images
 
-![TYLER THE CREATOR](/images/golf-wang_vinyle_1.jpg)
-![TYLER THE CREATOR](/images/golf-wang_vinyle-vol1.jpg)
-![TYLER THE CREATOR](/images/golf-wang_visuel.jpg)
-![TYLER THE CREATOR](/images/golf-wang_affiche.jpg)
+![TYLER THE CREATOR](/src/assets/images/golf-wang_vinyle_1.jpg)
+![TYLER THE CREATOR](/src/assets/images/golf-wang_vinyle-vol1.jpg)
+![TYLER THE CREATOR](/src/assets/images/golf-wang_visuel.jpg)
+![TYLER THE CREATOR](/src/assets/images/golf-wang_affiche.jpg)
 
 ## Videos

@@ -6,23 +6,23 @@ description: "__Magazine gratuit, format poster (60x80cm) imprimé en offset__\r
   un texte à fleur de peau de Françoise Rondeau, ...  \r\nRéalisation : AREANOW STUDIO
   + ACETONE GRAPHIK"
 images:
-- default: /images/mn_un_1_1.jpg
+- default: /src/assets/images/mn_un_1_1.jpg
   description: null
   mobile: null
   title: MN UN
-- default: /images/mn_un_2_1.jpg
+- default: /src/assets/images/mn_un_2_1.jpg
   description: null
   mobile: null
   title: MN UN
-- default: /images/mn_un_3_1.jpg
+- default: /src/assets/images/mn_un_3_1.jpg
   description: null
   mobile: null
   title: MN UN
-- default: /images/mn_un_4_1.jpg
+- default: /src/assets/images/mn_un_4_1.jpg
   description: null
   mobile: null
   title: MN UN
-- default: /images/mn_un_5_1.jpg
+- default: /src/assets/images/mn_un_5_1.jpg
   description: null
   mobile: null
   title: MN UN
@@ -38,15 +38,15 @@ videos: []
 
 __Magazine gratuit, format poster (60x80cm) imprimé en offset__
 
-Numéro spécial Tatouage avec le portrait d'Anthony de DOSE STUDIO, itw de Margot de BAM, un texte à fleur de peau de Françoise Rondeau, ...  
+Numéro spécial Tatouage avec le portrait d'Anthony de DOSE STUDIO, itw de Margot de BAM, un texte à fleur de peau de Françoise Rondeau, ...
 Réalisation : AREANOW STUDIO + ACETONE GRAPHIK
 
 ## Images
 
-![MN UN](/images/mn_un_1_1.jpg)
-![MN UN](/images/mn_un_2_1.jpg)
-![MN UN](/images/mn_un_3_1.jpg)
-![MN UN](/images/mn_un_4_1.jpg)
-![MN UN](/images/mn_un_5_1.jpg)
+![MN UN](/src/assets/images/mn_un_1_1.jpg)
+![MN UN](/src/assets/images/mn_un_2_1.jpg)
+![MN UN](/src/assets/images/mn_un_3_1.jpg)
+![MN UN](/src/assets/images/mn_un_4_1.jpg)
+![MN UN](/src/assets/images/mn_un_5_1.jpg)
 
 ## Videos

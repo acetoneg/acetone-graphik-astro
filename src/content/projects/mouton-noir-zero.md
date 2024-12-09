@@ -6,27 +6,27 @@ description: "__Magazine gratuit, format poster (60x80cm) imprimé en offset__\r
   de Nantes, une invasion extra-terrestre pileux signé Florent Cocherel...  \r\nRéalisation
   : AREANOW STUDIO + ACETONE GRAPHIK"
 images:
-- default: /images/mn_zero_1.jpg
+- default: /src/assets/images/mn_zero_1.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /images/mn_zero_4.jpg
+- default: /src/assets/images/mn_zero_4.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /images/mn_zero_3.jpg
+- default: /src/assets/images/mn_zero_3.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /images/mn_zero_5.jpg
+- default: /src/assets/images/mn_zero_5.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /images/mn_zero_6.jpg
+- default: /src/assets/images/mn_zero_6.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /images/mn_zero_2.jpg
+- default: /src/assets/images/mn_zero_2.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
@@ -42,16 +42,16 @@ videos: []
 
 __Magazine gratuit, format poster (60x80cm) imprimé en offset__
 
-Numéro spécial "Barbe" avec un portrait de Raphaël du label électro FRAGIL, Le Coiffeur de Nantes, une invasion extra-terrestre pileux signé Florent Cocherel...  
+Numéro spécial "Barbe" avec un portrait de Raphaël du label électro FRAGIL, Le Coiffeur de Nantes, une invasion extra-terrestre pileux signé Florent Cocherel...
 Réalisation : AREANOW STUDIO + ACETONE GRAPHIK
 
 ## Images
 
-![MOUTON NOIR #ZERO](/images/mn_zero_1.jpg)
-![MOUTON NOIR #ZERO](/images/mn_zero_4.jpg)
-![MOUTON NOIR #ZERO](/images/mn_zero_3.jpg)
-![MOUTON NOIR #ZERO](/images/mn_zero_5.jpg)
-![MOUTON NOIR #ZERO](/images/mn_zero_6.jpg)
-![MOUTON NOIR #ZERO](/images/mn_zero_2.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_1.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_4.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_3.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_5.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_6.jpg)
+![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_2.jpg)
 
 ## Videos

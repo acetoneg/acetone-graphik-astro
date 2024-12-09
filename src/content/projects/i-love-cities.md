@@ -7,15 +7,15 @@ description: "__Animations en Motion-Design \"I love cities\" co-réalisés avec
   en 4 symboles et animés avec l'imagination de Matthieu.  \r\nCo-réalisation : Matthieu
   Gadin + ACETONE GRAPHIK"
 images:
-- default: /images/ilovecities_2_1.jpg
+- default: /src/assets/images/ilovecities_2_1.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
-- default: /images/ilovecities_6.jpg
+- default: /src/assets/images/ilovecities_6.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
-- default: /images/ilovecities_4.jpg
+- default: /src/assets/images/ilovecities_4.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
@@ -40,15 +40,15 @@ videos:
 
 __Animations en Motion-Design "I love cities" co-réalisés avec Matthieu Gadin__
 
-Le voyage donne des idées et nourrit mes créations. Ici 3 animations pour 3 villes du Monde : NYC, Londres et Bruxelles.  
-Chacune d'elle est résumée en 4 symboles et animés avec l'imagination de Matthieu.  
+Le voyage donne des idées et nourrit mes créations. Ici 3 animations pour 3 villes du Monde : NYC, Londres et Bruxelles.
+Chacune d'elle est résumée en 4 symboles et animés avec l'imagination de Matthieu.
 Co-réalisation : Matthieu Gadin + ACETONE GRAPHIK
 
 ## Images
 
-![I LOVE CITIES](/images/ilovecities_2_1.jpg)
-![I LOVE CITIES](/images/ilovecities_6.jpg)
-![I LOVE CITIES](/images/ilovecities_4.jpg)
+![I LOVE CITIES](/src/assets/images/ilovecities_2_1.jpg)
+![I LOVE CITIES](/src/assets/images/ilovecities_6.jpg)
+![I LOVE CITIES](/src/assets/images/ilovecities_4.jpg)
 
 ## Videos
 

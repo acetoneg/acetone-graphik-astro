@@ -9,19 +9,19 @@ description: "__Poster BDP (Banquette Dérivée Partielle)__\r\n\r\nLa superposi
   sublimés et la typo créée un effet subliminal.  \r\n    \r\nImpression : Abelia
   \ /  Photographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /images/bdp_soca_affiche-pantone-fluo01.jpg
+- default: /src/assets/images/bdp_soca_affiche-pantone-fluo01.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /images/bdp_soca_affiche-pantone-fluo02.jpg
+- default: /src/assets/images/bdp_soca_affiche-pantone-fluo02.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /images/bdp_soca_affiche-typographie-fluo01.jpg
+- default: /src/assets/images/bdp_soca_affiche-typographie-fluo01.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /images/bdp_soca_affiche-typographie-fluo02.jpg
+- default: /src/assets/images/bdp_soca_affiche-typographie-fluo02.jpg
   description: null
   mobile: null
   title: BDP - SOCA
@@ -38,17 +38,17 @@ videos: []
 
 __Poster BDP (Banquette Dérivée Partielle)__
 
-La superposition à l'infini... Thierry d'Istria surprend son monde avec cette équation à multiples variables  
-A l'occasion du Salon Equip'Hôtel 2016, SOCA souhaitait communiquer sa nouveauté sur un support simple, rapide et léger. Au final une affichette libre comme l'air.   
-Imprimée en 2 couleurs (Black + Fluo) les nuances de gris sont sublimés et la typo créée un effet subliminal.  
-    
+La superposition à l'infini... Thierry d'Istria surprend son monde avec cette équation à multiples variables
+A l'occasion du Salon Equip'Hôtel 2016, SOCA souhaitait communiquer sa nouveauté sur un support simple, rapide et léger. Au final une affichette libre comme l'air.
+Imprimée en 2 couleurs (Black + Fluo) les nuances de gris sont sublimés et la typo créée un effet subliminal.
+
 Impression : Abelia  /  Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![BDP - SOCA](/images/bdp_soca_affiche-pantone-fluo01.jpg)
-![BDP - SOCA](/images/bdp_soca_affiche-pantone-fluo02.jpg)
-![BDP - SOCA](/images/bdp_soca_affiche-typographie-fluo01.jpg)
-![BDP - SOCA](/images/bdp_soca_affiche-typographie-fluo02.jpg)
+![BDP - SOCA](/src/assets/images/bdp_soca_affiche-pantone-fluo01.jpg)
+![BDP - SOCA](/src/assets/images/bdp_soca_affiche-pantone-fluo02.jpg)
+![BDP - SOCA](/src/assets/images/bdp_soca_affiche-typographie-fluo01.jpg)
+![BDP - SOCA](/src/assets/images/bdp_soca_affiche-typographie-fluo02.jpg)
 
 ## Videos

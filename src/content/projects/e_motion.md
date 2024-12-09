@@ -9,7 +9,7 @@ description: "__(E)motion c'est un duo qui délivre un message animé__\r\n\r\nU
   \  \r\n  \r\nIdentité & Direction Artistique : studio ACETONE  \r\nMotion Design
   : [Mickaël Coulay](https://www.mickaelcoulay.com/)  "
 images:
-- default: /images/emotion-ep1-thumbnail.jpg
+- default: /src/assets/images/emotion-ep1-thumbnail.jpg
   description: null
   mobile: null
   title: (E)MOTION
@@ -28,15 +28,15 @@ videos:
 
 __(E)motion c'est un duo qui délivre un message animé__
 
-Une collaboration, un duo ou tout simplement une envie de faire passer un simple message avec de l'animation... C'est ce que le studio a lancé avec Mickaël Coulay, le talentueux motion designer indépendant nantais.   
-Une série de 6 épisodes à retrouver jusqu'à la fin 2021, au gré des envies et du temps... qui passe mais ne lasse pas les esprits créatifs.   
-  
-Identité & Direction Artistique : studio ACETONE  
-Motion Design : [Mickaël Coulay](https://www.mickaelcoulay.com/)  
+Une collaboration, un duo ou tout simplement une envie de faire passer un simple message avec de l'animation... C'est ce que le studio a lancé avec Mickaël Coulay, le talentueux motion designer indépendant nantais.
+Une série de 6 épisodes à retrouver jusqu'à la fin 2021, au gré des envies et du temps... qui passe mais ne lasse pas les esprits créatifs.
+
+Identité & Direction Artistique : studio ACETONE
+Motion Design : [Mickaël Coulay](https://www.mickaelcoulay.com/)
 
 ## Images
 
-![(E)MOTION](/images/emotion-ep1-thumbnail.jpg)
+![(E)MOTION](/src/assets/images/emotion-ep1-thumbnail.jpg)
 
 ## Videos
 

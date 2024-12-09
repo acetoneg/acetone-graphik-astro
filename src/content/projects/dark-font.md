@@ -6,15 +6,15 @@ description: "__Typographie Serif__  \r\n\r\nApporter une nouvelle lecture en ma
   d'une Didot (réinterprétée par la Typofonderie de JF Porchez) elle se fond dans
   la feuille avec élégance."
 images:
-- default: /images/a_g-still-life071.jpg
+- default: /src/assets/images/a_g-still-life071.jpg
   description: null
   mobile: null
   title: DARK FONT
-- default: /images/a_g-still-life070.jpg
+- default: /src/assets/images/a_g-still-life070.jpg
   description: null
   mobile: null
   title: DARK FONT
-- default: /images/acetone-graphik044_dark.jpg
+- default: /src/assets/images/acetone-graphik044_dark.jpg
   description: null
   mobile: null
   title: DARK FONT
@@ -28,15 +28,15 @@ videos: []
 
 # DARK FONT
 
-__Typographie Serif__  
+__Typographie Serif__
 
-Apporter une nouvelle lecture en masquant certains fondements de la Lettre est le parti-pris de la DARK Serif.  
+Apporter une nouvelle lecture en masquant certains fondements de la Lettre est le parti-pris de la DARK Serif.
 Inspirée d'une Didot (réinterprétée par la Typofonderie de JF Porchez) elle se fond dans la feuille avec élégance.
 
 ## Images
 
-![DARK FONT](/images/a_g-still-life071.jpg)
-![DARK FONT](/images/a_g-still-life070.jpg)
-![DARK FONT](/images/acetone-graphik044_dark.jpg)
+![DARK FONT](/src/assets/images/a_g-still-life071.jpg)
+![DARK FONT](/src/assets/images/a_g-still-life070.jpg)
+![DARK FONT](/src/assets/images/acetone-graphik044_dark.jpg)
 
 ## Videos
