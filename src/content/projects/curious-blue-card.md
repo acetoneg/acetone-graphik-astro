@@ -10,19 +10,19 @@ description: "__Carte de visite du studio__\r\n\r\nLe choix d'une papeterie et d
   \  \r\nDirection artistique : Yohann Morvan  Impression : [Atlantic Impression](http://www.atlantic-impression.fr/)
   (Drefféac)"
 images:
-- default: /src/assets/images/carte-bleu-curious-matter_verso-carte.jpg
+- default: /../../images/carte-bleu-curious-matter_verso-carte.jpg
   description: null
   mobile: null
   title: CURIOUS BLUE CARD
-- default: /src/assets/images/carte-bleu-curious-matter_verso-paquets.jpg
+- default: /../../images/carte-bleu-curious-matter_verso-paquets.jpg
   description: null
   mobile: null
   title: CURIOUS BLUE CARD
-- default: /src/assets/images/carte-bleu-curious-matter_dorure_irise_patchwork.jpg
+- default: /../../images/carte-bleu-curious-matter_dorure_irise_patchwork.jpg
   description: null
   mobile: null
   title: CURIOUS BLUE CARD
-- default: /src/assets/images/carte-bleu-curious-matter_dorure_irise_detail-typographie.jpg
+- default: /../../images/carte-bleu-curious-matter_dorure_irise_detail-typographie.jpg
   description: null
   mobile: null
   title: CURIOUS BLUE CARD
@@ -45,9 +45,9 @@ Direction artistique : Yohann Morvan  Impression : [Atlantic Impression](http://
 
 ## Images
 
-![CURIOUS BLUE CARD](/src/assets/images/carte-bleu-curious-matter_verso-carte.jpg)
-![CURIOUS BLUE CARD](/src/assets/images/carte-bleu-curious-matter_verso-paquets.jpg)
-![CURIOUS BLUE CARD](/src/assets/images/carte-bleu-curious-matter_dorure_irise_patchwork.jpg)
-![CURIOUS BLUE CARD](/src/assets/images/carte-bleu-curious-matter_dorure_irise_detail-typographie.jpg)
+![CURIOUS BLUE CARD](/../../images/carte-bleu-curious-matter_verso-carte.jpg)
+![CURIOUS BLUE CARD](/../../images/carte-bleu-curious-matter_verso-paquets.jpg)
+![CURIOUS BLUE CARD](/../../images/carte-bleu-curious-matter_dorure_irise_patchwork.jpg)
+![CURIOUS BLUE CARD](/../../images/carte-bleu-curious-matter_dorure_irise_detail-typographie.jpg)
 
 ## Videos

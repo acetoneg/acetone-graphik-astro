@@ -11,39 +11,39 @@ description: "__Plaquette SOCA + Fiches__\r\n\r\nSoca souhaitait créer un suppo
   / Architectes et Restauration.  \r\nLe site de [SOCA](http://www.soca.fr)  \r\nPhotographies
   : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /src/assets/images/soca_plaquette-fiche-mise-en-page.jpg
+- default: /../../images/soca_plaquette-fiche-mise-en-page.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-3fiches.jpg
+- default: /../../images/soca_plaquette-3fiches.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau-gaufrage-01.jpg
+- default: /../../images/soca_plaquette-fourreau-gaufrage-01.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau.jpg
+- default: /../../images/soca_plaquette-fourreau.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau_1.jpg
+- default: /../../images/soca_plaquette-fourreau_1.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau-serigraphie-dos.jpg
+- default: /../../images/soca_plaquette-fourreau-serigraphie-dos.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau-gaufrage-02.jpg
+- default: /../../images/soca_plaquette-fourreau-gaufrage-02.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe2.jpg
+- default: /../../images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe2.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
-- default: /src/assets/images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe1.jpg
+- default: /../../images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe1.jpg
   description: null
   mobile: null
   title: SOCA - Plaquette
@@ -68,14 +68,14 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fiche-mise-en-page.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-3fiches.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau-gaufrage-01.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau_1.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau-serigraphie-dos.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau-gaufrage-02.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe2.jpg)
-![SOCA - Plaquette](/src/assets/images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe1.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fiche-mise-en-page.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-3fiches.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau-gaufrage-01.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau_1.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau-serigraphie-dos.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau-gaufrage-02.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe2.jpg)
+![SOCA - Plaquette](/../../images/soca_plaquette-fourreau-gaufrage-materica-fedrigoni_decoupe1.jpg)
 
 ## Videos

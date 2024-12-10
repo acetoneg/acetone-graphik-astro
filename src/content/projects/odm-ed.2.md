@@ -16,23 +16,23 @@ description: "__Programme / Poster du festival lillois de littérature L'Origine
   tous engagés autour de la lecture et la paix.  \r\n    \r\nImprimeur : Imprimerie
   Jean-Bernard  /  Illustration : Nicolas Galkowski / Photographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /src/assets/images/origine-des-mondes-programme-affiche_2.jpg
+- default: /../../images/origine-des-mondes-programme-affiche_2.jpg
   description: null
   mobile: null
   title: ODM ED.2
-- default: /src/assets/images/origine-des-mondes-programme-affiche_1_1.jpg
+- default: /../../images/origine-des-mondes-programme-affiche_1_1.jpg
   description: null
   mobile: null
   title: ODM ED.2
-- default: /src/assets/images/origine-des-mondes-programme-affiche_3.jpg
+- default: /../../images/origine-des-mondes-programme-affiche_3.jpg
   description: null
   mobile: null
   title: ODM ED.2
-- default: /src/assets/images/origine-des-mondes-programme-affiche_4.jpg
+- default: /../../images/origine-des-mondes-programme-affiche_4.jpg
   description: null
   mobile: null
   title: ODM ED.2
-- default: /src/assets/images/origine-des-mondes-programme-illustration-galkowskiaffiche.jpg
+- default: /../../images/origine-des-mondes-programme-illustration-galkowskiaffiche.jpg
   description: null
   mobile: null
   title: ODM ED.2
@@ -54,10 +54,10 @@ Imprimeur : Imprimerie Jean-Bernard  /  Illustration : Nicolas Galkowski / Photo
 
 ## Images
 
-![ODM ED.2](/src/assets/images/origine-des-mondes-programme-affiche_2.jpg)
-![ODM ED.2](/src/assets/images/origine-des-mondes-programme-affiche_1_1.jpg)
-![ODM ED.2](/src/assets/images/origine-des-mondes-programme-affiche_3.jpg)
-![ODM ED.2](/src/assets/images/origine-des-mondes-programme-affiche_4.jpg)
-![ODM ED.2](/src/assets/images/origine-des-mondes-programme-illustration-galkowskiaffiche.jpg)
+![ODM ED.2](/../../images/origine-des-mondes-programme-affiche_2.jpg)
+![ODM ED.2](/../../images/origine-des-mondes-programme-affiche_1_1.jpg)
+![ODM ED.2](/../../images/origine-des-mondes-programme-affiche_3.jpg)
+![ODM ED.2](/../../images/origine-des-mondes-programme-affiche_4.jpg)
+![ODM ED.2](/../../images/origine-des-mondes-programme-illustration-galkowskiaffiche.jpg)
 
 ## Videos

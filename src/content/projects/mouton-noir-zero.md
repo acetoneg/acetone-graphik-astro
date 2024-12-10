@@ -6,27 +6,27 @@ description: "__Magazine gratuit, format poster (60x80cm) imprimé en offset__\r
   de Nantes, une invasion extra-terrestre pileux signé Florent Cocherel...  \r\nRéalisation
   : AREANOW STUDIO + ACETONE GRAPHIK"
 images:
-- default: /src/assets/images/mn_zero_1.jpg
+- default: /../../images/mn_zero_1.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /src/assets/images/mn_zero_4.jpg
+- default: /../../images/mn_zero_4.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /src/assets/images/mn_zero_3.jpg
+- default: /../../images/mn_zero_3.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /src/assets/images/mn_zero_5.jpg
+- default: /../../images/mn_zero_5.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /src/assets/images/mn_zero_6.jpg
+- default: /../../images/mn_zero_6.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
-- default: /src/assets/images/mn_zero_2.jpg
+- default: /../../images/mn_zero_2.jpg
   description: null
   mobile: null
   title: 'MOUTON NOIR #ZERO'
@@ -47,11 +47,11 @@ Réalisation : AREANOW STUDIO + ACETONE GRAPHIK
 
 ## Images
 
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_1.jpg)
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_4.jpg)
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_3.jpg)
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_5.jpg)
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_6.jpg)
-![MOUTON NOIR #ZERO](/src/assets/images/mn_zero_2.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_1.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_4.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_3.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_5.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_6.jpg)
+![MOUTON NOIR #ZERO](/../../images/mn_zero_2.jpg)
 
 ## Videos

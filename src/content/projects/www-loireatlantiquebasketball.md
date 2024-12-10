@@ -8,31 +8,31 @@ description: "Le Comité de Basket de Loire-Atlantique, soit le Basket 44, a sou
   publics.  \r\n[Le nouveau site développé sous Joomla](https://www.loireatlantiquebasketball.org/).\r\n\r\n
   Webdesign. studio ACETONE  -  Développement. François Bretin & Eralog"
 images:
-- default: /src/assets/images/basket44-galerie-photos-fete-mini-basket-2019.jpg
+- default: /../../images/basket44-galerie-photos-fete-mini-basket-2019.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/basket44-actualites-home.jpg
+- default: /../../images/basket44-actualites-home.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/basket44-article-france-team-republique-tcheque.jpg
+- default: /../../images/basket44-article-france-team-republique-tcheque.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/basket44-galerie-videos.jpg
+- default: /../../images/basket44-galerie-videos.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/basket44-erreur404.jpg
+- default: /../../images/basket44-erreur404.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/basket44-homepage-mockup_responsive.jpg
+- default: /../../images/basket44-homepage-mockup_responsive.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
-- default: /src/assets/images/loireatlantiquebasketball_site_1.jpg
+- default: /../../images/loireatlantiquebasketball_site_1.jpg
   description: null
   mobile: null
   title: WWW LOIREATLANTIQUEBASKETBALL
@@ -55,12 +55,12 @@ Plus orienté vers les nouvelles pratiques, la mise en avant des clubs ligérien
 
 ## Images
 
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-galerie-photos-fete-mini-basket-2019.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-actualites-home.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-article-france-team-republique-tcheque.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-galerie-videos.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-erreur404.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/basket44-homepage-mockup_responsive.jpg)
-![WWW LOIREATLANTIQUEBASKETBALL](/src/assets/images/loireatlantiquebasketball_site_1.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-galerie-photos-fete-mini-basket-2019.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-actualites-home.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-article-france-team-republique-tcheque.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-galerie-videos.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-erreur404.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/basket44-homepage-mockup_responsive.jpg)
+![WWW LOIREATLANTIQUEBASKETBALL](/../../images/loireatlantiquebasketball_site_1.jpg)
 
 ## Videos

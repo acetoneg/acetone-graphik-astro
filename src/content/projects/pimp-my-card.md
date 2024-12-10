@@ -10,27 +10,27 @@ description: "__Système de personnalisation de cartes bancaires__\r\n\r\nLe stu
   des modèles uniques.  \r\n  \r\nDirection Artistique & Illustrations : studio ACETONE
   \ \r\n  \r\nPour plus d'infos : [CONTACT](http://www.acetone-graphik.com/contact)"
 images:
-- default: /src/assets/images/cb-design-template-pimp_07.jpg
+- default: /../../images/cb-design-template-pimp_07.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
-- default: /src/assets/images/cb-design-template-pimp_06.jpg
+- default: /../../images/cb-design-template-pimp_06.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
-- default: /src/assets/images/cb-design-template-pimp_05.jpg
+- default: /../../images/cb-design-template-pimp_05.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
-- default: /src/assets/images/cb-design-template-pimp_04.jpg
+- default: /../../images/cb-design-template-pimp_04.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
-- default: /src/assets/images/cb-design-template-pimp_03.jpg
+- default: /../../images/cb-design-template-pimp_03.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
-- default: /src/assets/images/cb-design-template-pimp_02.jpg
+- default: /../../images/cb-design-template-pimp_02.jpg
   description: null
   mobile: null
   title: PIMP MY CARD
@@ -56,11 +56,11 @@ Pour plus d'infos : [CONTACT](http://www.acetone-graphik.com/contact)
 
 ## Images
 
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_07.jpg)
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_06.jpg)
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_05.jpg)
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_04.jpg)
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_03.jpg)
-![PIMP MY CARD](/src/assets/images/cb-design-template-pimp_02.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_07.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_06.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_05.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_04.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_03.jpg)
+![PIMP MY CARD](/../../images/cb-design-template-pimp_02.jpg)
 
 ## Videos

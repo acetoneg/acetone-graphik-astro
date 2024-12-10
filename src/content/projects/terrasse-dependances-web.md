@@ -9,23 +9,23 @@ description: "La boutique de mobilier design Terrasse & Dépendances souhaitait 
   empreinte douce et affirmée à la fois.  \r\nDécouvrez ici leur [site vitrine](http://www.terrasse-dependances.com/).\r\n\r\n
   DA. studio ACETONE /  Identité. SUPERBOLD / Développement. Avenue du Web"
 images:
-- default: /src/assets/images/terrasse-et-dependances_marques.jpg
+- default: /../../images/terrasse-et-dependances_marques.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES / WEB
-- default: /src/assets/images/terrasse-et-dependances_professionnels.jpg
+- default: /../../images/terrasse-et-dependances_professionnels.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES / WEB
-- default: /src/assets/images/terrasse-et-dependances_showroom.jpg
+- default: /../../images/terrasse-et-dependances_showroom.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES / WEB
-- default: /src/assets/images/terrasse-et-dependances_homepage_1.jpg
+- default: /../../images/terrasse-et-dependances_homepage_1.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES / WEB
-- default: /src/assets/images/terrasse-et-dependances_logo.jpg
+- default: /../../images/terrasse-et-dependances_logo.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES / WEB
@@ -49,10 +49,10 @@ Découvrez ici leur [site vitrine](http://www.terrasse-dependances.com/).
 
 ## Images
 
-![TERRASSE & DEPENDANCES / WEB](/src/assets/images/terrasse-et-dependances_marques.jpg)
-![TERRASSE & DEPENDANCES / WEB](/src/assets/images/terrasse-et-dependances_professionnels.jpg)
-![TERRASSE & DEPENDANCES / WEB](/src/assets/images/terrasse-et-dependances_showroom.jpg)
-![TERRASSE & DEPENDANCES / WEB](/src/assets/images/terrasse-et-dependances_homepage_1.jpg)
-![TERRASSE & DEPENDANCES / WEB](/src/assets/images/terrasse-et-dependances_logo.jpg)
+![TERRASSE & DEPENDANCES / WEB](/../../images/terrasse-et-dependances_marques.jpg)
+![TERRASSE & DEPENDANCES / WEB](/../../images/terrasse-et-dependances_professionnels.jpg)
+![TERRASSE & DEPENDANCES / WEB](/../../images/terrasse-et-dependances_showroom.jpg)
+![TERRASSE & DEPENDANCES / WEB](/../../images/terrasse-et-dependances_homepage_1.jpg)
+![TERRASSE & DEPENDANCES / WEB](/../../images/terrasse-et-dependances_logo.jpg)
 
 ## Videos

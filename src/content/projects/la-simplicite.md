@@ -7,19 +7,19 @@ description: "__Carte Letterpress 2017 du studio__\r\n\r\n\"La simplicité est u
   papier.   \r\n600g Gmund crème - débossage simple recto   \r\n    \r\nPhotographies
   : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_4.jpg
+- default: /../../images/voeux_carte-letterpress_debossage-studio-acetone_4.jpg
   description: null
   mobile: null
   title: LA SIMPLICITE
-- default: /src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_2.jpg
+- default: /../../images/voeux_carte-letterpress_debossage-studio-acetone_2.jpg
   description: null
   mobile: null
   title: LA SIMPLICITE
-- default: /src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_3.jpg
+- default: /../../images/voeux_carte-letterpress_debossage-studio-acetone_3.jpg
   description: null
   mobile: null
   title: LA SIMPLICITE
-- default: /src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_1.jpg
+- default: /../../images/voeux_carte-letterpress_debossage-studio-acetone_1.jpg
   description: null
   mobile: null
   title: LA SIMPLICITE
@@ -43,9 +43,9 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![LA SIMPLICITE](/src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_4.jpg)
-![LA SIMPLICITE](/src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_2.jpg)
-![LA SIMPLICITE](/src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_3.jpg)
-![LA SIMPLICITE](/src/assets/images/voeux_carte-letterpress_debossage-studio-acetone_1.jpg)
+![LA SIMPLICITE](/../../images/voeux_carte-letterpress_debossage-studio-acetone_4.jpg)
+![LA SIMPLICITE](/../../images/voeux_carte-letterpress_debossage-studio-acetone_2.jpg)
+![LA SIMPLICITE](/../../images/voeux_carte-letterpress_debossage-studio-acetone_3.jpg)
+![LA SIMPLICITE](/../../images/voeux_carte-letterpress_debossage-studio-acetone_1.jpg)
 
 ## Videos

@@ -7,19 +7,19 @@ description: "__Brochure, CHU de Nantes__\r\n\r\nSupport reprographié, aux mari
   il aide à mieux comprendre l'insuffisance rénale.  \r\nCommande du Service Uro-Néphro
   du CHU de Nantes."
 images:
-- default: /src/assets/images/a_g-still-life010.jpg
+- default: /../../images/a_g-still-life010.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /src/assets/images/a_g-still-life011.jpg
+- default: /../../images/a_g-still-life011.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /src/assets/images/a_g-still-life012.jpg
+- default: /../../images/a_g-still-life012.jpg
   description: null
   mobile: null
   title: GUIDE IRC
-- default: /src/assets/images/a_g-still-life014.jpg
+- default: /../../images/a_g-still-life014.jpg
   description: null
   mobile: null
   title: GUIDE IRC
@@ -41,9 +41,9 @@ Commande du Service Uro-Néphro du CHU de Nantes.
 
 ## Images
 
-![GUIDE IRC](/src/assets/images/a_g-still-life010.jpg)
-![GUIDE IRC](/src/assets/images/a_g-still-life011.jpg)
-![GUIDE IRC](/src/assets/images/a_g-still-life012.jpg)
-![GUIDE IRC](/src/assets/images/a_g-still-life014.jpg)
+![GUIDE IRC](/../../images/a_g-still-life010.jpg)
+![GUIDE IRC](/../../images/a_g-still-life011.jpg)
+![GUIDE IRC](/../../images/a_g-still-life012.jpg)
+![GUIDE IRC](/../../images/a_g-still-life014.jpg)
 
 ## Videos

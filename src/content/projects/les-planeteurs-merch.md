@@ -9,15 +9,15 @@ description: "__Merchandising & outils bureautique__\r\n\r\nDans l'esprit du voy
   sur les correspondances, pour se souvenir des belles choses.  \r\n    \r\nSérigraphie
   : Génicado  / Impression stickers : La Stickerie  /  Photographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /src/assets/images/les-planeteurs-carte-stickers.jpg
+- default: /../../images/les-planeteurs-carte-stickers.jpg
   description: null
   mobile: null
   title: LES PLANETEURS - MERCH
-- default: /src/assets/images/les-planeteurs-carton-correspondance.jpg
+- default: /../../images/les-planeteurs-carton-correspondance.jpg
   description: null
   mobile: null
   title: LES PLANETEURS - MERCH
-- default: /src/assets/images/les-planeteurs-merchandising.jpg
+- default: /../../images/les-planeteurs-merchandising.jpg
   description: null
   mobile: null
   title: LES PLANETEURS - MERCH
@@ -41,8 +41,8 @@ Sérigraphie : Génicado  / Impression stickers : La Stickerie  /  Photographies
 
 ## Images
 
-![LES PLANETEURS - MERCH](/src/assets/images/les-planeteurs-carte-stickers.jpg)
-![LES PLANETEURS - MERCH](/src/assets/images/les-planeteurs-carton-correspondance.jpg)
-![LES PLANETEURS - MERCH](/src/assets/images/les-planeteurs-merchandising.jpg)
+![LES PLANETEURS - MERCH](/../../images/les-planeteurs-carte-stickers.jpg)
+![LES PLANETEURS - MERCH](/../../images/les-planeteurs-carton-correspondance.jpg)
+![LES PLANETEURS - MERCH](/../../images/les-planeteurs-merchandising.jpg)
 
 ## Videos

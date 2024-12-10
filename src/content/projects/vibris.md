@@ -7,27 +7,27 @@ description: "__Logo - Dépliant - Illustration__\r\n\r\nVIBRIS = Valorisation I
   en découlera  \r\net une illustration/infographie imprimé sur bâche et affiché sur
   une partie du littoral ligérien."
 images:
-- default: /src/assets/images/a_g-still-life054.jpg
+- default: /../../images/a_g-still-life054.jpg
   description: null
   mobile: null
   title: VIBRIS
-- default: /src/assets/images/a_g-still-life056.jpg
+- default: /../../images/a_g-still-life056.jpg
   description: null
   mobile: null
   title: VIBRIS
-- default: /src/assets/images/a_g-still-life057.jpg
+- default: /../../images/a_g-still-life057.jpg
   description: null
   mobile: null
   title: VIBRIS
-- default: /src/assets/images/a_g-still-life058.jpg
+- default: /../../images/a_g-still-life058.jpg
   description: null
   mobile: null
   title: VIBRIS
-- default: /src/assets/images/a_g-still-life055.jpg
+- default: /../../images/a_g-still-life055.jpg
   description: null
   mobile: null
   title: VIBRIS
-- default: /src/assets/images/vibris-logo.jpg
+- default: /../../images/vibris-logo.jpg
   description: null
   mobile: null
   title: VIBRIS
@@ -49,11 +49,11 @@ et une illustration/infographie imprimé sur bâche et affiché sur une partie d
 
 ## Images
 
-![VIBRIS](/src/assets/images/a_g-still-life054.jpg)
-![VIBRIS](/src/assets/images/a_g-still-life056.jpg)
-![VIBRIS](/src/assets/images/a_g-still-life057.jpg)
-![VIBRIS](/src/assets/images/a_g-still-life058.jpg)
-![VIBRIS](/src/assets/images/a_g-still-life055.jpg)
-![VIBRIS](/src/assets/images/vibris-logo.jpg)
+![VIBRIS](/../../images/a_g-still-life054.jpg)
+![VIBRIS](/../../images/a_g-still-life056.jpg)
+![VIBRIS](/../../images/a_g-still-life057.jpg)
+![VIBRIS](/../../images/a_g-still-life058.jpg)
+![VIBRIS](/../../images/a_g-still-life055.jpg)
+![VIBRIS](/../../images/vibris-logo.jpg)
 
 ## Videos

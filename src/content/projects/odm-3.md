@@ -17,23 +17,23 @@ description: "__Programme-Affiche du festival lillois de littérature L'Origine 
   de crise et dans ce monde hostile. \r\n    \r\nImprimeur : Imprimerie Jean-Bernard
   \ /  Illustration : Nicolas Galkowski"
 images:
-- default: /src/assets/images/loriginedesmondes-festival-masque-illustration.jpg
+- default: /../../images/loriginedesmondes-festival-masque-illustration.jpg
   description: null
   mobile: null
   title: 'ODM #3'
-- default: /src/assets/images/loriginedesmondes-festival-totebag-serigraphie.jpg
+- default: /../../images/loriginedesmondes-festival-totebag-serigraphie.jpg
   description: null
   mobile: null
   title: 'ODM #3'
-- default: /src/assets/images/loriginedesmondes-festival-teeshirt-serigraphie.jpg
+- default: /../../images/loriginedesmondes-festival-teeshirt-serigraphie.jpg
   description: null
   mobile: null
   title: 'ODM #3'
-- default: /src/assets/images/loriginedesmondes-festival-affiche-sol-urbain.jpg
+- default: /../../images/loriginedesmondes-festival-affiche-sol-urbain.jpg
   description: null
   mobile: null
   title: 'ODM #3'
-- default: /src/assets/images/loriginedesmondes-edition3_affichage-decaux-lille.jpg
+- default: /../../images/loriginedesmondes-edition3_affichage-decaux-lille.jpg
   description: null
   mobile: null
   title: 'ODM #3'
@@ -57,10 +57,10 @@ Imprimeur : Imprimerie Jean-Bernard  /  Illustration : Nicolas Galkowski
 
 ## Images
 
-![ODM #3](/src/assets/images/loriginedesmondes-festival-masque-illustration.jpg)
-![ODM #3](/src/assets/images/loriginedesmondes-festival-totebag-serigraphie.jpg)
-![ODM #3](/src/assets/images/loriginedesmondes-festival-teeshirt-serigraphie.jpg)
-![ODM #3](/src/assets/images/loriginedesmondes-festival-affiche-sol-urbain.jpg)
-![ODM #3](/src/assets/images/loriginedesmondes-edition3_affichage-decaux-lille.jpg)
+![ODM #3](/../../images/loriginedesmondes-festival-masque-illustration.jpg)
+![ODM #3](/../../images/loriginedesmondes-festival-totebag-serigraphie.jpg)
+![ODM #3](/../../images/loriginedesmondes-festival-teeshirt-serigraphie.jpg)
+![ODM #3](/../../images/loriginedesmondes-festival-affiche-sol-urbain.jpg)
+![ODM #3](/../../images/loriginedesmondes-edition3_affichage-decaux-lille.jpg)
 
 ## Videos

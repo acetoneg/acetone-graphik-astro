@@ -5,11 +5,11 @@ description: "__Format 40x60cm__\r\n\r\nPierres multi-facettes à la forme impos
   Hommage à MC Escher et son exploration de l'infini et des combinaisons de motifs.\r\nImprimé
   en Digigraphie d'Art sur papier sur Woodstock Fedrigoni"
 images:
-- default: /src/assets/images/affiche-1-1.jpg
+- default: /../../images/affiche-1-1.jpg
   description: null
   mobile: null
   title: AFFICHE MATIÈRE
-- default: /src/assets/images/affiche-1.jpg
+- default: /../../images/affiche-1.jpg
   description: null
   mobile: null
   title: AFFICHE MATIÈRE
@@ -30,7 +30,7 @@ Imprimé en Digigraphie d'Art sur papier sur Woodstock Fedrigoni
 
 ## Images
 
-![AFFICHE MATIÈRE](/src/assets/images/affiche-1-1.jpg)
-![AFFICHE MATIÈRE](/src/assets/images/affiche-1.jpg)
+![AFFICHE MATIÈRE](/../../images/affiche-1-1.jpg)
+![AFFICHE MATIÈRE](/../../images/affiche-1.jpg)
 
 ## Videos

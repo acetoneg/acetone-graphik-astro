@@ -8,19 +8,19 @@ description: "__Campagne de communication__\r\n\r\nLancement d'une campagne de s
   Un éclat suggérant l'étonnement ou le questionnement recentre le regard.   \r\nLes
   partenaires de cette initiative : CREPS, AMCD, DRJSCS & la Région Pays de la Loire"
 images:
-- default: /src/assets/images/psychologie-sport_campagne-depliant1-creps-nantes.jpg
+- default: /../../images/psychologie-sport_campagne-depliant1-creps-nantes.jpg
   description: null
   mobile: null
   title: LA PSYCHOLOGIE DU SPORT
-- default: /src/assets/images/psychologie-sport_campagne-depliant2-creps-nantes.jpg
+- default: /../../images/psychologie-sport_campagne-depliant2-creps-nantes.jpg
   description: null
   mobile: null
   title: LA PSYCHOLOGIE DU SPORT
-- default: /src/assets/images/psychologie-sport_campagne-depliant3-creps-nantes.jpg
+- default: /../../images/psychologie-sport_campagne-depliant3-creps-nantes.jpg
   description: null
   mobile: null
   title: LA PSYCHOLOGIE DU SPORT
-- default: /src/assets/images/psychologie-sport_campagne-affiche-creps-nantes.jpg
+- default: /../../images/psychologie-sport_campagne-affiche-creps-nantes.jpg
   description: null
   mobile: null
   title: LA PSYCHOLOGIE DU SPORT
@@ -42,9 +42,9 @@ Les partenaires de cette initiative : CREPS, AMCD, DRJSCS & la Région Pays de l
 
 ## Images
 
-![LA PSYCHOLOGIE DU SPORT](/src/assets/images/psychologie-sport_campagne-depliant1-creps-nantes.jpg)
-![LA PSYCHOLOGIE DU SPORT](/src/assets/images/psychologie-sport_campagne-depliant2-creps-nantes.jpg)
-![LA PSYCHOLOGIE DU SPORT](/src/assets/images/psychologie-sport_campagne-depliant3-creps-nantes.jpg)
-![LA PSYCHOLOGIE DU SPORT](/src/assets/images/psychologie-sport_campagne-affiche-creps-nantes.jpg)
+![LA PSYCHOLOGIE DU SPORT](/../../images/psychologie-sport_campagne-depliant1-creps-nantes.jpg)
+![LA PSYCHOLOGIE DU SPORT](/../../images/psychologie-sport_campagne-depliant2-creps-nantes.jpg)
+![LA PSYCHOLOGIE DU SPORT](/../../images/psychologie-sport_campagne-depliant3-creps-nantes.jpg)
+![LA PSYCHOLOGIE DU SPORT](/../../images/psychologie-sport_campagne-affiche-creps-nantes.jpg)
 
 ## Videos

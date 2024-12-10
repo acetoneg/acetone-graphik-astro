@@ -4,19 +4,19 @@ creationDate: '2015-03-03T11:52:12'
 description: "__Site Responsive de la Semaine du Gaz__\r\n\r\nWebdesign, Développement
   et Suivi du projet de la Semaine du Gaz organisée par GRDF Ouest.\r\n\r\n2013"
 images:
-- default: /src/assets/images/sdg_1.jpg
+- default: /../../images/sdg_1.jpg
   description: null
   mobile: null
   title: GRDF OUEST
-- default: /src/assets/images/sdg_2.jpg
+- default: /../../images/sdg_2.jpg
   description: null
   mobile: null
   title: GRDF OUEST
-- default: /src/assets/images/sdg_3.jpg
+- default: /../../images/sdg_3.jpg
   description: null
   mobile: null
   title: GRDF OUEST
-- default: /src/assets/images/sdg_4.jpg
+- default: /../../images/sdg_4.jpg
   description: null
   mobile: null
   title: GRDF OUEST
@@ -38,9 +38,9 @@ Webdesign, Développement et Suivi du projet de la Semaine du Gaz organisée par
 
 ## Images
 
-![GRDF OUEST](/src/assets/images/sdg_1.jpg)
-![GRDF OUEST](/src/assets/images/sdg_2.jpg)
-![GRDF OUEST](/src/assets/images/sdg_3.jpg)
-![GRDF OUEST](/src/assets/images/sdg_4.jpg)
+![GRDF OUEST](/../../images/sdg_1.jpg)
+![GRDF OUEST](/../../images/sdg_2.jpg)
+![GRDF OUEST](/../../images/sdg_3.jpg)
+![GRDF OUEST](/../../images/sdg_4.jpg)
 
 ## Videos

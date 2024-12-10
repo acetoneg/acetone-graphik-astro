@@ -1,30 +1,6 @@
 // src/content/config.ts
 import { z, defineCollection } from "astro:content";
 
-// Define the schema type separately
-export type ProjectSchema = {
-  backgroundColor: string;
-  creationDate: Date;
-  description: string | null;
-  images: {
-    default: string;
-    description: string | null;
-    mobile: string | null;
-    title: string;
-  }[];
-  metaDescription: string | null;
-  metaKeywords: string | null;
-  metaTitle: string | null;
-  order: number;
-  title: string;
-  videos: {
-    description: string | null;
-    title: string;
-    vimeoId: string;
-  }[];
-};
-
-// Define the collection
 const projectsCollection = defineCollection({
   type: "content",
   schema: z.object({

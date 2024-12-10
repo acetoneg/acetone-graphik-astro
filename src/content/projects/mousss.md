@@ -8,15 +8,15 @@ description: "__Brasserie indépendante__\r\n\r\nLe studio ACETONE est amateur d
   suivre au Pays Basque et ailleurs...   \r\n  \r\nDirection Artistique & Illustrations
   : studio ACETONE  "
 images:
-- default: /src/assets/images/mousss-beer-can-abstraite-zepa.jpg
+- default: /../../images/mousss-beer-can-abstraite-zepa.jpg
   description: null
   mobile: null
   title: MOUSSS
-- default: /src/assets/images/mousss-beer-can-euskadi-pale-ale_1.jpg
+- default: /../../images/mousss-beer-can-euskadi-pale-ale_1.jpg
   description: null
   mobile: null
   title: MOUSSS
-- default: /src/assets/images/mousss-beer-can-neipa.jpg
+- default: /../../images/mousss-beer-can-neipa.jpg
   description: null
   mobile: null
   title: MOUSSS
@@ -41,8 +41,8 @@ Direction Artistique & Illustrations : studio ACETONE
 
 ## Images
 
-![MOUSSS](/src/assets/images/mousss-beer-can-abstraite-zepa.jpg)
-![MOUSSS](/src/assets/images/mousss-beer-can-euskadi-pale-ale_1.jpg)
-![MOUSSS](/src/assets/images/mousss-beer-can-neipa.jpg)
+![MOUSSS](/../../images/mousss-beer-can-abstraite-zepa.jpg)
+![MOUSSS](/../../images/mousss-beer-can-euskadi-pale-ale_1.jpg)
+![MOUSSS](/../../images/mousss-beer-can-neipa.jpg)
 
 ## Videos

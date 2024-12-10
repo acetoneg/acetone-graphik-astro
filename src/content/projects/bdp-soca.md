@@ -9,19 +9,19 @@ description: "__Poster BDP (Banquette Dérivée Partielle)__\r\n\r\nLa superposi
   sublimés et la typo créée un effet subliminal.  \r\n    \r\nImpression : Abelia
   \ /  Photographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /src/assets/images/bdp_soca_affiche-pantone-fluo01.jpg
+- default: /../../images/bdp_soca_affiche-pantone-fluo01.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /src/assets/images/bdp_soca_affiche-pantone-fluo02.jpg
+- default: /../../images/bdp_soca_affiche-pantone-fluo02.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /src/assets/images/bdp_soca_affiche-typographie-fluo01.jpg
+- default: /../../images/bdp_soca_affiche-typographie-fluo01.jpg
   description: null
   mobile: null
   title: BDP - SOCA
-- default: /src/assets/images/bdp_soca_affiche-typographie-fluo02.jpg
+- default: /../../images/bdp_soca_affiche-typographie-fluo02.jpg
   description: null
   mobile: null
   title: BDP - SOCA
@@ -46,9 +46,9 @@ Impression : Abelia  /  Photographies : [Germain Herriau](http://www.germainherr
 
 ## Images
 
-![BDP - SOCA](/src/assets/images/bdp_soca_affiche-pantone-fluo01.jpg)
-![BDP - SOCA](/src/assets/images/bdp_soca_affiche-pantone-fluo02.jpg)
-![BDP - SOCA](/src/assets/images/bdp_soca_affiche-typographie-fluo01.jpg)
-![BDP - SOCA](/src/assets/images/bdp_soca_affiche-typographie-fluo02.jpg)
+![BDP - SOCA](/../../images/bdp_soca_affiche-pantone-fluo01.jpg)
+![BDP - SOCA](/../../images/bdp_soca_affiche-pantone-fluo02.jpg)
+![BDP - SOCA](/../../images/bdp_soca_affiche-typographie-fluo01.jpg)
+![BDP - SOCA](/../../images/bdp_soca_affiche-typographie-fluo02.jpg)
 
 ## Videos

@@ -9,11 +9,11 @@ description: "__Identité & Papeterie Menuiserie__\r\n\r\nHervé Cimmier, menuis
   de lettres qui s'assemblent.  \r\n  \r\nIdentité & Direction Artistique : studio
   ACETONE  "
 images:
-- default: /src/assets/images/big-up-logo-bois-embossage.jpg
+- default: /../../images/big-up-logo-bois-embossage.jpg
   description: null
   mobile: null
   title: BIG UP
-- default: /src/assets/images/big-up-planche-identite.jpg
+- default: /../../images/big-up-planche-identite.jpg
   description: null
   mobile: null
   title: BIG UP
@@ -37,7 +37,7 @@ Identité & Direction Artistique : studio ACETONE
 
 ## Images
 
-![BIG UP](/src/assets/images/big-up-logo-bois-embossage.jpg)
-![BIG UP](/src/assets/images/big-up-planche-identite.jpg)
+![BIG UP](/../../images/big-up-logo-bois-embossage.jpg)
+![BIG UP](/../../images/big-up-planche-identite.jpg)
 
 ## Videos

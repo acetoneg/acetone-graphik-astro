@@ -6,15 +6,15 @@ description: "__Carte du studio__\r\n\r\nGaufrage ou débossage, telle est la qu
   carte de visite débossée cette fois sur un Gmund Crème 600grs.  \r\nJeu de volume,
   lumière qui se ballade et lecture au touché...  \r\nPhotographie. [Germain Herriau](http://germainherriau.com/)"
 images:
-- default: /src/assets/images/carte-debossage_01.jpg
+- default: /../../images/carte-debossage_01.jpg
   description: null
   mobile: null
   title: Débossage
-- default: /src/assets/images/carte-debossage_02.jpg
+- default: /../../images/carte-debossage_02.jpg
   description: null
   mobile: null
   title: Débossage
-- default: /src/assets/images/carte-debossage_03.jpg
+- default: /../../images/carte-debossage_03.jpg
   description: null
   mobile: null
   title: Débossage
@@ -37,8 +37,8 @@ Photographie. [Germain Herriau](http://germainherriau.com/)
 
 ## Images
 
-![Débossage](/src/assets/images/carte-debossage_01.jpg)
-![Débossage](/src/assets/images/carte-debossage_02.jpg)
-![Débossage](/src/assets/images/carte-debossage_03.jpg)
+![Débossage](/../../images/carte-debossage_01.jpg)
+![Débossage](/../../images/carte-debossage_02.jpg)
+![Débossage](/../../images/carte-debossage_03.jpg)
 
 ## Videos

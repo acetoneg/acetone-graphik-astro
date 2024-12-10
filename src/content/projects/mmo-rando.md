@@ -16,39 +16,39 @@ description: "__Le jeu qui permet d'apprendre en randonnant__\r\n\r\nCe jeu de p
   \ \r\n\r\nIdentité, Illustrations & Direction Artistique : studio ACETONE  \r\nPhotographies
   : [Germain Herriau](http://www.germainherriau.com)  "
 images:
-- default: /src/assets/images/memorando-slide-regledujeu.jpg
+- default: /../../images/memorando-slide-regledujeu.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-carte-securite.jpg
+- default: /../../images/memorando-slide-carte-securite.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-pions.jpg
+- default: /../../images/memorando-slide-pions.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-de.jpg
+- default: /../../images/memorando-slide-de.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-plateau_zoom.jpg
+- default: /../../images/memorando-slide-plateau_zoom.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-plateau.jpg
+- default: /../../images/memorando-slide-plateau.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-logo.jpg
+- default: /../../images/memorando-slide-logo.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-illu.jpg
+- default: /../../images/memorando-slide-illu.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
-- default: /src/assets/images/memorando-slide-billboard.jpg
+- default: /../../images/memorando-slide-billboard.jpg
   description: null
   mobile: null
   title: MÉMO RANDO
@@ -76,14 +76,14 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![MÉMO RANDO](/src/assets/images/memorando-slide-regledujeu.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-carte-securite.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-pions.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-de.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-plateau_zoom.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-plateau.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-logo.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-illu.jpg)
-![MÉMO RANDO](/src/assets/images/memorando-slide-billboard.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-regledujeu.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-carte-securite.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-pions.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-de.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-plateau_zoom.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-plateau.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-logo.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-illu.jpg)
+![MÉMO RANDO](/../../images/memorando-slide-billboard.jpg)
 
 ## Videos

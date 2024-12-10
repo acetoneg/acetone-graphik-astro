@@ -5,27 +5,27 @@ description: "__Cahier d'inspiration__\r\n\r\nSimple défouloir photo et graphiq
   cette édition sort de façon alléatoire et est le fruit de recherches d'images et
   de mots. Un thème ? oui, enfin presque..."
 images:
-- default: /src/assets/images/acetone-graphik020.jpg
+- default: /../../images/acetone-graphik020.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
-- default: /src/assets/images/acetone-graphik021.jpg
+- default: /../../images/acetone-graphik021.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
-- default: /src/assets/images/acetone-graphik022.jpg
+- default: /../../images/acetone-graphik022.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
-- default: /src/assets/images/acetone-graphik023.jpg
+- default: /../../images/acetone-graphik023.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
-- default: /src/assets/images/acetone-graphik025.jpg
+- default: /../../images/acetone-graphik025.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
-- default: /src/assets/images/acetone-graphik024.jpg
+- default: /../../images/acetone-graphik024.jpg
   description: null
   mobile: null
   title: IRSUTE & PROUD
@@ -45,11 +45,11 @@ Simple défouloir photo et graphique, cette édition sort de façon alléatoire 
 
 ## Images
 
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik020.jpg)
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik021.jpg)
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik022.jpg)
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik023.jpg)
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik025.jpg)
-![IRSUTE & PROUD](/src/assets/images/acetone-graphik024.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik020.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik021.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik022.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik023.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik025.jpg)
+![IRSUTE & PROUD](/../../images/acetone-graphik024.jpg)
 
 ## Videos
