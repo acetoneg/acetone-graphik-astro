@@ -6,19 +6,19 @@ description: "__Brochure de luxe pour la collection MARLY (SOCA)__\r\n\r\nVernis
   Gagnère.  \r\nSobriété, luxe et volupté pour un \"mythe\" présent aux Musée des
   Atrts Décoratifs.  \r\n"
 images:
-- default: /../../images/a_g-still-life022.jpg
+- default: ../../images/a_g-still-life022.jpg
   description: null
   mobile: null
   title: MARLY
-- default: /../../images/a_g-still-life024.jpg
+- default: ../../images/a_g-still-life024.jpg
   description: null
   mobile: null
   title: MARLY
-- default: /../../images/a_g-still-life025.jpg
+- default: ../../images/a_g-still-life025.jpg
   description: null
   mobile: null
   title: MARLY
-- default: /../../images/a_g-still-life026.jpg
+- default: ../../images/a_g-still-life026.jpg
   description: null
   mobile: null
   title: MARLY
@@ -40,9 +40,9 @@ Sobriété, luxe et volupté pour un "mythe" présent aux Musée des Atrts Déco
 
 ## Images
 
-![MARLY](/../../images/a_g-still-life022.jpg)
-![MARLY](/../../images/a_g-still-life024.jpg)
-![MARLY](/../../images/a_g-still-life025.jpg)
-![MARLY](/../../images/a_g-still-life026.jpg)
+![MARLY](../../images/a_g-still-life022.jpg)
+![MARLY](../../images/a_g-still-life024.jpg)
+![MARLY](../../images/a_g-still-life025.jpg)
+![MARLY](../../images/a_g-still-life026.jpg)
 
 ## Videos

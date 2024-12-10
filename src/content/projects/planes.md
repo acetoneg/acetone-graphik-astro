@@ -9,35 +9,35 @@ description: "__Prenez de la hauteur en 2016__\r\n\r\nEnvoyer ses voeux est chaq
   papier Curious paper starlight par RDS et plié à la main par vos soins.  \r\n    \r\nImprimeur
   : RDS ATlandoc /  Photographies : Germain Herriau"
 images:
-- default: /../../images/wishes_planes_motif_06.jpg
+- default: ../../images/wishes_planes_motif_06.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_05.jpg
+- default: ../../images/wishes_planes_motif_05.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_07.jpg
+- default: ../../images/wishes_planes_motif_07.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_08.jpg
+- default: ../../images/wishes_planes_motif_08.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_01.jpg
+- default: ../../images/wishes_planes_motif_01.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_02.jpg
+- default: ../../images/wishes_planes_motif_02.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_04.jpg
+- default: ../../images/wishes_planes_motif_04.jpg
   description: null
   mobile: null
   title: PLANES
-- default: /../../images/wishes_planes_motif_03.jpg
+- default: ../../images/wishes_planes_motif_03.jpg
   description: null
   mobile: null
   title: PLANES
@@ -61,13 +61,13 @@ Imprimeur : RDS ATlandoc /  Photographies : Germain Herriau
 
 ## Images
 
-![PLANES](/../../images/wishes_planes_motif_06.jpg)
-![PLANES](/../../images/wishes_planes_motif_05.jpg)
-![PLANES](/../../images/wishes_planes_motif_07.jpg)
-![PLANES](/../../images/wishes_planes_motif_08.jpg)
-![PLANES](/../../images/wishes_planes_motif_01.jpg)
-![PLANES](/../../images/wishes_planes_motif_02.jpg)
-![PLANES](/../../images/wishes_planes_motif_04.jpg)
-![PLANES](/../../images/wishes_planes_motif_03.jpg)
+![PLANES](../../images/wishes_planes_motif_06.jpg)
+![PLANES](../../images/wishes_planes_motif_05.jpg)
+![PLANES](../../images/wishes_planes_motif_07.jpg)
+![PLANES](../../images/wishes_planes_motif_08.jpg)
+![PLANES](../../images/wishes_planes_motif_01.jpg)
+![PLANES](../../images/wishes_planes_motif_02.jpg)
+![PLANES](../../images/wishes_planes_motif_04.jpg)
+![PLANES](../../images/wishes_planes_motif_03.jpg)
 
 ## Videos

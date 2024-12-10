@@ -5,19 +5,19 @@ description: "__Carte d'inspiration du studio s/ Fedrigoni 480grs__\r\n\r\nImpri
   par House of Press, la carte \"SOBRIÉTÉ\" est un clin d'oeil à ce qui ne l'est pas.
   Chaque lettre du mot est une typo, un message à lui tout seul."
 images:
-- default: /../../images/sobriete_1_1.jpg
+- default: ../../images/sobriete_1_1.jpg
   description: null
   mobile: null
   title: SOBRIÉTÉ LETTERPRESS
-- default: /../../images/sobriete_2_1.jpg
+- default: ../../images/sobriete_2_1.jpg
   description: null
   mobile: null
   title: SOBRIÉTÉ LETTERPRESS
-- default: /../../images/sobriete_3.jpg
+- default: ../../images/sobriete_3.jpg
   description: null
   mobile: null
   title: SOBRIÉTÉ LETTERPRESS
-- default: /../../images/sobriete_4.jpg
+- default: ../../images/sobriete_4.jpg
   description: null
   mobile: null
   title: SOBRIÉTÉ LETTERPRESS
@@ -37,9 +37,9 @@ Imprimé par House of Press, la carte "SOBRIÉTÉ" est un clin d'oeil à ce qui 
 
 ## Images
 
-![SOBRIÉTÉ LETTERPRESS](/../../images/sobriete_1_1.jpg)
-![SOBRIÉTÉ LETTERPRESS](/../../images/sobriete_2_1.jpg)
-![SOBRIÉTÉ LETTERPRESS](/../../images/sobriete_3.jpg)
-![SOBRIÉTÉ LETTERPRESS](/../../images/sobriete_4.jpg)
+![SOBRIÉTÉ LETTERPRESS](../../images/sobriete_1_1.jpg)
+![SOBRIÉTÉ LETTERPRESS](../../images/sobriete_2_1.jpg)
+![SOBRIÉTÉ LETTERPRESS](../../images/sobriete_3.jpg)
+![SOBRIÉTÉ LETTERPRESS](../../images/sobriete_4.jpg)
 
 ## Videos

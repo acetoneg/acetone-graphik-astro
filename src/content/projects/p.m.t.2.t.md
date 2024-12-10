@@ -10,19 +10,19 @@ description: "__Série limitée tasse émail Studio ACETONE__\r\n\r\nAmateur de 
   \ \r\n    \r\nGravure : LaserTeam  /  Typographie & Animation : studio ACETONE /
   Photographies : Germain Herriau"
 images:
-- default: /../../images/tasse_acetone-animation.gif
+- default: ../../images/tasse_acetone-animation.gif
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /../../images/tasse-emaille-acetone-gravure-laser02.jpg
+- default: ../../images/tasse-emaille-acetone-gravure-laser02.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /../../images/tasse-emaille-acetone-gravure-laser03.jpg
+- default: ../../images/tasse-emaille-acetone-gravure-laser03.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
-- default: /../../images/pmt2t-dessin-typographique.jpg
+- default: ../../images/pmt2t-dessin-typographique.jpg
   description: null
   mobile: null
   title: P.M.T.2.T
@@ -46,9 +46,9 @@ Gravure : LaserTeam  /  Typographie & Animation : studio ACETONE / Photographies
 
 ## Images
 
-![P.M.T.2.T](/../../images/tasse_acetone-animation.gif)
-![P.M.T.2.T](/../../images/tasse-emaille-acetone-gravure-laser02.jpg)
-![P.M.T.2.T](/../../images/tasse-emaille-acetone-gravure-laser03.jpg)
-![P.M.T.2.T](/../../images/pmt2t-dessin-typographique.jpg)
+![P.M.T.2.T](../../images/tasse_acetone-animation.gif)
+![P.M.T.2.T](../../images/tasse-emaille-acetone-gravure-laser02.jpg)
+![P.M.T.2.T](../../images/tasse-emaille-acetone-gravure-laser03.jpg)
+![P.M.T.2.T](../../images/pmt2t-dessin-typographique.jpg)
 
 ## Videos

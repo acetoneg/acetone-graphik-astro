@@ -8,23 +8,23 @@ description: "__AVANT L'AMOUR__\r\n\r\nTravail graphique et typographique autour
   sans couture et marquage Letterpress. Pantone Fluo + Quadrichromie.  \r\nDirection
   artistique : Yohann Morvan"
 images:
-- default: /../../images/avantlamour-brochure_teaser01.jpg
+- default: ../../images/avantlamour-brochure_teaser01.jpg
   description: null
-  mobile: /../../images/avantlamour-brochure_teaser01_1.jpg
+  mobile: ../../images/avantlamour-brochure_teaser01_1.jpg
   title: Avant l'amour
-- default: /../../images/avantlamour-booklet_teaser01.jpg
-  description: null
-  mobile: null
-  title: Avant l'amour
-- default: /../../images/avantlamour-affiche.jpg
+- default: ../../images/avantlamour-booklet_teaser01.jpg
   description: null
   mobile: null
   title: Avant l'amour
-- default: /../../images/avantlamour-mini-book-carnet_teaser01.jpg
+- default: ../../images/avantlamour-affiche.jpg
   description: null
   mobile: null
   title: Avant l'amour
-- default: /../../images/avantlamour-full-image.jpg
+- default: ../../images/avantlamour-mini-book-carnet_teaser01.jpg
+  description: null
+  mobile: null
+  title: Avant l'amour
+- default: ../../images/avantlamour-full-image.jpg
   description: null
   mobile: null
   title: Avant l'amour
@@ -48,10 +48,10 @@ Direction artistique : Yohann Morvan
 
 ## Images
 
-![Avant l'amour](/../../images/avantlamour-brochure_teaser01.jpg)
-![Avant l'amour](/../../images/avantlamour-booklet_teaser01.jpg)
-![Avant l'amour](/../../images/avantlamour-affiche.jpg)
-![Avant l'amour](/../../images/avantlamour-mini-book-carnet_teaser01.jpg)
-![Avant l'amour](/../../images/avantlamour-full-image.jpg)
+![Avant l'amour](../../images/avantlamour-brochure_teaser01.jpg)
+![Avant l'amour](../../images/avantlamour-booklet_teaser01.jpg)
+![Avant l'amour](../../images/avantlamour-affiche.jpg)
+![Avant l'amour](../../images/avantlamour-mini-book-carnet_teaser01.jpg)
+![Avant l'amour](../../images/avantlamour-full-image.jpg)
 
 ## Videos

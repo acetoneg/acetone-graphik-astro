@@ -11,23 +11,23 @@ description: "__Supports de communication__\r\n\r\nLe Comité de Basket de Loire
   Muscadet, textile... autant de supports permettant d'installer l'identité et son
   logo   \r\ntout au long de cet événement festif et officiel.\r\n"
 images:
-- default: /../../images/acetone_graphik_ag_ffbb_1.jpg
+- default: ../../images/acetone_graphik_ag_ffbb_1.jpg
   description: null
   mobile: null
   title: Assemblée Générale FFBB
-- default: /../../images/acetone_graphik_ag_ffbb_3.jpg
+- default: ../../images/acetone_graphik_ag_ffbb_3.jpg
   description: null
   mobile: null
   title: Assemblée Générale FFBB
-- default: /../../images/acetone_graphik_ag_ffbb_4.jpg
+- default: ../../images/acetone_graphik_ag_ffbb_4.jpg
   description: null
   mobile: null
   title: Assemblée Générale FFBB
-- default: /../../images/acetone_graphik_ag_ffbb_5.jpg
+- default: ../../images/acetone_graphik_ag_ffbb_5.jpg
   description: null
   mobile: null
   title: Assemblée Générale FFBB
-- default: /../../images/acetone_graphik_ag_ffbb_2.jpg
+- default: ../../images/acetone_graphik_ag_ffbb_2.jpg
   description: null
   mobile: null
   title: Assemblée Générale FFBB
@@ -54,10 +54,10 @@ tout au long de cet événement festif et officiel.
 
 ## Images
 
-![Assemblée Générale FFBB](/../../images/acetone_graphik_ag_ffbb_1.jpg)
-![Assemblée Générale FFBB](/../../images/acetone_graphik_ag_ffbb_3.jpg)
-![Assemblée Générale FFBB](/../../images/acetone_graphik_ag_ffbb_4.jpg)
-![Assemblée Générale FFBB](/../../images/acetone_graphik_ag_ffbb_5.jpg)
-![Assemblée Générale FFBB](/../../images/acetone_graphik_ag_ffbb_2.jpg)
+![Assemblée Générale FFBB](../../images/acetone_graphik_ag_ffbb_1.jpg)
+![Assemblée Générale FFBB](../../images/acetone_graphik_ag_ffbb_3.jpg)
+![Assemblée Générale FFBB](../../images/acetone_graphik_ag_ffbb_4.jpg)
+![Assemblée Générale FFBB](../../images/acetone_graphik_ag_ffbb_5.jpg)
+![Assemblée Générale FFBB](../../images/acetone_graphik_ag_ffbb_2.jpg)
 
 ## Videos

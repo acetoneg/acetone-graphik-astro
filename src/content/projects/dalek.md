@@ -8,35 +8,35 @@ description: "__Dépliant Dalek Milan 2016__\r\n\r\n8 pages pour présenter au S
   Herriau, l'impression a été confié à Abelia pour un résultat tout en offset et en
   profondeur."
 images:
-- default: /../../images/dalek-planche_1.jpg
+- default: ../../images/dalek-planche_1.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_2.jpg
+- default: ../../images/dalek-planche_2.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_3.jpg
+- default: ../../images/dalek-planche_3.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_4.jpg
+- default: ../../images/dalek-planche_4.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_5.jpg
+- default: ../../images/dalek-planche_5.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_6.jpg
+- default: ../../images/dalek-planche_6.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_7.jpg
+- default: ../../images/dalek-planche_7.jpg
   description: null
   mobile: null
   title: DALEK
-- default: /../../images/dalek-planche_8.jpg
+- default: ../../images/dalek-planche_8.jpg
   description: null
   mobile: null
   title: DALEK
@@ -58,13 +58,13 @@ Photographié par mon camarade Germain Herriau, l'impression a été confié à 
 
 ## Images
 
-![DALEK](/../../images/dalek-planche_1.jpg)
-![DALEK](/../../images/dalek-planche_2.jpg)
-![DALEK](/../../images/dalek-planche_3.jpg)
-![DALEK](/../../images/dalek-planche_4.jpg)
-![DALEK](/../../images/dalek-planche_5.jpg)
-![DALEK](/../../images/dalek-planche_6.jpg)
-![DALEK](/../../images/dalek-planche_7.jpg)
-![DALEK](/../../images/dalek-planche_8.jpg)
+![DALEK](../../images/dalek-planche_1.jpg)
+![DALEK](../../images/dalek-planche_2.jpg)
+![DALEK](../../images/dalek-planche_3.jpg)
+![DALEK](../../images/dalek-planche_4.jpg)
+![DALEK](../../images/dalek-planche_5.jpg)
+![DALEK](../../images/dalek-planche_6.jpg)
+![DALEK](../../images/dalek-planche_7.jpg)
+![DALEK](../../images/dalek-planche_8.jpg)
 
 ## Videos

@@ -7,15 +7,15 @@ description: "__Animations en Motion-Design \"I love cities\" co-réalisés avec
   en 4 symboles et animés avec l'imagination de Matthieu.  \r\nCo-réalisation : Matthieu
   Gadin + ACETONE GRAPHIK"
 images:
-- default: /../../images/ilovecities_2_1.jpg
+- default: ../../images/ilovecities_2_1.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
-- default: /../../images/ilovecities_6.jpg
+- default: ../../images/ilovecities_6.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
-- default: /../../images/ilovecities_4.jpg
+- default: ../../images/ilovecities_4.jpg
   description: null
   mobile: null
   title: I LOVE CITIES
@@ -46,9 +46,9 @@ Co-réalisation : Matthieu Gadin + ACETONE GRAPHIK
 
 ## Images
 
-![I LOVE CITIES](/../../images/ilovecities_2_1.jpg)
-![I LOVE CITIES](/../../images/ilovecities_6.jpg)
-![I LOVE CITIES](/../../images/ilovecities_4.jpg)
+![I LOVE CITIES](../../images/ilovecities_2_1.jpg)
+![I LOVE CITIES](../../images/ilovecities_6.jpg)
+![I LOVE CITIES](../../images/ilovecities_4.jpg)
 
 ## Videos
 

@@ -11,39 +11,39 @@ description: "__Brochure 24p - SOCA Salon du Design de Milan 2017__\r\n\r\nSoca 
   d'impression sobre mais qualitatif. Le tout servi par une mise en page tantôt rigoureuse
   \ \r\ntantôt libre et sans code...   \r\n    \r\nPhotographies : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /../../images/soca_milan_2017_brochure_croquis_09.jpg
+- default: ../../images/soca_milan_2017_brochure_croquis_09.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_croquis_07.jpg
+- default: ../../images/soca_milan_2017_brochure_croquis_07.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_croquis_06.jpg
+- default: ../../images/soca_milan_2017_brochure_croquis_06.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_majorana.jpg
+- default: ../../images/soca_milan_2017_brochure_majorana.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_05.jpg
+- default: ../../images/soca_milan_2017_brochure_05.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_04.jpg
+- default: ../../images/soca_milan_2017_brochure_04.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_03.jpg
+- default: ../../images/soca_milan_2017_brochure_03.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_endlesssummer.jpg
+- default: ../../images/soca_milan_2017_brochure_endlesssummer.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
-- default: /../../images/soca_milan_2017_brochure_01.jpg
+- default: ../../images/soca_milan_2017_brochure_01.jpg
   description: null
   mobile: null
   title: SOCA - MILAN 17
@@ -69,14 +69,14 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_croquis_09.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_croquis_07.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_croquis_06.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_majorana.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_05.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_04.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_03.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_endlesssummer.jpg)
-![SOCA - MILAN 17](/../../images/soca_milan_2017_brochure_01.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_croquis_09.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_croquis_07.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_croquis_06.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_majorana.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_05.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_04.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_03.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_endlesssummer.jpg)
+![SOCA - MILAN 17](../../images/soca_milan_2017_brochure_01.jpg)
 
 ## Videos

@@ -5,11 +5,11 @@ description: "__Typographie Stencil__\r\n\r\nDessinée pour SOCA et sa collectio
   la CAL exprime par ses signes aérés et arrondis une certaine idée du stencil. Elle
   accompagne les documents présentant la collection.  \r\nLe site de [SOCA](http://www.soca.fr)"
 images:
-- default: /../../images/a_g-still-life077.jpg
+- default: ../../images/a_g-still-life077.jpg
   description: null
   mobile: null
   title: CAL FONT
-- default: /../../images/a_g-still-life076.jpg
+- default: ../../images/a_g-still-life076.jpg
   description: null
   mobile: null
   title: CAL FONT
@@ -31,7 +31,7 @@ Le site de [SOCA](http://www.soca.fr)
 
 ## Images
 
-![CAL FONT](/../../images/a_g-still-life077.jpg)
-![CAL FONT](/../../images/a_g-still-life076.jpg)
+![CAL FONT](../../images/a_g-still-life077.jpg)
+![CAL FONT](../../images/a_g-still-life076.jpg)
 
 ## Videos

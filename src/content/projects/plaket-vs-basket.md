@@ -10,19 +10,19 @@ description: "__Plaquette & Chemise Comité de Basket de Loire-Atlantique__\r\n\
   \  \r\n\r\nCréation & Direction Artistique : studio ACETONE  \r\nPhotographies :
   [Germain Herriau](http://www.germainherriau.com)  "
 images:
-- default: /../../images/comite-basket-loire-atlantique_fiches.jpg
+- default: ../../images/comite-basket-loire-atlantique_fiches.jpg
   description: null
   mobile: null
   title: PLAKET VS BASKET
-- default: /../../images/comite-basket-loire-atlantique_chemise_fiches-coueurs.jpg
+- default: ../../images/comite-basket-loire-atlantique_chemise_fiches-coueurs.jpg
   description: null
   mobile: null
   title: PLAKET VS BASKET
-- default: /../../images/comite-basket-loire-atlantique_chemise_filet.jpg
+- default: ../../images/comite-basket-loire-atlantique_chemise_filet.jpg
   description: null
   mobile: null
   title: PLAKET VS BASKET
-- default: /../../images/comite-basket-loire-atlantique_chemise_ballon.jpg
+- default: ../../images/comite-basket-loire-atlantique_chemise_ballon.jpg
   description: null
   mobile: null
   title: PLAKET VS BASKET
@@ -47,9 +47,9 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![PLAKET VS BASKET](/../../images/comite-basket-loire-atlantique_fiches.jpg)
-![PLAKET VS BASKET](/../../images/comite-basket-loire-atlantique_chemise_fiches-coueurs.jpg)
-![PLAKET VS BASKET](/../../images/comite-basket-loire-atlantique_chemise_filet.jpg)
-![PLAKET VS BASKET](/../../images/comite-basket-loire-atlantique_chemise_ballon.jpg)
+![PLAKET VS BASKET](../../images/comite-basket-loire-atlantique_fiches.jpg)
+![PLAKET VS BASKET](../../images/comite-basket-loire-atlantique_chemise_fiches-coueurs.jpg)
+![PLAKET VS BASKET](../../images/comite-basket-loire-atlantique_chemise_filet.jpg)
+![PLAKET VS BASKET](../../images/comite-basket-loire-atlantique_chemise_ballon.jpg)
 
 ## Videos

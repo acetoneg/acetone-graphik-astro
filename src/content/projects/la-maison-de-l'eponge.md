@@ -9,23 +9,23 @@ description: "__Site E-commerce de la Maison de l'Eponge__\r\n\r\nLe leader de l
   de mer depuis plusieurs générations.  \r\n\r\nIdentité graphique : SUPERBOLD  \r\n
   \ \r\n[Visitez le site.](http://www.la-maison-eponge.com/fr)  "
 images:
-- default: /../../images/maison-de-l-eponge_homepage.jpg
+- default: ../../images/maison-de-l-eponge_homepage.jpg
   description: null
   mobile: null
   title: La Maison de l'Eponge
-- default: /../../images/maison-de-l-eponge_fiche-produit2.jpg
+- default: ../../images/maison-de-l-eponge_fiche-produit2.jpg
   description: null
   mobile: null
   title: La Maison de l'Eponge
-- default: /../../images/maison-de-l-eponge_categorie.jpg
+- default: ../../images/maison-de-l-eponge_categorie.jpg
   description: null
   mobile: null
   title: La Maison de l'Eponge
-- default: /../../images/maison-de-l-eponge_fiche-produit.jpg
+- default: ../../images/maison-de-l-eponge_fiche-produit.jpg
   description: null
   mobile: null
   title: La Maison de l'Eponge
-- default: /../../images/maison-de-l-eponge_slides.jpg
+- default: ../../images/maison-de-l-eponge_slides.jpg
   description: null
   mobile: null
   title: La Maison de l'Eponge
@@ -50,10 +50,10 @@ Identité graphique : SUPERBOLD
 
 ## Images
 
-![La Maison de l'Eponge](/../../images/maison-de-l-eponge_homepage.jpg)
-![La Maison de l'Eponge](/../../images/maison-de-l-eponge_fiche-produit2.jpg)
-![La Maison de l'Eponge](/../../images/maison-de-l-eponge_categorie.jpg)
-![La Maison de l'Eponge](/../../images/maison-de-l-eponge_fiche-produit.jpg)
-![La Maison de l'Eponge](/../../images/maison-de-l-eponge_slides.jpg)
+![La Maison de l'Eponge](../../images/maison-de-l-eponge_homepage.jpg)
+![La Maison de l'Eponge](../../images/maison-de-l-eponge_fiche-produit2.jpg)
+![La Maison de l'Eponge](../../images/maison-de-l-eponge_categorie.jpg)
+![La Maison de l'Eponge](../../images/maison-de-l-eponge_fiche-produit.jpg)
+![La Maison de l'Eponge](../../images/maison-de-l-eponge_slides.jpg)
 
 ## Videos

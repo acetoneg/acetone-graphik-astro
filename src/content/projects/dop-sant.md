@@ -11,31 +11,31 @@ description: "__Mallette de jeux autour du dopage__\r\n\r\nLes Antennes Médical
   à laisser place à la parole et la délier avant tout.   \r\nPhotographies : [Germain
   Herriau](http://www.germainherriau.com)  \r\n  \r\nLe site des [AMPD](http://www.ampd.fr)"
 images:
-- default: /../../images/dop-sante-super-dop.jpg
+- default: ../../images/dop-sante-super-dop.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-cartes_jsjnsp_1.jpg
+- default: ../../images/dop-sante-cartes_jsjnsp_1.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-mallette-jeux.jpg
+- default: ../../images/dop-sante-mallette-jeux.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-photo-expression.jpg
+- default: ../../images/dop-sante-photo-expression.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-represente-medias.jpg
+- default: ../../images/dop-sante-represente-medias.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-ya-debat.jpg
+- default: ../../images/dop-sante-ya-debat.jpg
   description: null
   mobile: null
   title: Dop Santé
-- default: /../../images/dop-sante-jeu-represente-collage.jpg
+- default: ../../images/dop-sante-jeu-represente-collage.jpg
   description: null
   mobile: null
   title: Dop Santé
@@ -60,12 +60,12 @@ Le site des [AMPD](http://www.ampd.fr)
 
 ## Images
 
-![Dop Santé](/../../images/dop-sante-super-dop.jpg)
-![Dop Santé](/../../images/dop-sante-cartes_jsjnsp_1.jpg)
-![Dop Santé](/../../images/dop-sante-mallette-jeux.jpg)
-![Dop Santé](/../../images/dop-sante-photo-expression.jpg)
-![Dop Santé](/../../images/dop-sante-represente-medias.jpg)
-![Dop Santé](/../../images/dop-sante-ya-debat.jpg)
-![Dop Santé](/../../images/dop-sante-jeu-represente-collage.jpg)
+![Dop Santé](../../images/dop-sante-super-dop.jpg)
+![Dop Santé](../../images/dop-sante-cartes_jsjnsp_1.jpg)
+![Dop Santé](../../images/dop-sante-mallette-jeux.jpg)
+![Dop Santé](../../images/dop-sante-photo-expression.jpg)
+![Dop Santé](../../images/dop-sante-represente-medias.jpg)
+![Dop Santé](../../images/dop-sante-ya-debat.jpg)
+![Dop Santé](../../images/dop-sante-jeu-represente-collage.jpg)
 
 ## Videos

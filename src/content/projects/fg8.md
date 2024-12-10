@@ -6,23 +6,23 @@ description: "__6 volets accordéon en plis décalés__\r\n\r\nUne mécanique de
   de gamme, pictogrammes et détails prennent facilement leur place dans un document
   ludique et coloré."
 images:
-- default: /../../images/a_g-still-life061.jpg
+- default: ../../images/a_g-still-life061.jpg
   description: null
   mobile: null
   title: FG8
-- default: /../../images/a_g-still-life059.jpg
+- default: ../../images/a_g-still-life059.jpg
   description: null
   mobile: null
   title: FG8
-- default: /../../images/a_g-still-life060.jpg
+- default: ../../images/a_g-still-life060.jpg
   description: null
   mobile: null
   title: FG8
-- default: /../../images/a_g-still-life063.jpg
+- default: ../../images/a_g-still-life063.jpg
   description: null
   mobile: null
   title: FG8
-- default: /../../images/a_g-still-life062.jpg
+- default: ../../images/a_g-still-life062.jpg
   description: null
   mobile: null
   title: FG8
@@ -43,10 +43,10 @@ Teasing, photo de gamme, pictogrammes et détails prennent facilement leur place
 
 ## Images
 
-![FG8](/../../images/a_g-still-life061.jpg)
-![FG8](/../../images/a_g-still-life059.jpg)
-![FG8](/../../images/a_g-still-life060.jpg)
-![FG8](/../../images/a_g-still-life063.jpg)
-![FG8](/../../images/a_g-still-life062.jpg)
+![FG8](../../images/a_g-still-life061.jpg)
+![FG8](../../images/a_g-still-life059.jpg)
+![FG8](../../images/a_g-still-life060.jpg)
+![FG8](../../images/a_g-still-life063.jpg)
+![FG8](../../images/a_g-still-life062.jpg)
 
 ## Videos

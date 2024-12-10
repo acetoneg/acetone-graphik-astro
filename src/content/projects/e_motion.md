@@ -9,7 +9,7 @@ description: "__(E)motion c'est un duo qui délivre un message animé__\r\n\r\nU
   \  \r\n  \r\nIdentité & Direction Artistique : studio ACETONE  \r\nMotion Design
   : [Mickaël Coulay](https://www.mickaelcoulay.com/)  "
 images:
-- default: /../../images/emotion-ep1-thumbnail.jpg
+- default: ../../images/emotion-ep1-thumbnail.jpg
   description: null
   mobile: null
   title: (E)MOTION
@@ -36,7 +36,7 @@ Motion Design : [Mickaël Coulay](https://www.mickaelcoulay.com/)
 
 ## Images
 
-![(E)MOTION](/../../images/emotion-ep1-thumbnail.jpg)
+![(E)MOTION](../../images/emotion-ep1-thumbnail.jpg)
 
 ## Videos
 

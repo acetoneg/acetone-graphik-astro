@@ -17,27 +17,27 @@ description: "__POLLUSOLS x OSUNA x Université de Nantes__\r\n\r\nLes activité
   résultats au travers d'une brochure et de décliner ce travail sur une affiche d'une
   soirée débat au LIEU UNIQUE.   \r\n\r\nDirection artistique : Yohann Morvan"
 images:
-- default: /../../images/pollusols_brochure_focus_ok.jpg
+- default: ../../images/pollusols_brochure_focus_ok.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /../../images/pollusols_brochure_ok.jpg
+- default: ../../images/pollusols_brochure_ok.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /../../images/pollusols_affiches_rue.jpg
+- default: ../../images/pollusols_affiches_rue.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /../../images/pollusols_magazine_sites-uraniferes.jpg
+- default: ../../images/pollusols_magazine_sites-uraniferes.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /../../images/pollusols_magazine_projet.jpg
+- default: ../../images/pollusols_magazine_projet.jpg
   description: null
   mobile: null
   title: POLLUSOLS
-- default: /../../images/pollusols_magazine_sites-estuariens.jpg
+- default: ../../images/pollusols_magazine_sites-estuariens.jpg
   description: null
   mobile: null
   title: POLLUSOLS
@@ -64,11 +64,11 @@ Direction artistique : Yohann Morvan
 
 ## Images
 
-![POLLUSOLS](/../../images/pollusols_brochure_focus_ok.jpg)
-![POLLUSOLS](/../../images/pollusols_brochure_ok.jpg)
-![POLLUSOLS](/../../images/pollusols_affiches_rue.jpg)
-![POLLUSOLS](/../../images/pollusols_magazine_sites-uraniferes.jpg)
-![POLLUSOLS](/../../images/pollusols_magazine_projet.jpg)
-![POLLUSOLS](/../../images/pollusols_magazine_sites-estuariens.jpg)
+![POLLUSOLS](../../images/pollusols_brochure_focus_ok.jpg)
+![POLLUSOLS](../../images/pollusols_brochure_ok.jpg)
+![POLLUSOLS](../../images/pollusols_affiches_rue.jpg)
+![POLLUSOLS](../../images/pollusols_magazine_sites-uraniferes.jpg)
+![POLLUSOLS](../../images/pollusols_magazine_projet.jpg)
+![POLLUSOLS](../../images/pollusols_magazine_sites-estuariens.jpg)
 
 ## Videos

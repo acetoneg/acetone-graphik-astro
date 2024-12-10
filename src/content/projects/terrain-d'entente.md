@@ -14,19 +14,19 @@ description: "__Opération s/ les incivilités sportives__\r\n\r\n«Terrain d’
   de Loire-Atlantique / Bertrand Guérineau et Rodolphe Guilbaud (Psychologues du sport)
   \ \r\nLe site des [Antennes Médicales de Prévention Dopage](http://www.ampd.fr)"
 images:
-- default: /../../images/terrain-dentente_affiche-logo.jpg
+- default: ../../images/terrain-dentente_affiche-logo.jpg
   description: null
   mobile: null
   title: TERRAIN D'ENTENTE
-- default: /../../images/terrain-dentente_affiches-phrases.jpg
+- default: ../../images/terrain-dentente_affiches-phrases.jpg
   description: null
   mobile: null
   title: TERRAIN D'ENTENTE
-- default: /../../images/terrain-dentente_ballon.jpg
+- default: ../../images/terrain-dentente_ballon.jpg
   description: null
   mobile: null
   title: TERRAIN D'ENTENTE
-- default: /../../images/terrain-dentente_teeshirts.jpg
+- default: ../../images/terrain-dentente_teeshirts.jpg
   description: null
   mobile: null
   title: TERRAIN D'ENTENTE
@@ -53,9 +53,9 @@ Le site des [Antennes Médicales de Prévention Dopage](http://www.ampd.fr)
 
 ## Images
 
-![TERRAIN D'ENTENTE](/../../images/terrain-dentente_affiche-logo.jpg)
-![TERRAIN D'ENTENTE](/../../images/terrain-dentente_affiches-phrases.jpg)
-![TERRAIN D'ENTENTE](/../../images/terrain-dentente_ballon.jpg)
-![TERRAIN D'ENTENTE](/../../images/terrain-dentente_teeshirts.jpg)
+![TERRAIN D'ENTENTE](../../images/terrain-dentente_affiche-logo.jpg)
+![TERRAIN D'ENTENTE](../../images/terrain-dentente_affiches-phrases.jpg)
+![TERRAIN D'ENTENTE](../../images/terrain-dentente_ballon.jpg)
+![TERRAIN D'ENTENTE](../../images/terrain-dentente_teeshirts.jpg)
 
 ## Videos

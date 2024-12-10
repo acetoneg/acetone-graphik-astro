@@ -8,27 +8,27 @@ description: "__SOCA FRANCE__\r\n\r\nCréation de 2 posters pour Soca France, é
   les ateleirs de l'éditeur.  \r\nLe site de [SOCA](http://www.soca.fr)  \r\nPhotographies
   : [Germain Herriau](http://www.germainherriau.com)"
 images:
-- default: /../../images/soca_posters_distria_soca-sorry03.jpg
+- default: ../../images/soca_posters_distria_soca-sorry03.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
-- default: /../../images/soca_posters_distria_soca-sorry02.jpg
+- default: ../../images/soca_posters_distria_soca-sorry02.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
-- default: /../../images/soca_posters_distria_soca-sorry01.jpg
+- default: ../../images/soca_posters_distria_soca-sorry01.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
-- default: /../../images/soca_posters_distria_soca-andromede03.jpg
+- default: ../../images/soca_posters_distria_soca-andromede03.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
-- default: /../../images/soca_posters_distria_soca-andromede02.jpg
+- default: ../../images/soca_posters_distria_soca-andromede02.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
-- default: /../../images/soca_posters_distria_soca-andromede01.jpg
+- default: ../../images/soca_posters_distria_soca-andromede01.jpg
   description: null
   mobile: null
   title: POSTERS DESIGN SOCA
@@ -52,11 +52,11 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-sorry03.jpg)
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-sorry02.jpg)
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-sorry01.jpg)
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-andromede03.jpg)
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-andromede02.jpg)
-![POSTERS DESIGN SOCA](/../../images/soca_posters_distria_soca-andromede01.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-sorry03.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-sorry02.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-sorry01.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-andromede03.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-andromede02.jpg)
+![POSTERS DESIGN SOCA](../../images/soca_posters_distria_soca-andromede01.jpg)
 
 ## Videos

@@ -10,15 +10,15 @@ description: "__Gourde du studio__\r\n\r\nUn objet incontournable du quotidien d
   \ \r\n\r\nIdentité & Direction Artistique : studio ACETONE  \r\nPhotographies :
   [Germain Herriau](http://www.germainherriau.com)  \r\n "
 images:
-- default: /../../images/reload-bottle-serigraphie-zoom-peinture.jpg
+- default: ../../images/reload-bottle-serigraphie-zoom-peinture.jpg
   description: null
   mobile: null
   title: RELOAD
-- default: /../../images/reload-bottle-serigraphie-buffle.jpg
+- default: ../../images/reload-bottle-serigraphie-buffle.jpg
   description: null
   mobile: null
   title: RELOAD
-- default: /../../images/reload-bottle-concrete-japan.jpg
+- default: ../../images/reload-bottle-concrete-japan.jpg
   description: null
   mobile: null
   title: RELOAD
@@ -45,8 +45,8 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![RELOAD](/../../images/reload-bottle-serigraphie-zoom-peinture.jpg)
-![RELOAD](/../../images/reload-bottle-serigraphie-buffle.jpg)
-![RELOAD](/../../images/reload-bottle-concrete-japan.jpg)
+![RELOAD](../../images/reload-bottle-serigraphie-zoom-peinture.jpg)
+![RELOAD](../../images/reload-bottle-serigraphie-buffle.jpg)
+![RELOAD](../../images/reload-bottle-concrete-japan.jpg)
 
 ## Videos
