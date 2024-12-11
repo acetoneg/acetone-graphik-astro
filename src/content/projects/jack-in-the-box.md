@@ -10,35 +10,35 @@ description: "__Nouvelle identité & site responsive Jack In The Box__\r\n\r\nUn
   avec la société Leadforce,  spécialisée dans le web-marketing.   \r\nSite Responsive
   propulsé sous Wordpress. **[Découvrir le site.](http://www.jack.fr)**"
 images:
-- default: ../../images/jack-in-the-box_1-1.jpg
+- default: /images/jack-in-the-box_1-1.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_1-2.jpg
+- default: /images/jack-in-the-box_1-2.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_1-3.jpg
+- default: /images/jack-in-the-box_1-3.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_2.jpg
+- default: /images/jack-in-the-box_2.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_3.jpg
+- default: /images/jack-in-the-box_3.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_4.jpg
+- default: /images/jack-in-the-box_4.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jack-in-the-box_1-0.jpg
+- default: /images/jack-in-the-box_1-0.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
-- default: ../../images/jitb-illu-teasing.jpg
+- default: /images/jitb-illu-teasing.jpg
   description: null
   mobile: null
   title: JACK IN THE BOX
@@ -62,13 +62,13 @@ Site Responsive propulsé sous Wordpress. **[Découvrir le site.](http://www.jac
 
 ## Images
 
-![JACK IN THE BOX](../../images/jack-in-the-box_1-1.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_1-2.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_1-3.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_2.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_3.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_4.jpg)
-![JACK IN THE BOX](../../images/jack-in-the-box_1-0.jpg)
-![JACK IN THE BOX](../../images/jitb-illu-teasing.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_1-1.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_1-2.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_1-3.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_2.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_3.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_4.jpg)
+![JACK IN THE BOX](/images/jack-in-the-box_1-0.jpg)
+![JACK IN THE BOX](/images/jitb-illu-teasing.jpg)
 
 ## Videos

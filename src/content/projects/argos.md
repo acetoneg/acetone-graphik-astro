@@ -12,39 +12,39 @@ description: "__Gamme de poufs simples par SOCA France__\r\n\r\nSoca France avai
   \ \r\n  \r\nIdentité & Direction Artistique : studio ACETONE  \r\nPhotographies
   : [Germain Herriau](http://www.germainherriau.com)  \r\n  \r\nLe site de [SOCA](https://www.soca.fr)"
 images:
-- default: ../../images/argos-pouf-totebag_multicolore.jpg
+- default: /images/argos-pouf-totebag_multicolore.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf_edition-notebook.jpg
+- default: /images/argos-pouf_edition-notebook.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-jaune_soca-sangle.jpg
+- default: /images/argos-pouf-jaune_soca-sangle.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-kvadrat_soca-letters-green.jpg
+- default: /images/argos-pouf-kvadrat_soca-letters-green.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-famille-couleurs-sky.jpg
+- default: /images/argos-pouf-famille-couleurs-sky.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-ambiance-lecture.jpg
+- default: /images/argos-pouf-ambiance-lecture.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-ambiance-enfance.jpg
+- default: /images/argos-pouf-ambiance-enfance.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-ambiance-dejeuner.jpg
+- default: /images/argos-pouf-ambiance-dejeuner.jpg
   description: null
   mobile: null
   title: Argos
-- default: ../../images/argos-pouf-magazine.jpg
+- default: /images/argos-pouf-magazine.jpg
   description: null
   mobile: null
   title: Argos
@@ -71,14 +71,14 @@ Le site de [SOCA](https://www.soca.fr)
 
 ## Images
 
-![Argos](../../images/argos-pouf-totebag_multicolore.jpg)
-![Argos](../../images/argos-pouf_edition-notebook.jpg)
-![Argos](../../images/argos-pouf-jaune_soca-sangle.jpg)
-![Argos](../../images/argos-pouf-kvadrat_soca-letters-green.jpg)
-![Argos](../../images/argos-pouf-famille-couleurs-sky.jpg)
-![Argos](../../images/argos-pouf-ambiance-lecture.jpg)
-![Argos](../../images/argos-pouf-ambiance-enfance.jpg)
-![Argos](../../images/argos-pouf-ambiance-dejeuner.jpg)
-![Argos](../../images/argos-pouf-magazine.jpg)
+![Argos](/images/argos-pouf-totebag_multicolore.jpg)
+![Argos](/images/argos-pouf_edition-notebook.jpg)
+![Argos](/images/argos-pouf-jaune_soca-sangle.jpg)
+![Argos](/images/argos-pouf-kvadrat_soca-letters-green.jpg)
+![Argos](/images/argos-pouf-famille-couleurs-sky.jpg)
+![Argos](/images/argos-pouf-ambiance-lecture.jpg)
+![Argos](/images/argos-pouf-ambiance-enfance.jpg)
+![Argos](/images/argos-pouf-ambiance-dejeuner.jpg)
+![Argos](/images/argos-pouf-magazine.jpg)
 
 ## Videos

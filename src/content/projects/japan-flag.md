@@ -8,23 +8,23 @@ description: "__Illustrations vectorielles abstraites__\r\n\r\n« La patience es
   que l'espoir. Avec une issue plus heureuse, celle de la Vie qui reprend et qui l'emporte.
   \ \r\n\r\nCréation & Direction Artistique : studio ACETONE  "
 images:
-- default: ../../images/japanflag-edition03.jpg
+- default: /images/japanflag-edition03.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: ../../images/japanflag-edition02.jpg
+- default: /images/japanflag-edition02.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: ../../images/japanflag-edition01.jpg
+- default: /images/japanflag-edition01.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: ../../images/japanflag-scarf.jpg
+- default: /images/japanflag-scarf.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
-- default: ../../images/japanflag-newspaper-happy-new-year.jpg
+- default: /images/japanflag-newspaper-happy-new-year.jpg
   description: null
   mobile: null
   title: JAPAN FLAG
@@ -48,10 +48,10 @@ Création & Direction Artistique : studio ACETONE
 
 ## Images
 
-![JAPAN FLAG](../../images/japanflag-edition03.jpg)
-![JAPAN FLAG](../../images/japanflag-edition02.jpg)
-![JAPAN FLAG](../../images/japanflag-edition01.jpg)
-![JAPAN FLAG](../../images/japanflag-scarf.jpg)
-![JAPAN FLAG](../../images/japanflag-newspaper-happy-new-year.jpg)
+![JAPAN FLAG](/images/japanflag-edition03.jpg)
+![JAPAN FLAG](/images/japanflag-edition02.jpg)
+![JAPAN FLAG](/images/japanflag-edition01.jpg)
+![JAPAN FLAG](/images/japanflag-scarf.jpg)
+![JAPAN FLAG](/images/japanflag-newspaper-happy-new-year.jpg)
 
 ## Videos

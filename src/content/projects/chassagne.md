@@ -11,23 +11,23 @@ description: "__Chemise & Fiches Formations__\r\n\r\nLe studio avait déjà sign
   de [CHASSAGNE](https://chassagne.paysdelaloire.e-lyco.fr/)  \r\nDirection artistique
   : Yohann Morvan  Impression : Imprimerie ALLAIS (Basse-Goulaine, 44)"
 images:
-- default: ../../images/lycee-chassagne_chemise-verso-detail-pantone.jpg
+- default: /images/lycee-chassagne_chemise-verso-detail-pantone.jpg
   description: null
   mobile: null
   title: CHASSAGNE
-- default: ../../images/lycee-chassagne_chemise-verso-plan.jpg
+- default: /images/lycee-chassagne_chemise-verso-plan.jpg
   description: null
   mobile: null
   title: CHASSAGNE
-- default: ../../images/lycee-chassagne_chemise-fiches-formations.jpg
+- default: /images/lycee-chassagne_chemise-fiches-formations.jpg
   description: null
   mobile: null
   title: CHASSAGNE
-- default: ../../images/lycee-chassagne_chemise-decoupe-detail-kraft.jpg
+- default: /images/lycee-chassagne_chemise-decoupe-detail-kraft.jpg
   description: null
   mobile: null
   title: CHASSAGNE
-- default: ../../images/lycee-chassagne_chemise-decoupe.jpg
+- default: /images/lycee-chassagne_chemise-decoupe.jpg
   description: null
   mobile: null
   title: CHASSAGNE
@@ -52,10 +52,10 @@ Direction artistique : Yohann Morvan  Impression : Imprimerie ALLAIS (Basse-Goul
 
 ## Images
 
-![CHASSAGNE](../../images/lycee-chassagne_chemise-verso-detail-pantone.jpg)
-![CHASSAGNE](../../images/lycee-chassagne_chemise-verso-plan.jpg)
-![CHASSAGNE](../../images/lycee-chassagne_chemise-fiches-formations.jpg)
-![CHASSAGNE](../../images/lycee-chassagne_chemise-decoupe-detail-kraft.jpg)
-![CHASSAGNE](../../images/lycee-chassagne_chemise-decoupe.jpg)
+![CHASSAGNE](/images/lycee-chassagne_chemise-verso-detail-pantone.jpg)
+![CHASSAGNE](/images/lycee-chassagne_chemise-verso-plan.jpg)
+![CHASSAGNE](/images/lycee-chassagne_chemise-fiches-formations.jpg)
+![CHASSAGNE](/images/lycee-chassagne_chemise-decoupe-detail-kraft.jpg)
+![CHASSAGNE](/images/lycee-chassagne_chemise-decoupe.jpg)
 
 ## Videos

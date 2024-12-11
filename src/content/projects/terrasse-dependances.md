@@ -11,27 +11,27 @@ description: "__Identité & supports de communication__\r\n\r\nLa boutique de mo
   \   \r\nPhotographies : [Germain Herriau](http://www.germainherriau.com)  - DA :
   studio ACETONE + SUPERBOLD\r\n"
 images:
-- default: ../../images/terrasse-et-dependances_1.jpg
+- default: /images/terrasse-et-dependances_1.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: ../../images/terrasse-et-dependances_2.jpg
+- default: /images/terrasse-et-dependances_2.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: ../../images/terrasse-et-dependances_3.jpg
+- default: /images/terrasse-et-dependances_3.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: ../../images/terrasse-et-dependances_4.jpg
+- default: /images/terrasse-et-dependances_4.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: ../../images/terrasse-et-dependances_5.jpg
+- default: /images/terrasse-et-dependances_5.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
-- default: ../../images/terrasse-et-dependances_6.jpg
+- default: /images/terrasse-et-dependances_6.jpg
   description: null
   mobile: null
   title: TERRASSE & DEPENDANCES
@@ -57,11 +57,11 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)  - DA : studio 
 
 ## Images
 
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_1.jpg)
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_2.jpg)
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_3.jpg)
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_4.jpg)
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_5.jpg)
-![TERRASSE & DEPENDANCES](../../images/terrasse-et-dependances_6.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_1.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_2.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_3.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_4.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_5.jpg)
+![TERRASSE & DEPENDANCES](/images/terrasse-et-dependances_6.jpg)
 
 ## Videos

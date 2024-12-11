@@ -7,15 +7,15 @@ description: "__Campagne de recrutement jeunes basketeurs__\r\n\r\nLe Comité de
   avec une approche \"flat\" pour rendre le message ludique et simple.   \r\nSupports
   : affiches 40x60 / flyers 10x15 / drapeaux..."
 images:
-- default: ../../images/actions_jeunesse-papercut_basket44.jpg
+- default: /images/actions_jeunesse-papercut_basket44.jpg
   description: null
   mobile: null
   title: ACTIONS JEUNESSE BASKET
-- default: ../../images/actions_jeunesse-flyer_basket44.jpg
+- default: /images/actions_jeunesse-flyer_basket44.jpg
   description: null
   mobile: null
   title: ACTIONS JEUNESSE BASKET
-- default: ../../images/actions_jeunesse-zoom-paper_basket44.jpg
+- default: /images/actions_jeunesse-zoom-paper_basket44.jpg
   description: null
   mobile: null
   title: ACTIONS JEUNESSE BASKET
@@ -37,8 +37,8 @@ Supports : affiches 40x60 / flyers 10x15 / drapeaux...
 
 ## Images
 
-![ACTIONS JEUNESSE BASKET](../../images/actions_jeunesse-papercut_basket44.jpg)
-![ACTIONS JEUNESSE BASKET](../../images/actions_jeunesse-flyer_basket44.jpg)
-![ACTIONS JEUNESSE BASKET](../../images/actions_jeunesse-zoom-paper_basket44.jpg)
+![ACTIONS JEUNESSE BASKET](/images/actions_jeunesse-papercut_basket44.jpg)
+![ACTIONS JEUNESSE BASKET](/images/actions_jeunesse-flyer_basket44.jpg)
+![ACTIONS JEUNESSE BASKET](/images/actions_jeunesse-zoom-paper_basket44.jpg)
 
 ## Videos

@@ -14,23 +14,23 @@ description: "__Site internet dynamique __\r\n\r\nL'équipe be Lobsters accompag
   & Gestion de projet : Yohann Morvan, studio ACETONE  /  Développements WP : Olivier
   Terrien  "
 images:
-- default: ../../images/be-lobsters-vign.jpg
+- default: /images/be-lobsters-vign.jpg
   description: null
   mobile: null
   title: BE LOBSTERS
-- default: ../../images/be-lobsters_typographie.jpg
+- default: /images/be-lobsters_typographie.jpg
   description: null
   mobile: null
   title: BE LOBSTERS
-- default: ../../images/be-lobsters_palette-couleurs.jpg
+- default: /images/be-lobsters_palette-couleurs.jpg
   description: null
   mobile: null
   title: BE LOBSTERS
-- default: ../../images/be-lobsters_logo-vert.jpg
+- default: /images/be-lobsters_logo-vert.jpg
   description: null
   mobile: null
   title: BE LOBSTERS
-- default: ../../images/be-lobsters_logo-photo.jpg
+- default: /images/be-lobsters_logo-photo.jpg
   description: null
   mobile: null
   title: BE LOBSTERS
@@ -62,11 +62,11 @@ Webdesign & Gestion de projet : Yohann Morvan, studio ACETONE  /  Développement
 
 ## Images
 
-![BE LOBSTERS](../../images/be-lobsters-vign.jpg)
-![BE LOBSTERS](../../images/be-lobsters_typographie.jpg)
-![BE LOBSTERS](../../images/be-lobsters_palette-couleurs.jpg)
-![BE LOBSTERS](../../images/be-lobsters_logo-vert.jpg)
-![BE LOBSTERS](../../images/be-lobsters_logo-photo.jpg)
+![BE LOBSTERS](/images/be-lobsters-vign.jpg)
+![BE LOBSTERS](/images/be-lobsters_typographie.jpg)
+![BE LOBSTERS](/images/be-lobsters_palette-couleurs.jpg)
+![BE LOBSTERS](/images/be-lobsters_logo-vert.jpg)
+![BE LOBSTERS](/images/be-lobsters_logo-photo.jpg)
 
 ## Videos
 

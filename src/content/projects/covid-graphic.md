@@ -11,31 +11,31 @@ description: "__Kit de survie d'un graphiste confiné__\r\n\r\nLe confinement au
   \ \r\nDirection artistique : Yohann Morvan, studio ACETONE  /  Impression : ICS
   l'Atelier  /  Sérigraphie : Le Grand Chic  "
 images:
-- default: ../../images/quand-le-monde-eternue_rouge_1.jpg
+- default: /images/quand-le-monde-eternue_rouge_1.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/covid-graphic_transparent-pitch.jpg
+- default: /images/covid-graphic_transparent-pitch.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/covid-graphic_transparent-pitch-pincealinge.jpg
+- default: /images/covid-graphic_transparent-pitch-pincealinge.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/covid-graphic_teeshirt-emergency-support_dos.jpg
+- default: /images/covid-graphic_teeshirt-emergency-support_dos.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/covid-graphic_teeshirt-emergency-dos.jpg
+- default: /images/covid-graphic_teeshirt-emergency-dos.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/covid-graphic_teeshirt-emergency-face.jpg
+- default: /images/covid-graphic_teeshirt-emergency-face.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
-- default: ../../images/quand-le-monde-eternue_pangolin-peur.jpg
+- default: /images/quand-le-monde-eternue_pangolin-peur.jpg
   description: null
   mobile: null
   title: COVID GRAPHIC
@@ -60,12 +60,12 @@ Direction artistique : Yohann Morvan, studio ACETONE  /  Impression : ICS l'Atel
 
 ## Images
 
-![COVID GRAPHIC](../../images/quand-le-monde-eternue_rouge_1.jpg)
-![COVID GRAPHIC](../../images/covid-graphic_transparent-pitch.jpg)
-![COVID GRAPHIC](../../images/covid-graphic_transparent-pitch-pincealinge.jpg)
-![COVID GRAPHIC](../../images/covid-graphic_teeshirt-emergency-support_dos.jpg)
-![COVID GRAPHIC](../../images/covid-graphic_teeshirt-emergency-dos.jpg)
-![COVID GRAPHIC](../../images/covid-graphic_teeshirt-emergency-face.jpg)
-![COVID GRAPHIC](../../images/quand-le-monde-eternue_pangolin-peur.jpg)
+![COVID GRAPHIC](/images/quand-le-monde-eternue_rouge_1.jpg)
+![COVID GRAPHIC](/images/covid-graphic_transparent-pitch.jpg)
+![COVID GRAPHIC](/images/covid-graphic_transparent-pitch-pincealinge.jpg)
+![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-support_dos.jpg)
+![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-dos.jpg)
+![COVID GRAPHIC](/images/covid-graphic_teeshirt-emergency-face.jpg)
+![COVID GRAPHIC](/images/quand-le-monde-eternue_pangolin-peur.jpg)
 
 ## Videos

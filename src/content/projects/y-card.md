@@ -6,15 +6,15 @@ description: "__La Yellow Card__\r\n\r\nCarte pour le studio, format A5 pour éc
   :  [Frank Berglund](http://www.frankberglund.com) (flyer) / [Germain Herriau](http://www.germainherriau.com)
   (packshot)"
 images:
-- default: ../../images/y-card_acetone_3.jpg
+- default: /images/y-card_acetone_3.jpg
   description: null
   mobile: null
   title: Y-CARD
-- default: ../../images/y-card_acetone_2.jpg
+- default: /images/y-card_acetone_2.jpg
   description: null
   mobile: null
   title: Y-CARD
-- default: ../../images/y-card_acetone_1.jpg
+- default: /images/y-card_acetone_1.jpg
   description: null
   mobile: null
   title: Y-CARD
@@ -37,8 +37,8 @@ Photographies :  [Frank Berglund](http://www.frankberglund.com) (flyer) / [Germa
 
 ## Images
 
-![Y-CARD](../../images/y-card_acetone_3.jpg)
-![Y-CARD](../../images/y-card_acetone_2.jpg)
-![Y-CARD](../../images/y-card_acetone_1.jpg)
+![Y-CARD](/images/y-card_acetone_3.jpg)
+![Y-CARD](/images/y-card_acetone_2.jpg)
+![Y-CARD](/images/y-card_acetone_1.jpg)
 
 ## Videos

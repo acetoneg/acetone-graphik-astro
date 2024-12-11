@@ -15,55 +15,55 @@ description: "__Identité de marque, communication terrain & packagings__\r\n\r\
   \ \r\n\r\nIdentité & Direction Artistique : studio ACETONE  \r\nPhotographies :
   [Germain Herriau](http://www.germainherriau.com)  \r\n "
 images:
-- default: ../../images/kignon-pack-logo.jpg
+- default: /images/kignon-pack-logo.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon-pack-citron-main.jpg
+- default: /images/kignon-pack-citron-main.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon-explication-handigaspi-pack.jpg
+- default: /images/kignon-explication-handigaspi-pack.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon-5-packs-recettes-boites.jpg
+- default: /images/kignon-5-packs-recettes-boites.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon-pack-citron-amandes.jpg
+- default: /images/kignon-pack-citron-amandes.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-amande-chocolat.jpg
+- default: /images/kignon_packaging-biscuits-boite-amande-chocolat.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon-message-pack.jpg
+- default: /images/kignon-message-pack.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-illustrations-details.jpg
+- default: /images/kignon_packaging-biscuits-boite-illustrations-details.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-chocolat.jpg
+- default: /images/kignon_packaging-biscuits-boite-chocolat.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-citron-amande.jpg
+- default: /images/kignon_packaging-biscuits-boite-citron-amande.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-illustrations.jpg
+- default: /images/kignon_packaging-biscuits-boite-illustrations.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-orange-chocolat.jpg
+- default: /images/kignon_packaging-biscuits-boite-orange-chocolat.jpg
   description: null
   mobile: null
   title: KIGNON
-- default: ../../images/kignon_packaging-biscuits-boite-sarrasin.jpg
+- default: /images/kignon_packaging-biscuits-boite-sarrasin.jpg
   description: null
   mobile: null
   title: KIGNON
@@ -88,18 +88,18 @@ Photographies : [Germain Herriau](http://www.germainherriau.com)
 
 ## Images
 
-![KIGNON](../../images/kignon-pack-logo.jpg)
-![KIGNON](../../images/kignon-pack-citron-main.jpg)
-![KIGNON](../../images/kignon-explication-handigaspi-pack.jpg)
-![KIGNON](../../images/kignon-5-packs-recettes-boites.jpg)
-![KIGNON](../../images/kignon-pack-citron-amandes.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-amande-chocolat.jpg)
-![KIGNON](../../images/kignon-message-pack.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-illustrations-details.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-chocolat.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-citron-amande.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-illustrations.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-orange-chocolat.jpg)
-![KIGNON](../../images/kignon_packaging-biscuits-boite-sarrasin.jpg)
+![KIGNON](/images/kignon-pack-logo.jpg)
+![KIGNON](/images/kignon-pack-citron-main.jpg)
+![KIGNON](/images/kignon-explication-handigaspi-pack.jpg)
+![KIGNON](/images/kignon-5-packs-recettes-boites.jpg)
+![KIGNON](/images/kignon-pack-citron-amandes.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-amande-chocolat.jpg)
+![KIGNON](/images/kignon-message-pack.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-illustrations-details.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-chocolat.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-citron-amande.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-illustrations.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-orange-chocolat.jpg)
+![KIGNON](/images/kignon_packaging-biscuits-boite-sarrasin.jpg)
 
 ## Videos

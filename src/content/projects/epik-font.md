@@ -5,11 +5,11 @@ description: "__Typographie__\r\n\r\nModerne, inspiré des peignes des serrures 
   EPIK Rounded ouvre des portes de lectures nouvelles. L'alphabet complet est dessiné,
   la typographie sera bientôt utilisable.  \r\nContactez-nous pour plus d'infos."
 images:
-- default: ../../images/a_g-still-life072.jpg
+- default: /images/a_g-still-life072.jpg
   description: null
   mobile: null
   title: EPIK FONT
-- default: ../../images/a_g-still-life073.jpg
+- default: /images/a_g-still-life073.jpg
   description: null
   mobile: null
   title: EPIK FONT
@@ -30,7 +30,7 @@ Contactez-nous pour plus d'infos.
 
 ## Images
 
-![EPIK FONT](../../images/a_g-still-life072.jpg)
-![EPIK FONT](../../images/a_g-still-life073.jpg)
+![EPIK FONT](/images/a_g-still-life072.jpg)
+![EPIK FONT](/images/a_g-still-life073.jpg)
 
 ## Videos

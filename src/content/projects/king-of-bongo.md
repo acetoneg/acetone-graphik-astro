@@ -7,15 +7,15 @@ description: "__Collaboration Studio ACETONE x Nicolas Galkowski__  \r\nRetour d
   décliner en objets coussins, fonds d'écrans colorés pour [Behance Wallpaper](https://itunes.apple.com/fr/app/wallpaper-by-behance/id885319628?mt=12)
   et tableaux pour chambre d'enfant. "
 images:
-- default: ../../images/kob_teaser.jpg
+- default: /images/kob_teaser.jpg
   description: null
   mobile: null
   title: KING OF BONGO
-- default: ../../images/kob_coussin.jpg
+- default: /images/kob_coussin.jpg
   description: null
   mobile: null
   title: KING OF BONGO
-- default: ../../images/kob_formats-tablette_1.jpg
+- default: /images/kob_formats-tablette_1.jpg
   description: null
   mobile: null
   title: KING OF BONGO
@@ -35,8 +35,8 @@ Retour dans les années 80 avec un hommage illustré et typographié à la Mano 
 
 ## Images
 
-![KING OF BONGO](../../images/kob_teaser.jpg)
-![KING OF BONGO](../../images/kob_coussin.jpg)
-![KING OF BONGO](../../images/kob_formats-tablette_1.jpg)
+![KING OF BONGO](/images/kob_teaser.jpg)
+![KING OF BONGO](/images/kob_coussin.jpg)
+![KING OF BONGO](/images/kob_formats-tablette_1.jpg)
 
 ## Videos

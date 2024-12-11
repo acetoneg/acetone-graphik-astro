@@ -9,35 +9,35 @@ description: "__SOCA FRANCE__\r\n\r\nSortir de sa zone de confort, voilà un dé
   \ \r\nDirection artistique : Yohann Morvan & Germain Herriau   Photographies : [Germain
   Herriau](http://www.germainherriau.com)"
 images:
-- default: ../../images/soca_horslesmurs_banc-couple.jpg
+- default: /images/soca_horslesmurs_banc-couple.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_cal.jpg
+- default: /images/soca_horslesmurs_cal.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_dalek.jpg
+- default: /images/soca_horslesmurs_dalek.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_fauteuil-frizz.jpg
+- default: /images/soca_horslesmurs_fauteuil-frizz.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_banc-frizz.jpg
+- default: /images/soca_horslesmurs_banc-frizz.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_orion_andromede.jpg
+- default: /images/soca_horslesmurs_orion_andromede.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_rotonde_ufo.jpg
+- default: /images/soca_horslesmurs_rotonde_ufo.jpg
   description: null
   mobile: null
   title: Hors les murs
-- default: ../../images/soca_horslesmurs_topofthepop.jpg
+- default: /images/soca_horslesmurs_topofthepop.jpg
   description: null
   mobile: null
   title: Hors les murs
@@ -63,13 +63,13 @@ Direction artistique : Yohann Morvan & Germain Herriau   Photographies : [Germai
 
 ## Images
 
-![Hors les murs](../../images/soca_horslesmurs_banc-couple.jpg)
-![Hors les murs](../../images/soca_horslesmurs_cal.jpg)
-![Hors les murs](../../images/soca_horslesmurs_dalek.jpg)
-![Hors les murs](../../images/soca_horslesmurs_fauteuil-frizz.jpg)
-![Hors les murs](../../images/soca_horslesmurs_banc-frizz.jpg)
-![Hors les murs](../../images/soca_horslesmurs_orion_andromede.jpg)
-![Hors les murs](../../images/soca_horslesmurs_rotonde_ufo.jpg)
-![Hors les murs](../../images/soca_horslesmurs_topofthepop.jpg)
+![Hors les murs](/images/soca_horslesmurs_banc-couple.jpg)
+![Hors les murs](/images/soca_horslesmurs_cal.jpg)
+![Hors les murs](/images/soca_horslesmurs_dalek.jpg)
+![Hors les murs](/images/soca_horslesmurs_fauteuil-frizz.jpg)
+![Hors les murs](/images/soca_horslesmurs_banc-frizz.jpg)
+![Hors les murs](/images/soca_horslesmurs_orion_andromede.jpg)
+![Hors les murs](/images/soca_horslesmurs_rotonde_ufo.jpg)
+![Hors les murs](/images/soca_horslesmurs_topofthepop.jpg)
 
 ## Videos

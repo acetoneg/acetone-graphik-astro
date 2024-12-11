@@ -12,27 +12,27 @@ description: "__Summer Freelance Identity__\r\n\r\n\"Yes i am freelance !  \r\nP
   \ \r\nLe studio ACETONE vous invite à aimer tout cela... aussi.   \r\n\r\nIdentité,
   Illustrations & Direction Artistique : studio ACETONE  "
 images:
-- default: ../../images/summer-freelance_24-slide-www-acetone.jpg
+- default: /images/summer-freelance_24-slide-www-acetone.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
-- default: ../../images/summer-freelance_illustration-slide_jaune.jpg
+- default: /images/summer-freelance_illustration-slide_jaune.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
-- default: ../../images/summer-freelance_photo-homme-de-dos.jpg
+- default: /images/summer-freelance_photo-homme-de-dos.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
-- default: ../../images/summer-freelance_teeshirt-zoom.jpg
+- default: /images/summer-freelance_teeshirt-zoom.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
-- default: ../../images/summer-freelance_canette.jpg
+- default: /images/summer-freelance_canette.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
-- default: ../../images/summer-freelance_photo-teeshirt-barriere-rue.jpg
+- default: /images/summer-freelance_photo-teeshirt-barriere-rue.jpg
   description: null
   mobile: null
   title: Yes I am Freelance !
@@ -59,11 +59,11 @@ Identité, Illustrations & Direction Artistique : studio ACETONE
 
 ## Images
 
-![Yes I am Freelance !](../../images/summer-freelance_24-slide-www-acetone.jpg)
-![Yes I am Freelance !](../../images/summer-freelance_illustration-slide_jaune.jpg)
-![Yes I am Freelance !](../../images/summer-freelance_photo-homme-de-dos.jpg)
-![Yes I am Freelance !](../../images/summer-freelance_teeshirt-zoom.jpg)
-![Yes I am Freelance !](../../images/summer-freelance_canette.jpg)
-![Yes I am Freelance !](../../images/summer-freelance_photo-teeshirt-barriere-rue.jpg)
+![Yes I am Freelance !](/images/summer-freelance_24-slide-www-acetone.jpg)
+![Yes I am Freelance !](/images/summer-freelance_illustration-slide_jaune.jpg)
+![Yes I am Freelance !](/images/summer-freelance_photo-homme-de-dos.jpg)
+![Yes I am Freelance !](/images/summer-freelance_teeshirt-zoom.jpg)
+![Yes I am Freelance !](/images/summer-freelance_canette.jpg)
+![Yes I am Freelance !](/images/summer-freelance_photo-teeshirt-barriere-rue.jpg)
 
 ## Videos

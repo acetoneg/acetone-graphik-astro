@@ -12,11 +12,11 @@ description: "__Identité de l'édition 2022__\r\n\r\nJazzdor est un festival de
   \ \r\n(projet non retenu)\r\n\r\nCréation & Direction Artistique : studio ACETONE
   \ "
 images:
-- default: ../../images/jazzdor-affiche-rue.jpg
+- default: /images/jazzdor-affiche-rue.jpg
   description: null
   mobile: null
   title: JAZZDOR FESTIVAL
-- default: ../../images/jazzdor-anglemort.jpg
+- default: /images/jazzdor-anglemort.jpg
   description: null
   mobile: null
   title: JAZZDOR FESTIVAL
@@ -42,7 +42,7 @@ Création & Direction Artistique : studio ACETONE
 
 ## Images
 
-![JAZZDOR FESTIVAL](../../images/jazzdor-affiche-rue.jpg)
-![JAZZDOR FESTIVAL](../../images/jazzdor-anglemort.jpg)
+![JAZZDOR FESTIVAL](/images/jazzdor-affiche-rue.jpg)
+![JAZZDOR FESTIVAL](/images/jazzdor-anglemort.jpg)
 
 ## Videos

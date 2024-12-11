@@ -9,19 +9,19 @@ description: "__Identité graphique 100% Arabica__\r\n\r\nArrivé en Europe depu
   le tout imprimé sur un fond kraft, la recette de ce graphisme est un coeur à prendre
   !  \r\n\r\nCréation & Direction Artistique : studio ACETONE  "
 images:
-- default: ../../images/coffee-cafe-packaging_doypack-paquet.jpg
+- default: /images/coffee-cafe-packaging_doypack-paquet.jpg
   description: null
   mobile: null
   title: Coffee Design Pack
-- default: ../../images/coffee-cafe-packaging_cup-tasse-carton.jpg
+- default: /images/coffee-cafe-packaging_cup-tasse-carton.jpg
   description: null
   mobile: null
   title: Coffee Design Pack
-- default: ../../images/coffee-cafe-packaging_paquet-kraft_250grs.jpg
+- default: /images/coffee-cafe-packaging_paquet-kraft_250grs.jpg
   description: null
   mobile: null
   title: Coffee Design Pack
-- default: ../../images/coffee-cafe-packaging_teasing-stickers.jpg
+- default: /images/coffee-cafe-packaging_teasing-stickers.jpg
   description: null
   mobile: null
   title: Coffee Design Pack
@@ -45,9 +45,9 @@ Création & Direction Artistique : studio ACETONE
 
 ## Images
 
-![Coffee Design Pack](../../images/coffee-cafe-packaging_doypack-paquet.jpg)
-![Coffee Design Pack](../../images/coffee-cafe-packaging_cup-tasse-carton.jpg)
-![Coffee Design Pack](../../images/coffee-cafe-packaging_paquet-kraft_250grs.jpg)
-![Coffee Design Pack](../../images/coffee-cafe-packaging_teasing-stickers.jpg)
+![Coffee Design Pack](/images/coffee-cafe-packaging_doypack-paquet.jpg)
+![Coffee Design Pack](/images/coffee-cafe-packaging_cup-tasse-carton.jpg)
+![Coffee Design Pack](/images/coffee-cafe-packaging_paquet-kraft_250grs.jpg)
+![Coffee Design Pack](/images/coffee-cafe-packaging_teasing-stickers.jpg)
 
 ## Videos

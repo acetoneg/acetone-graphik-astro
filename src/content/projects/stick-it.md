@@ -6,15 +6,15 @@ description: "__Planches de stickers studio A__\r\n\r\nLe studio ACETONE édite 
   connecté et gagnez la vôtre sur notre Instagram !  \r\n \r\n[INSTA DU STUDIO](https://www.instagram.com/acetoneg/)
   \ \r\n  \r\nDirection Artistique & Illustrations : studio ACETONE  \r\n"
 images:
-- default: ../../images/stickers-acetone-c19_3.jpg
+- default: /images/stickers-acetone-c19_3.jpg
   description: null
   mobile: null
   title: STICK IT
-- default: ../../images/stickers-acetone-c19_2.jpg
+- default: /images/stickers-acetone-c19_2.jpg
   description: null
   mobile: null
   title: STICK IT
-- default: ../../images/stickers-acetone-c19_1.jpg
+- default: /images/stickers-acetone-c19_1.jpg
   description: null
   mobile: null
   title: STICK IT
@@ -40,8 +40,8 @@ Direction Artistique & Illustrations : studio ACETONE
 
 ## Images
 
-![STICK IT](../../images/stickers-acetone-c19_3.jpg)
-![STICK IT](../../images/stickers-acetone-c19_2.jpg)
-![STICK IT](../../images/stickers-acetone-c19_1.jpg)
+![STICK IT](/images/stickers-acetone-c19_3.jpg)
+![STICK IT](/images/stickers-acetone-c19_2.jpg)
+![STICK IT](/images/stickers-acetone-c19_1.jpg)
 
 ## Videos
