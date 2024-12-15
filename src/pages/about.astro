@@ -11,11 +11,10 @@ if (!about) {
 }
 
 const { Content } = await about.render();
-// AI!: implement the custom background color!
 ---
 
 <BaseLayout title={about.data.title} pageType="about">
-    <div class="contact-module">
+    <div class="contact-module" style={`background-color: ${about.data.backgroundColor || '#ffffff'}`}>
         <div class="contact-module-top">
             <div class="contact-module-data">
                 <div class="contact-module-pagewidth">
