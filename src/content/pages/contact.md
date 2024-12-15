@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+# AI: added background color
+backgroundColor: '#F0FFCC'
 ---
 
 hello(at)acetone-graphik.com
