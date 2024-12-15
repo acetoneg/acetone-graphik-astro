@@ -16,15 +16,20 @@ export async function getStaticPaths() {
 
     return sortedProjects.map((project, index) => {
         const nextProject = sortedProjects[(index + 1) % sortedProjects.length];
+        // Calculate previous project index, handling wrap-around
+        const prevIndex =
+            (index - 1 + sortedProjects.length) % sortedProjects.length;
+        const prevProject = sortedProjects[prevIndex];
+
         return {
             params: { slug: project.slug },
-            props: { project, nextProject },
+            props: { project, nextProject, prevProject },
         };
     });
 }
 
 // Get the props passed from getStaticPaths
-const { project, nextProject } = Astro.props;
+const { project, nextProject, prevProject } = Astro.props;
 ---
 
 <BaseLayout
@@ -36,6 +41,12 @@ const { project, nextProject } = Astro.props;
 >
     <div class="projectnavig-cont">
         <div class="projectnavig">
+            <a
+                class="projectnavig-prev"
+                href={getProjectLink(prevProject.slug)}
+            >
+                {prevProject.data.title.toUpperCase()}
+            </a>
             <a
                 class="projectnavig-following"
                 href={getProjectLink(nextProject.slug)}
