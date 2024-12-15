@@ -1,5 +1,7 @@
 ---
 title: "About"
+# AI: added background color
+backgrounColor: '#DDF6FF'
 ---
 
 Studio de design & graphisme indépendant depuis 2002, ACETONE GRAPHIK développe des projets singuliers sur Nantes, Rennes et Paris.
