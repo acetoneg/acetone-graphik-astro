@@ -1,5 +1,4 @@
 ---
-// src/content/about.md
 title: "About"
 ---
 

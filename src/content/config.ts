@@ -30,6 +30,14 @@ const projectsCollection = defineCollection({
   }),
 });
 
+const pagesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+  }),
+});
+
 export const collections = {
   projects: projectsCollection,
+  pages: pagesCollection,
 };
