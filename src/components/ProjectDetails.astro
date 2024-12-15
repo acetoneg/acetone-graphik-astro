@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import { getProjectLink } from "../utils/links";
+import type { ProjectSchema } from "../content/config";
+
+interface Props {
+    project: CollectionEntry<"projects">;
+    showTitle?: boolean;
+}
+
+const { project, showTitle = true } = Astro.props;
+---
+
+<div class="detailslist" id="scrollpager">
+    {showTitle && (
+        <div class="detailslist-desc">
+            <p><strong>{project.data.title}</strong></p>
+        </div>
+    )}
+
+    {
+        project.data.images?.map(
+            (image: ProjectSchema["images"][0], index: number) => (
+                <div class="detailslist-item">
+                    <p class="t-counter">
+                        {index + 1}/{project.data.images.length}
+                    </p>
+                    <Image
+                        src={image.default}
+                        width={1300}
+                        height={860}
+                        alt={image.title}
+                        loading={index === 0 ? "eager" : "lazy"}
+                    />
+                    <p class="t-desc">{image.description || ""}</p>
+                </div>
+            )
+        )
+    }
+</div>

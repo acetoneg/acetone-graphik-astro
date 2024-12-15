@@ -3,7 +3,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { ProjectSchema } from "../../content/config";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import ProjectDetails from "../../components/ProjectDetails.astro";
 import { getProjectLink } from "../../utils/links";
 
 // Define getStaticPaths to generate all possible routes
@@ -45,29 +45,5 @@ const { project, nextProject } = Astro.props;
         </div>
     </div>
 
-    <div class="detailslist" id="scrollpager">
-        <div class="detailslist-desc">
-            <p><strong>{project.data.title}</strong></p>
-        </div>
-
-        {
-            project.data.images.map(
-                (image: ProjectSchema["images"][0], index: number) => (
-                    <div class="detailslist-item">
-                        <p class="t-counter">
-                            {index + 1}/{project.data.images.length}
-                        </p>
-                        <Image
-                            src={image.default}
-                            width={1300}
-                            height={860}
-                            alt={image.title}
-                            loading={index === 0 ? "eager" : "lazy"}
-                        />
-                        <p class="t-desc">{image.description || ""}</p>
-                    </div>
-                ),
-            )
-        }
-    </div>
+    <ProjectDetails project={project} />
 </BaseLayout>

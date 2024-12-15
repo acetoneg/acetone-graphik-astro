@@ -1,8 +1,9 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import ProjectDetails from "../components/ProjectDetails.astro";
 import { getProjectLink } from "../utils/links";
+import ProjectList from "@/components/ProjectList.astro";
 
 const projects = await getCollection("projects");
 const sortedProjects = projects.sort(
@@ -16,28 +17,6 @@ const sortedProjects = projects.sort(
     title="Works"
     metaDescription="All projects by Acetone"
     metaKeywords="design, graphic design, projects"
-    pageType="works"
 >
-    <div class="detailslist" id="scrollpager">
-        {
-            sortedProjects.map((project) => 
-                project.data.images && project.data.images.length > 0 && (
-                    <div class="detailslist-item">
-                        <div class="detailslist-desc">
-                            <p><strong>{project.data.title}</strong></p>
-                        </div>
-                        <a href={getProjectLink(project.slug)}>
-                            <Image
-                                src={project.data.images[0].default}
-                                width={1300}
-                                height={860}
-                                alt={project.data.images[0].title}
-                                loading="lazy"
-                            />
-                        </a>
-                    </div>
-                )
-            )
-        }
-    </div>
+    <ProjectList projects={sortedProjects} />
 </BaseLayout>
