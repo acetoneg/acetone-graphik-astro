@@ -60,7 +60,7 @@ const pagesCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    // AI! background color
+    backgroundColor: z.string(),
   }),
 });
 

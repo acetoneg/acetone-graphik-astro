@@ -1,6 +1,5 @@
 ---
 title: "About"
-# AI: added background color
 backgroundColor: '#DDF6FF'
 ---
 
