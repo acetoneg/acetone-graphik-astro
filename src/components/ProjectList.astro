@@ -1,8 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getProjectLink } from "../utils/links";
-import { Image } from "astro:assets";
-
 interface Props {
     projects: CollectionEntry<"projects">[];
 }
@@ -15,8 +13,13 @@ const { projects } = Astro.props;
         projects
             .filter((project) => project.data.images?.length > 0)
             .map((project) => {
-                const imagePath = project.data.images[0].default;
+                const imageMeta = project.data.images[0].default;
+                const imageSrc = imageMeta;
                 const projectLink = getProjectLink(project.slug);
+                const netlifyImageUrl = `/.netlify/images?url=${encodeURIComponent(
+                    imageSrc,
+                )}&w=755&h=488&fit=cover`;
+
                 return (
                     <div class="projectlist-item">
                         <a
@@ -24,15 +27,14 @@ const { projects } = Astro.props;
                             href={projectLink}
                             style={`background-color:${project.data.backgroundColor}`}
                         >
-                            <Image
-                                src={imagePath}
-                                fit="cover"
-                                width={755}
-                                height={488}
+                            <img
+                                src={netlifyImageUrl}
                                 alt={project.data.title}
                                 loading="lazy"
-                                transform={{ fit: "cover" }}
                                 sizes="(min-width: 800px) 50vw, 100vw"
+                                width="755"
+                                height="488"
+                                decoding="async"
                             />
                         </a>
                         <p class="projectlist-item-desc">
