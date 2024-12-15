@@ -26,12 +26,13 @@ const { projects } = Astro.props;
                         >
                             <Image
                                 src={imagePath}
+                                fit="cover"
                                 width={755}
                                 height={488}
                                 alt={project.data.title}
                                 loading="lazy"
+                                transform={{ fit: "cover" }}
                                 sizes="(min-width: 800px) 50vw, 100vw"
-                                fit="cover"
                             />
                         </a>
                         <p class="projectlist-item-desc">
