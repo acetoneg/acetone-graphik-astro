@@ -20,22 +20,24 @@ const sortedProjects = projects.sort(
 >
     <div class="detailslist" id="scrollpager">
         {
-            sortedProjects.map((project) => (
-                <div class="detailslist-item">
-                    <div class="detailslist-desc">
-                        <p><strong>{project.data.title}</strong></p>
+            sortedProjects.map((project) => 
+                project.data.images && project.data.images.length > 0 && (
+                    <div class="detailslist-item">
+                        <div class="detailslist-desc">
+                            <p><strong>{project.data.title}</strong></p>
+                        </div>
+                        <a href={getProjectLink(project.slug)}>
+                            <Image
+                                src={project.data.images[0].default}
+                                width={1300}
+                                height={860}
+                                alt={project.data.images[0].title}
+                                loading="lazy"
+                            />
+                        </a>
                     </div>
-                    <a href={getProjectLink(project.slug)}>
-                        <Image
-                            src={project.data.images[0].default}
-                            width={1300}
-                            height={860}
-                            alt={project.data.images[0].title}
-                            loading="lazy"
-                        />
-                    </a>
-                </div>
-            ))
+                )
+            )
         }
     </div>
 </BaseLayout>
