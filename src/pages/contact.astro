@@ -13,7 +13,7 @@ if (!contactPage) {
 const { Content } = await contactPage.render();
 ---
 
-<BaseLayout title="Contact - ACETONE GRAPHIK" pageType="contact">
+<BaseLayout title="Contact - ACETONE GRAPHIK" pageType="contact" backgroundColor={contactPage.data.backgroundColor}>
     <div class="contact-module">
         <div class="contact-module-top">
             <div class="contact-module-data">
