@@ -1,8 +1,85 @@
 ---
 // src/pages/contact.astro
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pages = await getCollection("pages");
+const contactPage = pages.find((page) => page.slug === "contact");
+
+if (!contactPage) {
+    throw new Error("Contact page content not found");
+}
+
+const { Content } = await contactPage.render();
 ---
 
-<BaseLayout title="Contact">
-    <!-- Your contact page content -->
+<BaseLayout title="Contact - ACETONE GRAPHIK" pageType="contact">
+    <div class="contact-module">
+        <div class="contact-module-top">
+            <div class="contact-module-data">
+                <div class="contact-module-pagewidth m--halfheight">
+                    <Content />
+                </div>
+            </div>
+        </div>
+        <div class="contact-module-bottom">
+            <div class="contact-module-data">
+                <div id="map"></div>
+
+                <script
+                    type="text/javascript"
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVN7oNHEhsTsP_lr2NE02Dfj0phShe5H4"
+                ></script>
+                <script
+                    type="text/javascript"
+                    src="https://maps.stamen.com/js/tile.stamen.js?v1.3.0"
+                ></script>
+                <script is:inline>
+                    function initialize() {
+                        var myLatlng = new google.maps.LatLng(
+                            47.202167,
+                            -1.492183,
+                        );
+                        var options = {
+                            center: myLatlng,
+                            zoom: 13,
+                            mapTypeId: "Toner",
+                            disableDefaultUI: true,
+                            zoomControl: true,
+                            zoomControlOptions: {
+                                style: google.maps.ZoomControlStyle.SMALL,
+                                position: google.maps.ControlPosition.TOP_LEFT,
+                            },
+                            mapTypeControlOptions: {
+                                mapTypeIds: ["Toner"],
+                            },
+                        };
+                        var map = new google.maps.Map(
+                            document.getElementById("map"),
+                            options,
+                        );
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            title: "Acetone Graphik",
+                            icon: "../workspace/img/marker-acetone.png",
+                        });
+                        map.mapTypes.set(
+                            "Toner",
+                            new google.maps.StamenMapType("toner"),
+                        );
+                        map.mapTypes.set(
+                            "Terrain",
+                            new google.maps.StamenMapType("terrain"),
+                        );
+                        map.mapTypes.set(
+                            "Watercolor",
+                            new google.maps.StamenMapType("watercolor"),
+                        );
+                    }
+                    addLoadEvent(initialize);
+                </script>
+            </div>
+        </div>
+    </div>
 </BaseLayout>

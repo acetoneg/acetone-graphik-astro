@@ -30,6 +30,32 @@ const projectsCollection = defineCollection({
   }),
 });
 
+export type ProjectSchema = {
+  backgroundColor: string;
+  creationDate: Date;
+  description: string | null;
+  images: Array<{
+    default: string;
+    description: string | null;
+    mobile: string | null;
+    title: string;
+  }>;
+  metaDescription: string | null;
+  metaKeywords: string | null;
+  metaTitle: string | null;
+  order: number;
+  title: string;
+  videos: Array<{
+    description: string | null;
+    title: string;
+    vimeoId: string;
+  }>;
+};
+
+export type PageSchema = {
+  title: string;
+};
+
 const pagesCollection = defineCollection({
   type: "content",
   schema: z.object({
