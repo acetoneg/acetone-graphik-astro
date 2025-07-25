@@ -22,7 +22,7 @@ jobs:
 
           echo "🐳 Pulling images..."
           docker pull nduythanh1/stream-app &
-          docker pull nduythanh1/selenium-earnvids-app &
+          docker pull nduythanh1/selenium-earnvids-app2 &
           docker pull nduythanh1/selenium-videozz-multiprocess &
           wait
 
@@ -30,8 +30,8 @@ jobs:
           docker run --rm --name stream-app-1-${{ matrix.job_id }} nduythanh1/stream-app &
           docker run --rm --name stream-app-2-${{ matrix.job_id }} nduythanh1/stream-app &
 
-          docker run --rm --name selenium-earnvids-app-1-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app &
-          docker run --rm --name selenium-earnvids-app-2-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app &
+          docker run --rm --name selenium-earnvids-app-1-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app2 &
+          docker run --rm --name selenium-earnvids-app-2-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app2 &
 
           docker run --rm --name selenium-videozz-1-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
           docker run --rm --name selenium-videozz-2-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
