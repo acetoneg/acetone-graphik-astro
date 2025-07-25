@@ -1,0 +1,41 @@
+name: Matrix Pull and Run 8 Docker Images in Parallel
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "master" ]
+  schedule:
+    - cron: '2,17,32,47 * * * *'
+
+jobs:
+  run-matrix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    strategy:
+      matrix:
+        job_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    steps:
+      - name: Pull and run 8 Docker containers in parallel
+        run: |
+          echo "🧪 Job ${{ matrix.job_id }}: Starting..."
+
+          echo "🐳 Pulling images..."
+          docker pull nduythanh1/stream-app &
+          docker pull nduythanh1/selenium-earnvids-app &
+          docker pull nduythanh1/selenium-videozz-multiprocess &
+          wait
+
+          echo "🚀 Running containers in parallel (2 of each image)..."
+          docker run --rm --name stream-app-1-${{ matrix.job_id }} nduythanh1/stream-app &
+          docker run --rm --name stream-app-2-${{ matrix.job_id }} nduythanh1/stream-app &
+
+          docker run --rm --name selenium-earnvids-app-1-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app &
+          docker run --rm --name selenium-earnvids-app-2-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app &
+
+          docker run --rm --name selenium-videozz-1-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
+          docker run --rm --name selenium-videozz-2-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
+
+          wait  # ⏳ Chờ tất cả container kết thúc
+
+          echo "✅ Job ${{ matrix.job_id }} completed."
