@@ -1,41 +1,64 @@
-name: Matrix Pull and Run 8 Docker Images in Parallel
+name: Run PyAutoGUI Bot + Docker Parallel
 
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   schedule:
     - cron: '2,17,32,47 * * * *'
 
 jobs:
-  run-matrix:
-    runs-on: ubuntu-latest
+  run-pyautogui:
+    name: Run PyAutoGUI (Windows) - Job ${{ matrix.job_id }}
+    runs-on: windows-latest
     timeout-minutes: 13
     strategy:
       matrix:
-        job_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        job_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      fail-fast: false
 
     steps:
-      - name: Pull and run 8 Docker containers in parallel
+      - name: ⬇️ Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
         run: |
-          echo "🧪 Job ${{ matrix.job_id }}: Starting..."
+          pip install -r requirements.txt
 
-          echo "🐳 Pulling images..."
-          docker pull nduythanh1/stream-app &
-          docker pull nduythanh1/selenium-earnvids-app2:latest &
-          docker pull nduythanh1/selenium-videozz-multiprocess &
+      - name: ▶️ Run bot script (PyAutoGUI)
+        run: python main.py
+      - name: ▶️ Run bot script (PyAutoGUI)
+        run: python main.py
+
+  run-docker:
+    name: Run Docker Containers (Ubuntu) - Job ${{ matrix.job_id }}
+    runs-on: ubuntu-latest
+    needs: run-pyautogui  # Chỉ chạy sau khi Windows job chạy xong
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        job_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      fail-fast: false
+
+    steps:
+      - name: 🐳 Set up Docker
+        uses: docker/setup-buildx-action@v3
+
+      - name: 🐳 Pull Docker Image
+        run: docker pull nduythanh1/selenium-videozz-multiprocess
+
+      - name: ▶️ Run 2 Docker Containers in Parallel (10 min limit)
+        run: |
+          # Chạy 2 container song song với timeout 10 phút
+          timeout 10m docker run --rm --name container1 -e JOB_ID=${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
+          timeout 10m docker run --rm --name container2 -e JOB_ID=${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
+
+          # Đợi cả 2 container hoàn tất
           wait
-
-          echo "🚀 Running containers in parallel (2 of each image)..."
-          docker run --rm --name stream-app-1-${{ matrix.job_id }} nduythanh1/stream-app &
-          docker run --rm --name stream-app-2-${{ matrix.job_id }} nduythanh1/stream-app &
-
-          docker run --rm --name selenium-earnvids-app-1-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app2:latest &
-          docker run --rm --name selenium-earnvids-app-2-${{ matrix.job_id }} nduythanh1/selenium-earnvids-app2:latest &
-
-          docker run --rm --name selenium-videozz-1-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
-          docker run --rm --name selenium-videozz-2-${{ matrix.job_id }} nduythanh1/selenium-videozz-multiprocess &
-
-          wait  # ⏳ Chờ tất cả container kết thúc
-
-          echo "✅ Job ${{ matrix.job_id }} completed."
